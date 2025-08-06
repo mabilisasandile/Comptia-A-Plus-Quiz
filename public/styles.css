@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.correct {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.wrong {
+  background-color: #f44336;
+  color: white;
+}
+
+.next-btn {
+  display: none;
+  margin-top: 20px;
+}
+
+#question-number {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+
+/* Form Container Styling */
+form#add-question-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form#add-question-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input Fields */
+form#add-question-form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Labels and layout */
+form#add-question-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Grouping answers */
+.answer-block {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Submit Button */
+form#add-question-form button[type="submit"] {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form#add-question-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Status Message */
+#submit-status {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}

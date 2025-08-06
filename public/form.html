@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Questions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <hr />
+        <a href="index.html"><button>TAKE QUIZ</button></a>
+        <h2>Add a New Question</h2>
+        <form id="add-question-form">
+            <label>Question</label>
+            <input type="text" id="new-question" placeholder="Enter question" required>
+
+            <div class="answer-block">
+                <label>Answer A</label>
+                <input type="text" class="answer" placeholder="Answer A" required>
+                <label><input type="checkbox" class="correct" /> Correct</label>
+            </div>
+
+            <div class="answer-block">
+                <label>Answer B</label>
+                <input type="text" class="answer" placeholder="Answer B" required>
+                <label><input type="checkbox" class="correct" /> Correct</label>
+            </div>
+
+            <div class="answer-block">
+                <label>Answer C</label>
+                <input type="text" class="answer" placeholder="Answer C" required>
+                <label><input type="checkbox" class="correct" /> Correct</label>
+            </div>
+
+            <div class="answer-block">
+                <label>Answer D</label>
+                <input type="text" class="answer" placeholder="Answer D" required>
+                <label><input type="checkbox" class="correct" /> Correct</label>
+            </div>
+
+            <button type="submit">➕ Add Question</button>
+            <p id="submit-status"></p>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
