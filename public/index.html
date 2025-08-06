@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CompTIA A+ Quiz</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
+
 <body>
   <div class="quiz-container">
+
     <a href="form.html"><button>➕ Add New Questions</button></a>
+
+    <div class="range-selector">
+      <label for="question-range">Choose question range:</label>
+      <select id="question-range">
+        <option value="1-50">1 – 50</option>
+        <option value="51-100">51 – 100</option>
+        <option value="101-150">101 – 150</option>
+        <option value="101-150">151 – 200</option>
+      </select>
+      <button id="start-range-quiz">START QUIZ</button>
+    </div>
+
     <h1>CompTIA A+ Practice Quiz</h1>
+
     <div id="question-container">
       <h2 id="question-number">Question 1 of 100</h2>
-      <div id="question">Loading question...</div>
+      <div id="question">Questions will be shown here or click "START QUIZ" to begin.</div>
       <div id="answer-buttons" class="btn-group"></div>
     </div>
+
     <button id="next-btn" class="next-btn">Next</button>
     <button id="download-btn" class="next-btn" style="display:none;">Download Results</button>
+
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>
