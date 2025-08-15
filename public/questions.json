@@ -1,7 +1,7 @@
 [
   {
     "question": "1. The display in a conference room has a ghost image that does not match the presentation. Which of the following would test resolve the issue?",
-    "answers":[
+    "answers": [
       {
         "text": "A. Adjust the color settings.",
         "correct": false
@@ -23,7 +23,7 @@
   },
   {
     "question": "2. A salesperson is unable to use a personal device to access emails and calendar features at a client site but was able to use the device while at the office. Which of the following policies has been enforced on the salesperson's mobile device?",
-    "answers":[
+    "answers": [
       {
         "text": "A. MOW",
         "correct": false
@@ -45,7 +45,7 @@
   },
   {
     "question": "3. A help desk technician needs to work on a high-volume printer. Users have reported occasional paper jams and smudges appearing on printed documents. Which of the following steps should the technician do next to address these issues?",
-    "answers":[
+    "answers": [
       {
         "text": "A. Perform a full factory reset.",
         "correct": false
@@ -67,7 +67,7 @@
   },
   {
     "question": "4. Which of the following is designed to be used in commercial spaces?",
-    "answers":[
+    "answers": [
       {
         "text": "A. USB 3.1 Gen 2",
         "correct": false
@@ -89,7 +89,7 @@
   },
   {
     "question": "5. A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?",
-    "answers":[
+    "answers": [
       {
         "text": "A. SSH",
         "correct": true
@@ -108,5 +108,49 @@
       }
     ],
     "explanation": "Answer: A. Explanation: SSH (Secure Shell) encrypts data communications for secure remote login and management of network devices, ensuring all console connections are encrypted."
+  },
+  {
+    "question": "6. Users are complaining that the audio from a presenter is choppy and unintelligible Which of the following is causing the issue?",
+    "answers": [
+      {
+        "text": "A. Webcam",
+        "correct": false
+      },
+      {
+        "text": "B. Digitizer",
+        "correct": false
+      },
+      {
+        "text": "C. inverter",
+        "correct": false
+      },
+      {
+        "text": "D. Microphone",
+        "correct": true
+      }
+    ],
+    "explanation": "Answer: D. Explanation: Choppy or unintelligible audio is typically caused by issues with the microphone, such as poor quality, hardware defects, or misconfiguration."
+  },
+  {
+    "question": "7. A technician is troubleshooting stylus issues on identical, company-provided tablets. Users can purchase their own accessories. Some users have no issues, but others report that their styluses charge intermittently and die frequently. Which of the following is the most likely cause of this issue?",
+    "answers": [
+      {
+        "text": "A. Certain cases are causing charging issues.",
+        "correct": true
+      },
+      {
+        "text": "B. The tablets need to be updated.",
+        "correct": false
+      },
+      {
+        "text": "C. Some of the tablets have manufacturing defects.",
+        "correct": false
+      },
+      {
+        "text": "D. The malfunctioning styluses need firmware updates.",
+        "correct": false
+      }
+    ],
+    "explanation": "Answer: A. Explanation: The most likely cause is third-party or ill-fitting cases obstructing the contact between the stylus and the tablet charging mechanism. Some cases may not be designed with stylus charging in mind, particularly if users are purchasing their own accessories."
   }
 ]
