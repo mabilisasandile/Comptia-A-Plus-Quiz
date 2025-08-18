@@ -152,5 +152,27 @@
       }
     ],
     "explanation": "Answer: A. Explanation: The most likely cause is third-party or ill-fitting cases obstructing the contact between the stylus and the tablet charging mechanism. Some cases may not be designed with stylus charging in mind, particularly if users are purchasing their own accessories."
+  },
+  {
+    "question": "8. A customer needs to install a new printer in their network. The customer reports that users had intermittent connectivity issues with previous printers. Which of the following should the technician configure on the new printer to prevent this issue?",
+    "answers": [
+      {
+        "text": "A. Gateway IP address",
+        "correct": false
+      },
+      {
+        "text": "B. DHCP IP address",
+        "correct": false
+      },
+      {
+        "text": "C. Static IP address",
+        "correct": true
+      },
+      {
+        "text": "D. Public IP address",
+        "correct": false
+      }
+    ],
+    "explanation": "Answer: C. Explanation: Intermittent connectivity issues with network printers are commonly caused by changing IP addresses when using DHCP. Assigning a static IP address ensures that the printer is always reachable at the same IP address by client machines."
   }
 ]

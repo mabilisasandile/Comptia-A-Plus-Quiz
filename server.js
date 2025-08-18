@@ -1,9 +1,15 @@
 const express = require("express");
 const fs = require("fs");
 const bodyParser = require("body-parser");
-const { log } = require("console");
+const cors = require("cors");
 const app = express();
 const PORT = 3000;
+
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://mabilisasandile.github.io/Comptia-A-Plus-Quiz/public/form.html'], // allow only this origins
+  methods: ['GET', 'POST', 'PUT'],        // allow only specific methods
+  allowedHeaders: ['Content-Type'] // allow specific headers
+}));
 
 app.use(express.static("public"));
 app.use(bodyParser.json());
