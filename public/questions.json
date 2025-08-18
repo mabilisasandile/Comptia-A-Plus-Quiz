@@ -466,5 +466,235 @@
     ],
     "multiple": false,
     "explanation": "The appropriate network type for this scenario is a Local Area Network (LAN), which is designed for small, localized networks, such as within a single building or room. LANs are ideal for gaming because they provide high-speed, low-latency connections."
+  },
+  {
+    "question": "21. When installing a network printer, a technician needs to ensure the printer is available after a network is restarted.\nWhich of the following should the technician set up on the printer to meet this requirement?",
+    "answers": [
+      {
+        "text": "A. Static IP address ",
+        "correct": true
+      },
+      {
+        "text": "B. Private address ",
+        "correct": false
+      },
+      {
+        "text": "C. Wi-Fi on the printer ",
+        "correct": false
+      },
+      {
+        "text": "D. Dynamic addressing",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Assigning astatic IP address to a network printer ensures it always retains the same address, allowing users and print servers to consistently reach it even after a reboot or network refresh."
+  },
+  {
+    "question": "22. Which of the following cloud models would multiple organizations in the same industry most likely use?",
+    "answers": [
+      {
+        "text": "A. Public ",
+        "correct": false
+      },
+      {
+        "text": "B. Hybrid ",
+        "correct": false
+      },
+      {
+        "text": "C. Community ",
+        "correct": true
+      },
+      {
+        "text": "D. Private",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Community Cloud is designed for use by several organizations with shared concerns (e.g., security, compliance, jurisdiction). It's common in industries like healthcare or finance where multiple entities benefit from a common infrastructure with shared policies."
+  },
+  {
+    "question": "23. A user reports that the printouts from a laser printer have lines and smudges on them. The printer is also intermittently misfeeding the paper.\nWhich of the following components should a technician replace to address this issue?",
+    "answers": [
+      {
+        "text": "A. Fuser ",
+        "correct": false
+      },
+      {
+        "text": "B. Maintenance kit",
+        "correct": true
+      },
+      {
+        "text": "C. Corona wire ",
+        "correct": false
+      },
+      {
+        "text": "D. Toner cartridge",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A maintenance kit for a laser printer often includes rollers, fuser, and other parts that wear out over time. If the printer is smudging and misfeeding, it's a sign that multiple components are failing, which a maintenance kit is designed to resolve."
+  },
+  {
+    "question": "24. A support technician receives a call stating that a user has added a device to the network. The user used the same configurations from another workstation. When both workstations are turned on, neither can access the network reliably.\nWhich of the following is the most likely cause of the issue?",
+    "answers": [
+      {
+        "text": "A. The new computer has a duplicate IP address.",
+        "correct": true
+      },
+      {
+        "text": "B. The DNS server is registering both hostnames.",
+        "correct": false
+      },
+      {
+        "text": "C. The network cable was improperly terminated.",
+        "correct": false
+      },
+      {
+        "text": "D. The security on the switchport needs to be reset.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If two devices have the same static IP address, an IP conflict occurs. This results in both devices being intermittently disconnected or unable to communicate on the network. It's a common mistake when copying configurations manually."
+  },
+  {
+    "question": "25. A management team is concerned about enterprise devices that do not have any controls in place. Which of the following should an administrator implement to address this concern?",
+    "answers": [
+      {
+        "text": "A. MDM",
+        "correct": true
+      },
+      {
+        "text": "B. MFA",
+        "correct": false
+      },
+      {
+        "text": "C. VPN",
+        "correct": false
+      },
+      {
+        "text": "D. SSL",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Mobile Device Management (MDM) enables administrators to enforce controls on enterprise devices, such as restricting apps, ensuring compliance, and remotely managing security policies."
+  },
+  {
+    "question": "26. Which of the following DNS records would an administrator change to redirect email flow?",
+    "answers": [
+      {
+        "text": "A. MX",
+        "correct": true
+      },
+      {
+        "text": "B. TXT",
+        "correct": false
+      },
+      {
+        "text": "C. SPF",
+        "correct": false
+      },
+      {
+        "text": "D. CNAME",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An MX (Mail Exchange)record defines which mail servers are responsible for receiving email for a domain. If you want to change or redirect email traffic, the MX record must be updated with the correct server information."
+  },
+  {
+    "question": "27. Which of the following types of RAM is typically used in servers?",
+    "answers": [
+      {
+        "text": "A. SODIMM",
+        "correct": false
+      },
+      {
+        "text": "B. Rambus",
+        "correct": false
+      },
+      {
+        "text": "C. DDR3",
+        "correct": false
+      },
+      {
+        "text": "D. ECC",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "ECC (Error-Correcting Code) RAM is commonly used in servers to provide error detection and correction, improving reliability in critical systems. It is designed to detect and correct single-bit errors, ensuring data integrity in environments where stability is paramount."
+  },
+  {
+    "question": "28. A technician has just installed a new SSD into a computer, but the drive is not appearing.\nWhich of the following is most likely the reason's?",
+    "answers": [
+      {
+        "text": "A. The SSD is faulty and should be replaced by the manufacturer",
+        "correct": false
+      },
+      {
+        "text": "B. The SSD has not been properly formatted and is not readable",
+        "correct": false
+      },
+      {
+        "text": "C. The SSD is incompatible with the motherboard",
+        "correct": false
+      },
+      {
+        "text": "D. The SSD has not been installed properly and should be reseated",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Improper seating is the most common reason an SSD isn't recognized. Ensuring it is correctly connected resolves the issue."
+  },
+  {
+    "question": "29. A technician receives a S.M.A.R.T. error on a PC. When the technician presses the Esc key, the PC continues to turn on without any further issues.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Replace the HDD.",
+        "correct": true
+      },
+      {
+        "text": "B. Update the PC's BIOS.",
+        "correct": false
+      },
+      {
+        "text": "C. Close the ticket.",
+        "correct": false
+      },
+      {
+        "text": "D. Change the NIC.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology):\nS.M.A.R.T. is a monitoring system integrated into modern HDDs and SSDs that detects and reports on various indicators of drive health and reliability. A S.M.A.R.T. error indicates that the drive is showing signs of impending failure, even if the PC\ncontinues to boot and work normally for the time being.\nNext Steps:\nThe appropriate action is to replace the hard drive (HDD) because a S.M.A.R.T. error is an early warning of possible hardware failure. Ignoring the warning could result in data loss if the drive fails completely. The technician should also back up the user's data immediately to avoid losing"
+  },
+  {
+    "question": "30. Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
+    "answers": [
+      {
+        "text": "A. Bluetooth",
+        "correct": false
+      },
+      {
+        "text": "B. NFC",
+        "correct": true
+      },
+      {
+        "text": "C. Wi-Fi",
+        "correct": false
+      },
+      {
+        "text": "D. Cellular",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Near-field communication (NFC) is a short-distance wireless communication method widely used in mobile payment systems like Apple Pay and Google Pay. Simply placing the device near a compatible terminal initiates the payment process."
   }
 ]

@@ -50,19 +50,24 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    const questionText = document.getElementById("new-question").value;
+    const questionText = document.getElementById("new-question").value.trim();
     const answerInputs = document.querySelectorAll(".answer");
     const correctChecks = document.querySelectorAll(".correct");
-    const explanationText = document.getElementById("explanation").value;
+    const multipleCorrectAnswers = document.querySelector(".multiple");
+    const explanationText = document.getElementById("explanation").value.trim();
 
-    const answers = Array.from(answerInputs).map((input, i) => ({
-      text: input.value,
-      correct: correctChecks[i].checked
-    }));
+    const answers = Array.from(answerInputs)
+      .map((input, i) => ({
+        text: input.value.trim(),
+        correct: correctChecks[i].checked
+      }))
+      .filter(answer => answer.text !== ""); // keep only filled answers
+
 
     const newQuestion = {
       question: questionText,
       answers,
+      multiple: multipleCorrectAnswers.checked ? true : false,
       explanation: explanationText
     };
 
