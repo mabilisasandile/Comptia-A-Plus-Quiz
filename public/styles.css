@@ -20,6 +20,35 @@ body {
   margin-top: 20px;
 }
 
+.answer-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.answer-option input[type="radio"] {
+  accent-color: #007bff;
+}
+
+.answer-option.correct {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.answer-option.wrong {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+
 button {
   padding: 10px 20px;
   font-size: 16px;
@@ -47,6 +76,15 @@ button.wrong {
   font-weight: bold;
   color: #444;
   text-align: center;
+}
+
+#answer-explanation {
+  display: none; 
+  margin-top: 15px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background: #f9f9f9;
 }
 
 .range-selector {
@@ -109,6 +147,16 @@ form#add-question-form input[type="text"] {
   border-radius: 5px;
 }
 
+/* TextArea */
+form#add-question-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 /* Labels and layout */
 form#add-question-form label {
   font-weight: bold;
@@ -143,4 +191,71 @@ form#add-question-form button[type="submit"]:hover {
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
+}
+
+
+/* Modal Background */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content Box */
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Admin Form (hidden by default) */
+.admin-form {
+  display: none;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
 }

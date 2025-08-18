@@ -13,43 +13,68 @@
     <div>
         <hr />
         <a href="index.html"><button>TAKE QUIZ</button></a>
-        <h2>Add a New Question</h2>
-        <form id="add-question-form">
-            <label>Question</label>
-            <input type="text" id="new-question" placeholder="Enter question" required>
 
-            <div class="answer-block">
-                <label>Answer A</label>
-                <input type="text" class="answer" placeholder="Answer A" required>
-                <label><input type="checkbox" class="correct" /> Correct</label>
+        <!-- Trigger Button -->
+        <button id="openModalBtn">Sign In</button>
+
+        <!-- Modal -->
+        <div id="signinModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>Sign In</h2>
+                <form id="signinForm">
+                    <input type="text" id="username" placeholder="Username" required><br>
+                    <input type="password" id="password" placeholder="Password" required><br>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="errorMsg" class="error"></p>
             </div>
+        </div>
 
-            <div class="answer-block">
-                <label>Answer B</label>
-                <input type="text" class="answer" placeholder="Answer B" required>
-                <label><input type="checkbox" class="correct" /> Correct</label>
-            </div>
+        <!-- Admin Form (hidden by default) -->
+        <div id="adminSection" class="admin-form">
+            <h2>Add a New Question</h2>
+            <form id="add-question-form">
+                <label>Question</label>
+                <!-- <input type="text" id="new-question" placeholder="Enter question" required> -->
+                <textarea id="new-question" name="new-question" rows="5" cols="40" placeholder="Enter question"
+                    required></textarea>
 
-            <div class="answer-block">
-                <label>Answer C</label>
-                <input type="text" class="answer" placeholder="Answer C" required>
-                <label><input type="checkbox" class="correct" /> Correct</label>
-            </div>
+                <div class="answer-block">
+                    <label>Answer A</label>
+                    <input type="text" class="answer" placeholder="Answer A" required>
+                    <label><input type="checkbox" class="correct" /> Correct</label>
+                </div>
 
-            <div class="answer-block">
-                <label>Answer D</label>
-                <input type="text" class="answer" placeholder="Answer D" required>
-                <label><input type="checkbox" class="correct" /> Correct</label>
-            </div>
+                <div class="answer-block">
+                    <label>Answer B</label>
+                    <input type="text" class="answer" placeholder="Answer B" required>
+                    <label><input type="checkbox" class="correct" /> Correct</label>
+                </div>
 
-            <div class="answer-block">
-                <label>Explanation</label>
-                <input type="text" id="explanation" placeholder="Enter correct answer explanation" required>
-            </div>
+                <div class="answer-block">
+                    <label>Answer C</label>
+                    <input type="text" class="answer" placeholder="Answer C" required>
+                    <label><input type="checkbox" class="correct" /> Correct</label>
+                </div>
 
-            <button type="submit">➕ Add Question</button>
-            <p id="submit-status"></p>
-        </form>
+                <div class="answer-block">
+                    <label>Answer D</label>
+                    <input type="text" class="answer" placeholder="Answer D" required>
+                    <label><input type="checkbox" class="correct" /> Correct</label>
+                </div>
+
+                <div class="answer-block">
+                    <label>Explanation</label>
+                    <!-- <input type="text" id="explanation" placeholder="Enter correct answer explanation" required> -->
+                    <textarea id="explanation" name="explanation" rows="5" cols="40"
+                        placeholder="Enter correct answer explanation" required></textarea>
+                </div>
+
+                <button type="submit">➕ Add Question</button>
+                <p id="submit-status"></p>
+            </form>
+        </div>
 
     </div>
     <script src="form.js"></script>

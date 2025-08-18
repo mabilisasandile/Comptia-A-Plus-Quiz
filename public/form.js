@@ -1,4 +1,49 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+  // Get elements
+  const modal = document.getElementById("signinModal");
+  const openBtn = document.getElementById("openModalBtn");
+  const closeBtn = document.getElementById("closeModal");
+  const errorMsg = document.getElementById("errorMsg");
+  const adminSection = document.getElementById("adminSection");
+
+  // Hard-coded credentials
+  const ADMIN_USER = "sandile";
+  const ADMIN_PASS = "admin@12345";
+
+  // Open modal
+  openBtn.onclick = () => {
+    modal.style.display = "flex"; // use flex to center
+  };
+
+  // Close modal
+  closeBtn.onclick = () => {
+    modal.style.display = "none";
+  };
+
+  // Close if user clicks outside modal content
+  window.onclick = (event) => {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  };
+
+  // Handle form submit
+  document.getElementById("signinForm").addEventListener("submit", (e) => {
+    e.preventDefault(); // stop page reload
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    if (username === ADMIN_USER && password === ADMIN_PASS) {
+      modal.style.display = "none";   // close modal
+      adminSection.style.display = "block"; // show admin form
+      errorMsg.textContent = "";      // clear error
+    } else {
+      errorMsg.textContent = "Invalid username or password!";
+    }
+  });
+
+
   const form = document.getElementById("add-question-form");
   if (!form) return;
 
@@ -15,10 +60,10 @@ document.addEventListener("DOMContentLoaded", () => {
       correct: correctChecks[i].checked
     }));
 
-    const newQuestion = { 
-      question: questionText, 
-      answers, 
-      explanation: explanationText 
+    const newQuestion = {
+      question: questionText,
+      answers,
+      explanation: explanationText
     };
 
     fetch("/add-question", {
