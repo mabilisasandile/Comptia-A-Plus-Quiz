@@ -696,5 +696,477 @@
     ],
     "multiple": false,
     "explanation": "Near-field communication (NFC) is a short-distance wireless communication method widely used in mobile payment systems like Apple Pay and Google Pay. Simply placing the device near a compatible terminal initiates the payment process."
+  },
+  {
+    "question": "31. A technician recently updated the firmware on a dual-BIOS motherboard. Following the update, the system has been stuck in a boot loop and cannot start an OS from any internal or external device. The technician cannot access the UEFI menu either.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Enable the secondary configuration.",
+        "correct": true
+      },
+      {
+        "text": "B. Downgrade the firmware via USB.",
+        "correct": false
+      },
+      {
+        "text": "C. Start a warranty repair of the motherboard.",
+        "correct": false
+      },
+      {
+        "text": "D. Reapply thermal paste to the CPU.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Dual-BIOS motherboards contain two firmware chips. If the primary BIOS becomes corrupted, the system can fail over to the secondary BIOS. Most boards allow manual enabling of the secondary BIOS via a physical switch or jumper."
+  },
+  {
+    "question": "32. Which of the following tools is best to track where an Ethernet cable is patched?",
+    "answers": [
+      {
+        "text": "A. Crimper",
+        "correct": false
+      },
+      {
+        "text": "B. Punchdown tool",
+        "correct": false
+      },
+      {
+        "text": "C. Cable stripper",
+        "correct": false
+      },
+      {
+        "text": "D. Toner probe",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A toner probe(also known as a tone generator and probe) is the best tool for tracing and identifying cables in a patch panel or wall jack. The tone generator sends a signal through the wire, and the probe helps locate the cable by detecting the tone."
+  },
+  {
+    "question": "33. Which of the following is a Bluetooth network an example of?",
+    "answers": [
+      {
+        "text": "A. PAN",
+        "correct": true
+      },
+      {
+        "text": "B. LAN",
+        "correct": false
+      },
+      {
+        "text": "C. WAN",
+        "correct": false
+      },
+      {
+        "text": "D. SAN",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Bluetooth is a wireless technology designed for short-range communication between devices. It is a classic example of a Personal Area Network (PAN), which supports communication between devices like smartphones, headsets, keyboards, and mice within a few meters. PANs are smaller in scope compared to LANs or WANs."
+  },
+  {
+    "question": "34. Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain. \nWhich of the following needs to be set up to accomplish this task? (Select two).",
+    "answers": [
+      {
+        "text": "A. Printer shares",
+        "correct": true
+      },
+      {
+        "text": "B. DHCP server",
+        "correct": false
+      },
+      {
+        "text": "C. Print server",
+        "correct": true
+      },
+      {
+        "text": "D. Printer subnet",
+        "correct": false
+      },
+      {
+        "text": "E. SMB configuration",
+        "correct": false
+      },
+      {
+        "text": "F. Printer Wi-Fi settings",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "To allow multiple users to print to networked printers:\nPrinter shares enable users to access printers shared on the network. Print servers manage print jobs and provide centralized control of printing."
+  },
+  {
+    "question": "35. A customer is able to print most documents with their USB inkjet printer, but the system is unresponsive when printing a certain report from a custom application. Nothing will print until the computer is restarted and the printer is power cycled. A technician remotes into the PC and confirms that the spooler stops working when this report is sent. After cleaning the spooler and reinstalling the drivers from the manufacturer's website, the issue persists. No other sites using the application report similar issues.\nWhich of the following is most likely causing the issue?",
+    "answers": [
+      {
+        "text": "A. The manufacturer is curating content before it reaches the device to preserve ink.",
+        "correct": false
+      },
+      {
+        "text": "B. The application has a bug that the developer needs to address.",
+        "correct": true
+      },
+      {
+        "text": "C. The system is using the PostScript language instead of the PCL.",
+        "correct": false
+      },
+      {
+        "text": "D. Personal preferences have changed and documents with graphics are now online-only",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If a print spooler crashes specifically with one application and no issue occurs on other systems, the most likely root cause is a bug within that specific application. Restarting the spooler and reinstalling drivers resolves system-wide or hardware-related issues--not app-specific failures. This indicates the application may be sending malformed print data."
+  },
+  {
+    "question": "36. Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
+    "answers": [
+      {
+        "text": "A. Switch",
+        "correct": false
+      },
+      {
+        "text": "B. Firewall",
+        "correct": false
+      },
+      {
+        "text": "C. Cable modem",
+        "correct": true
+      },
+      {
+        "text": "D. Router",
+        "correct": false
+      },
+      {
+        "text": "E. Access point",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A cable modem is required to convert the signal provided by the ISP (Internet Service Provider) over a DOCSIS network into a format that is usable by the local area network (LAN). DOCSIS is a standard for high-speed internet over cable television infrastructure, and the cable modem acts as the gateway between the ISP's coaxial network and the LAN. Without the cable modem, devices in the LAN would not be able to access the internet."
+  },
+  {
+    "question": "37. After a technician installs a new motherboard, the computer will not start and fails POST. The technician verifies the power supply is functioning as expected, and the CPU is installed correctly.\nWhich of the following steps should the technician complete next?",
+    "answers": [
+      {
+        "text": "A. Flash the BIOS.",
+        "correct": false
+      },
+      {
+        "text": "B. Check the CMOS battery.",
+        "correct": false
+      },
+      {
+        "text": "C. Reseat the RAM.",
+        "correct": true
+      },
+      {
+        "text": "D. Reinstall the old motherboard.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A common reason for a POST failure after a motherboard installation is improperly seated RAM. The system requires working memory to successfully complete POST. Reseating (removing and reinserting) the RAM ensures it's making proper contact with the motherboard."
+  },
+  {
+    "question": "38. A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122癋 (50癈) when the computer is started but rises to 208癋 (98癈) when applications are opened.\nWhich of the following would most likely fix this issue?",
+    "answers": [
+      {
+        "text": "A. Replacing the power supply",
+        "correct": false
+      },
+      {
+        "text": "B. Installing a high-performance heat sink",
+        "correct": true
+      },
+      {
+        "text": "C. Adjusting the fan settings",
+        "correct": false
+      },
+      {
+        "text": "D. Adding more RAM to the computer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Excessive heat buildup due to insufficient cooling is a primary cause of unexpected shutdowns. A high-performance heat sink improves thermal transfer, dissipates more heat, and helps maintain CPU temperature within safe limits. When CPU temperatures reach levels like 208癋 (98癈), the system may shut down to prevent damage."
+  },
+  {
+    "question": "39. An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere.\nWhich of the following should a technician implement?",
+    "answers": [
+      {
+        "text": "A. Public cloud",
+        "correct": false
+      },
+      {
+        "text": "B. VDI",
+        "correct": true
+      },
+      {
+        "text": "C. SSH",
+        "correct": false
+      },
+      {
+        "text": "D. SaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Answer: B"
+  },
+  {
+    "question": "40. Which of the following could a user employ to maximize module bandwidth when selecting memory for a high-end gaming computer?",
+    "answers": [
+      {
+        "text": "A. Error correction",
+        "correct": false
+      },
+      {
+        "text": "B. RAM voltage",
+        "correct": false
+      },
+      {
+        "text": "C. Channel configuration",
+        "correct": true
+      },
+      {
+        "text": "D. Physical module size",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Channel configuration(e.g.,dual-channel,quad-channel) determines how memory modules communicate with the memory controller. Using matched pairs in dual- or quad-channel set ups can significantly increase memory bandwidth, improving performance -- especially for gaming and video-intensive tasks."
+  },
+  {
+    "question": "41. Which of the following describes the function of an injector?",
+    "answers": [
+      {
+        "text": "A. To provide only data connectivity",
+        "correct": false
+      },
+      {
+        "text": "B. To supply power across a cable",
+        "correct": true
+      },
+      {
+        "text": "C. To improve wireless performance",
+        "correct": false
+      },
+      {
+        "text": "D. To extend a network connection",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A PoE injector is used to add power to an Ethernet cable, enabling the cable to deliver both power and data. This is crucial when connecting to PoE-enabled devices like IP cameras or wireless access points that are far from power outlets."
+  },
+  {
+    "question": "42. A technician is troubleshooting issues occurring on a user's mobile device. Applications and the OS have slow response times, even when performing simple tasks, such as writing an email. Additionally, new applications occasionally fail to launch.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Move the device to a room with a colder temperature.",
+        "correct": false
+      },
+      {
+        "text": "B. Close unnecessary programs.",
+        "correct": true
+      },
+      {
+        "text": "C. Reset to factory default settings.",
+        "correct": false
+      },
+      {
+        "text": "D. Check the battery health of the device.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The symptoms -- slow response and failed app launches -- indicate that the device's memory or processing resources are over utilized. Closing unnecessary apps can free up RAM and CPU resources, improving performance."
+  },
+  {
+    "question": "43. A user reports slow internet browsing. The technician finds high CPU and memory usage, and pop- ups occur every minute.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Escalate to the network team to check end-to-end connectivity.",
+        "correct": false
+      },
+      {
+        "text": "B. Download and install the latest drivers.",
+        "correct": false
+      },
+      {
+        "text": "C. Update the anti-malware signatures and scan the system.",
+        "correct": true
+      },
+      {
+        "text": "D. Check the wireless settings and validate the DHCP configuration.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "High resource usage along with frequent pop-ups are strong signs of a malware infection. The next logical step is to update anti-malware definitions and run a full scan to detect and remove threats."
+  },
+  {
+    "question": "44. A projector has been shutting down after 30 minutes of use, and it has a strange smell. The technician confirms the power source is not the cause of the issue.\nWhich of the following steps should the technician take next to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Replace the bulb",
+        "correct": false
+      },
+      {
+        "text": "B. Check the projector configuration.",
+        "correct": false
+      },
+      {
+        "text": "C. Clean the filter",
+        "correct": true
+      },
+      {
+        "text": "D. Adjust the gamma settings.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Projectors have air filters that prevent dust from entering the internal components. A clogged filter\ncan cause the projector to overheat, resulting in shutdowns and even strange smells due to overheating components. Cleaning the filter is a standard troubleshooting step when projectors exhibit overheating symptoms."
+  },
+  {
+    "question": "45. A user prints a job from a laser printer. The user wipes the page, and the words and images come off of it. The technician replaces the toner cartridge, but the issue persists. \nWhich of the following components should the technician replace next?",
+    "answers": [
+      {
+        "text": "A. Fuser",
+        "correct": true
+      },
+      {
+        "text": "B. Drum",
+        "correct": false
+      },
+      {
+        "text": "C. Developer roller",
+        "correct": false
+      },
+      {
+        "text": "D. Discharge lamp",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "In laser printers, the fuser unit is responsible for melting the toner onto the paper using heat and pressure. If the toner rubs off easily, it's a clear sign the fuser is failing or not heating properly. Replacing the fuser will ensure the toner bonds correctly to the paper."
+  },
+  {
+    "question": "46. A technician wants to monitor network statistics for devices communicating with one another on the local subnet.\nWhich of the following devices should the technician install.",
+    "answers": [
+      {
+        "text": "A. Managed switch",
+        "correct": true
+      },
+      {
+        "text": "B. Router",
+        "correct": false
+      },
+      {
+        "text": "C. Access point",
+        "correct": false
+      },
+      {
+        "text": "D. Firewall",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A managed switch provides advanced features such as traffic monitoring and VLAN configuration, allowing a technician to view network statistics for devices on the local subnet."
+  },
+  {
+    "question": "47. A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged.\nWhich of the following is the most likely cause of this issue?",
+    "answers": [
+      {
+        "text": "A. Malfunctioning power supply",
+        "correct": false
+      },
+      {
+        "text": "B. Damaged charge port",
+        "correct": false
+      },
+      {
+        "text": "C. Swollen battery",
+        "correct": true
+      },
+      {
+        "text": "D. Broken screen",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The most likely cause is a swollen battery, which occurs when the battery's internal components break down, causing a buildup of gas. This results in:\nPhysical Symptoms: The battery bulges, pushing the screen away. Operational Symptoms: The device may still power on when connected to a charger but fails to hold a charge due to battery degradation."
+  },
+  {
+    "question": "48. Which of the following devices is used to implement ACL polices for an environment?",
+    "answers": [
+      {
+        "text": "A. Managed switch",
+        "correct": false
+      },
+      {
+        "text": "B. Gateway",
+        "correct": false
+      },
+      {
+        "text": "C. Repeater",
+        "correct": false
+      },
+      {
+        "text": "D. Firewall",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A firewall implements ACLs (Access Control Lists) to filter traffic and enforce policies based on rules such as IP address, port, or protocol."
+  },
+  {
+    "question": "49. Which of the following is an advantage of using VDI?",
+    "answers": [
+      {
+        "text": "A. Authentication is not required on a domain.",
+        "correct": false
+      },
+      {
+        "text": "B. Licensing costs are minimized.",
+        "correct": false
+      },
+      {
+        "text": "C. Less manual configuration is needed for each workstation.",
+        "correct": true
+      },
+      {
+        "text": "D. A virus is automatically contained locally.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Virtual Desktop Infrastructure (VDI)hosts desktop environments on centralized servers. This allows rapid deployment and consistent configuration across multiple users, minimizing manual setup and easing IT management."
+  },
+  {
+    "question": "50. Which of the following display characteristics would be most important to ensure screen images appear the same as printed output?",
+    "answers": [
+      {
+        "text": "A. Color gamut",
+        "correct": true
+      },
+      {
+        "text": "B. Pixel density",
+        "correct": false
+      },
+      {
+        "text": "C. Refresh rate",
+        "correct": false
+      },
+      {
+        "text": "D. Resolution",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Color gamut refers to the range of colors a display can accurately reproduce. For tasks like graphic design or photo editing, ensuring the screen's colors match the printed output is critical. Monitors with wide and accurate color gamuts (e.g., Adobe RGB) are preferred for these applications."
   }
 ]
