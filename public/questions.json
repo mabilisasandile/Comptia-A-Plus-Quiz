@@ -1168,5 +1168,1163 @@
     ],
     "multiple": false,
     "explanation": "Color gamut refers to the range of colors a display can accurately reproduce. For tasks like graphic design or photo editing, ensuring the screen's colors match the printed output is critical. Monitors with wide and accurate color gamuts (e.g., Adobe RGB) are preferred for these applications."
+  },
+  {
+    "question": "51. A technician is troubleshooting an all-in-one laser printer that prints a vertical line when making copies and scans. When users print or receive faxes, the output from the printer is correct. \nWhich of the following should the technician examine to determine the cause of the issue?",
+    "answers": [
+      {
+        "text": "A. The pickup rollers",
+        "correct": false
+      },
+      {
+        "text": "B. The corona wire",
+        "correct": false
+      },
+      {
+        "text": "C. The document feeder",
+        "correct": true
+      },
+      {
+        "text": "D. The drum assembly",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Since the issue only occurs during scanning and copying (not printing or faxing), the problem is isolated to the document feeder. A vertical line is typically caused by debris or damage on the glass under the ADF (Automatic Document Feeder), not on components related to printing."
+  },
+  {
+    "question": "52. A small company wants the ability to print in full color but needs to pay a minimal initial purchase price for the printer.\nWhich of the following is the best option?",
+    "answers": [
+      {
+        "text": "A. Thermal printer",
+        "correct": false
+      },
+      {
+        "text": "B. Inkjet printer",
+        "correct": true
+      },
+      {
+        "text": "C. Dot matrix printer",
+        "correct": false
+      },
+      {
+        "text": "D. Laser printer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Inkjet printers are the best choice for a small company seeking full-color printing with a minimal initial cost. While they have higher operating costs (due to ink), they are affordable and capable of high-quality color output."
+  },
+  {
+    "question": "53. Which of the following network services is used to assign an IP address to a network host?",
+    "answers": [
+      {
+        "text": "A. DHCP",
+        "correct": true
+      },
+      {
+        "text": "B. DNS",
+        "correct": false
+      },
+      {
+        "text": "C. LDAP",
+        "correct": false
+      },
+      {
+        "text": "D. SMTP",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) is the service used to automatically assign IP addresses to network hosts. It dynamically manages the distribution of IP addresses and configuration details (like subnet mask, gateway, and DNS servers), ensuring no two devices are assigned the same address on the network."
+  },
+  {
+    "question": "54. A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive.\nWhich of the following should the administrator check?",
+    "answers": [
+      {
+        "text": "A. TPM",
+        "correct": true
+      },
+      {
+        "text": "B. CPU",
+        "correct": false
+      },
+      {
+        "text": "C. RAM",
+        "correct": false
+      },
+      {
+        "text": "D. HDD",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "BitLocker Drive Encryption in Windows requires a Trusted Platform Module (TPM)to encrypt the boot drive securely. The TPM is a dedicated microcontroller designed to secure hardware through integrated cryptographic keys. It validates system integrity during boot and securely stores the encryption keys. If BitLocker cannot find a TPM or it is disabled in BIOS/UEFI, drive encryption cannot proceed. BitLocker can function without TPM using a USB startup key, but this compromises some security and is not recommended for managed enterprise environments."
+  },
+  {
+    "question": "55. Which of the following resolutions is commonly known as Ultra HD?",
+    "answers": [
+      {
+        "text": "A. 1920x1080",
+        "correct": false
+      },
+      {
+        "text": "B. 2048x1080",
+        "correct": false
+      },
+      {
+        "text": "C. 3840x2160",
+        "correct": true
+      },
+      {
+        "text": "D. 7680x4320",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Ultra HD (UHD), also referred to as 4K UHD, has a resolution of3840x2160. It's four times the resolution of standard 1080p (Full HD), offering more screen real estate and sharper images."
+  },
+  {
+    "question": "56. A user reports that a software application functioned as expected the previous day, but this morning, the user is unable to launch the application.\nWhich of the following describe what the technician should do next?",
+    "answers": [
+      {
+        "text": "A. Research the symptoms",
+        "correct": false
+      },
+      {
+        "text": "B. Identify any changes the user has made",
+        "correct": true
+      },
+      {
+        "text": "C. Determine which steps need to be performed.",
+        "correct": false
+      },
+      {
+        "text": "D. Check the vendor's website for guidance.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Identifying changes made to the system is the next step to troubleshoot why an application no longer launches, as recent changes often cause such issues."
+  },
+  {
+    "question": "57. A user experiences a random BSOD while using a computer, but the operating system recovers as expected.\nWhich of the following symptoms would indicate the issue is related to RAM?",
+    "answers": [
+      {
+        "text": "A. Wrong BIOS configurations",
+        "correct": false
+      },
+      {
+        "text": "B. Continuous reboots",
+        "correct": false
+      },
+      {
+        "text": "C. Distended capacitors",
+        "correct": false
+      },
+      {
+        "text": "D. POST code beeps",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "During the Power-On Self-Test (POST), the BIOS performs checks on system hardware, including RAM. If the RAM is faulty, POST may produce a series of beep codes indicating\nmemory issues. These beep codes are often the first sign of RAM-related problems, especially if the BSOD occurs randomly."
+  },
+  {
+    "question": "58. Which of the following provides electricity to devices through network cables?",
+    "answers": [
+      {
+        "text": "A. Edge router",
+        "correct": false
+      },
+      {
+        "text": "B. PoE switch",
+        "correct": true
+      },
+      {
+        "text": "C. Access point",
+        "correct": false
+      },
+      {
+        "text": "D. Patch panel",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A PoE (Power over Ethernet) switch transmits both data and electrical power over Ethernet cables to devices like wireless access points or VoIP phones. This is especially useful in areas where separate power sources are not available."
+  },
+  {
+    "question": "59. When turning on a workstation, a technician observes the following message:\n\"Bootable device not found.\"\nThe technician verifies the correct boot order in the BIOS. Which of the following steps should the technician take next?",
+    "answers": [
+      {
+        "text": "A. Reformat the HDD.",
+        "correct": false
+      },
+      {
+        "text": "B. Run HDD diagnostics.",
+        "correct": true
+      },
+      {
+        "text": "C. Reseat the RAM.",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the HDD.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If the system reports\"Bootable device not found\", and the BIOS is configured correctly, the next step is to run diagnostics on the hard drive to check for physical or logical failure. It could be a sign of a failing drive or corrupt boot sector."
+  },
+  {
+    "question": "60.Which of the following storage options would a technician most likely recommend to have large amounts of affordable capacity without concern for read times on a desktop computer?",
+    "answers": [
+      {
+        "text": "A. 750GB NVMe M.2 SSD",
+        "correct": false
+      },
+      {
+        "text": "B. 2x 1TB PCIe SSD in RAID 1",
+        "correct": false
+      },
+      {
+        "text": "C. 2TB SATA 3.5\" 5,400rpm HDD",
+        "correct": true
+      },
+      {
+        "text": "D. 4TB SAS 2.5\" 15,000rpm HDD",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If performance is not a primary concern and the user requires large, cost-effective storage, a 2TB 5400rpm SATA HDD is ideal. It offers high capacity at a lower price point than SSDs and faster HDDs."
+  },
+  {
+    "question": "61. A technician is working on a RAID 1 array that is apparently degraded. The technician verifies the RAM and power are both operating as expected.\nWhich of the following can the technician do to further isolate the issue?",
+    "answers": [
+      {
+        "text": "A. Perform individual drive diagnostics.",
+        "correct": true
+      },
+      {
+        "text": "B. Run the chkdsk /i command.",
+        "correct": false
+      },
+      {
+        "text": "C. Rebuild the RAID array.",
+        "correct": false
+      },
+      {
+        "text": "D. Reconfigure the array as RAID 0.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A degraded RAID 1 array usually means one of the drives has failed or is failing. The correct next step is to run diagnostics on each drive to identify the faulty one. RAID 1 uses mirroring, so one good drive should still contain all the data."
+  },
+  {
+    "question": "62. Which of the following tools would a technician use to connect wires to an RJ45 connector?",
+    "answers": [
+      {
+        "text": "A. Crimper",
+        "correct": true
+      },
+      {
+        "text": "B. Cable stripper",
+        "correct": false
+      },
+      {
+        "text": "C. Punchdown",
+        "correct": false
+      },
+      {
+        "text": "D. Loopback plug",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A crimper is specifically used to attach RJ45 connectors to the ends of network cables. It presses the connector pins into the cable's wires, establishing a secure electrical connection. A punch down tool is used for wiring patch panels or keystone jacks, not for attaching connectors."
+  },
+  {
+    "question": "63. Users working with large files back up the files to external hard drives. One user's files take longer to back up than other users' files. The user has tried backing up the files to other users' drives with the same results.\nWhich of the following steps should the technician take first to correct this issue?",
+    "answers": [
+      {
+        "text": "A. Replace the hard drive's USB cable.",
+        "correct": false
+      },
+      {
+        "text": "B. Defragment the user's external hard drive.",
+        "correct": true
+      },
+      {
+        "text": "C. Update the storage drivers on the user's system.",
+        "correct": false
+      },
+      {
+        "text": "D. Instruct the user to compress the files.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If a hard drive is heavily fragmented, file read/write operations can take significantly longer, causing slow backup speeds. Defragmenting the drive organizes the data for more efficient access."
+  },
+  {
+    "question": "64. Which of the following can a user utilize to share their mobile phone connection with their laptop?",
+    "answers": [
+      {
+        "text": "A. IR",
+        "correct": false
+      },
+      {
+        "text": "B. NFC",
+        "correct": false
+      },
+      {
+        "text": "C. Wi-Fi Direct",
+        "correct": false
+      },
+      {
+        "text": "D. Tethering",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Tethering refers to sharing a mobile phone's internet connection with another device, such as a laptop, either through USB, Bluetooth, or Wi-Fi. Tethering effectively turns the mobile phone into a personal hotspot for internet access."
+  },
+  {
+    "question": "65. A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards. Which of the following should the institution use?",
+    "answers": [
+      {
+        "text": "A. TLS",
+        "correct": false
+      },
+      {
+        "text": "B. AMD",
+        "correct": false
+      },
+      {
+        "text": "C. HSM",
+        "correct": true
+      },
+      {
+        "text": "D. ARM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Hardware Security Module (HSM) securely manages cryptographic keys, including those used to protect credit card chips."
+  },
+  {
+    "question": "66. Which of the following cloud models exclusively utilizes a local data center?",
+    "answers": [
+      {
+        "text": "A. Private",
+        "correct": true
+      },
+      {
+        "text": "B. Public",
+        "correct": false
+      },
+      {
+        "text": "C. Hybrid",
+        "correct": false
+      },
+      {
+        "text": "D. Community",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Private Cloud is operated solely for a single organization. It is hosted on-premises or in a dedicated off- site data center, giving the company full control over data, security, and compliance -- often hosted in the organization's own local data center."
+  },
+  {
+    "question": "67. A customer reports that the output from their thermal receipt printer has vertical white lines.\nWhich of the following would most likely resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Replacing the ink cartridge",
+        "correct": false
+      },
+      {
+        "text": "B. Using the correct paper type",
+        "correct": false
+      },
+      {
+        "text": "C. Installing a maintenance kit",
+        "correct": false
+      },
+      {
+        "text": "D. Cleaning the heating element",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Thermal printers create images using a heated print head on specially coated thermal paper. Vertical white lines indicate that part of the heating element is dirty or blocked, preventing heat transfer to the paper. Cleaning the print head (heating element) will restore full functionality."
+  },
+  {
+    "question": "68. A user returns from a trip and discovers a computer that is connected to the LAN times out intermittently Upon investigation, a technician finds the RJ45 pin is not property terminated.\nWhich of the following networking tools is most appropriate to fix the issue?",
+    "answers": [
+      {
+        "text": "A. Toner probe",
+        "correct": false
+      },
+      {
+        "text": "B. Cable tester",
+        "correct": false
+      },
+      {
+        "text": "C. Punchdown",
+        "correct": false
+      },
+      {
+        "text": "D. Crimper",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A crimper is used to terminate an RJ45 cable properly by attaching the connector to the twisted-pair wires.\nIf the termination is not done correctly, the connection will be intermittent or fail entirely."
+  },
+  {
+    "question": "69. A user routinely connects and disconnects multiple devices from a laptop. Which of the following options should a technician recommend to facilitate ease of user mobility?",
+    "answers": [
+      {
+        "text": "A. Serial interfaces",
+        "correct": false
+      },
+      {
+        "text": "B. Docking station",
+        "correct": true
+      },
+      {
+        "text": "C. Network switch",
+        "correct": false
+      },
+      {
+        "text": "D. USB hub",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A docking station is designed to provide a central connection point for multiple peripherals, such as monitors, keyboards, mice, and network cables. It allows users to quickly connect or disconnect all devices by simply docking or undocking their laptop, improving mobility and reducing wear and tear on individual ports."
+  },
+  {
+    "question": "70. Which of the following is a benefit of using a VLAN?",
+    "answers": [
+      {
+        "text": "A. It minimizes collision domains.",
+        "correct": false
+      },
+      {
+        "text": "B. It provides private access to cloud resources.",
+        "correct": false
+      },
+      {
+        "text": "C. It increases network address space.",
+        "correct": false
+      },
+      {
+        "text": "D. It enables secure network segmentation.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A VLAN (Virtual Local Area Network) segments a physical network into separate logical networks, enhancing security by isolating traffic."
+  },
+  {
+    "question": "71. A technician is troubleshooting internet connectivity issues after a firewall update. Users report that they can access local network resources, such as printers and shares, but cannot access the internet. Which of the following settings is most likely causing the issue?",
+    "answers": [
+      {
+        "text": "A. Static IP assignments",
+        "correct": false
+      },
+      {
+        "text": "B. Default gateway",
+        "correct": true
+      },
+      {
+        "text": "C. Subnet mask",
+        "correct": false
+      },
+      {
+        "text": "D. VLANs",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If users can access local network resources but not the internet, the most likely culprit is a misconfigured or missing default gateway. The default gateway routes traffic from the local network to external networks (i.e., the internet). If it's not properly set or was altered during a firewall update, internet traffic won't be forwarded correctly."
+  },
+  {
+    "question": "72. A user is having issues when charging a device with a Lightning cable. The cable is not recognized when it is plugged into the device. This issue is usually resolved by flipping the cable over. This issue does not occur with other devices of the same type.\nWhich of the following would most likely cause the issue?",
+    "answers": [
+      {
+        "text": "A. The device needs to be restarted.",
+        "correct": false
+      },
+      {
+        "text": "B. The battery may be swelling and needs inspection.",
+        "correct": false
+      },
+      {
+        "text": "C. The cable is failing and needs to be replaced",
+        "correct": false
+      },
+      {
+        "text": "D. The charging port is dirty or damaged",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "When a Lightning cable works only when flipped a certain way or doesn't function consistently, it is typically due to debris or damage in the charging port. Cleaning the port or inspecting it for wear resolves the issue."
+  },
+  {
+    "question": "73. Which of the following port numbers are associated with email traffic? (Select two).",
+    "answers": [
+      {
+        "text": "A. 23",
+        "correct": false
+      },
+      {
+        "text": "B. 25",
+        "correct": true
+      },
+      {
+        "text": "C. 67",
+        "correct": false
+      },
+      {
+        "text": "D. 110",
+        "correct": true
+      },
+      {
+        "text": "E. 137",
+        "correct": false
+      },
+      {
+        "text": "F. 443",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "To answer this question, we need to identify the port numbers associated with email protocols used in client-server communication.\nPort 25 (SMTP - Simple Mail Transfer Protocol):\nThis port is primarily used for sending emails between mail servers and from mail clients to mail servers (sending outbound mail). SMTP is an essential protocol for email traffic.\nPort 110 (POP3 - Post Office Protocol v3):\nPOP3 is used for retrieving emails from a mail server. It is commonly used for downloading email messages to a local client, after which the messages are deleted from the server. While not as commonly used today (due to IMAP being preferred), POP3 is still a recognized email protocol, and its association with port 110 makes it a valid answer."
+  },
+  {
+    "question": "74. A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o.\nWhich of the Mowing components best meets these requirements?",
+    "answers": [
+      {
+        "text": "A. Fingerprint reader",
+        "correct": false
+      },
+      {
+        "text": "B. Smart card",
+        "correct": true
+      },
+      {
+        "text": "C. Secure token",
+        "correct": false
+      },
+      {
+        "text": "D. NFC scanner",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A smart card provides an additional factor of authentication by storing secure credentials, such as certificates, that cannot be guessed or replicated. It complements user accounts and is \"something you have\"."
+  },
+  {
+    "question": "75. While reviewing options in the BIOS/UEFI settings page to fix a laptop issue, a support technician notices an option to clear existing TPM keys.\nWhich of the following would most likely happen if the TPM is cleared?",
+    "answers": [
+      {
+        "text": "A. Encrypted hard drives would probably not be accessible.",
+        "correct": true
+      },
+      {
+        "text": "B. All security certificates would need to be reinstalled from trusted roots.",
+        "correct": false
+      },
+      {
+        "text": "C. The device would need to be reenrolled in the MDM platform",
+        "correct": false
+      },
+      {
+        "text": "D. The laptop would need to be registered to the domain as a new client.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The Trusted Platform Module (TPM) is a hardware-based security feature used to store cryptographic keys, such as those used for encryption, authentication, or device identification. It plays a critical role in ensuring secure operations for encrypted drives, BitLocker, and secure boot processes. Clearing TPM keys involves wiping all stored cryptographic data, which can lead to several consequences depending on what the TPM was being used for."
+  },
+  {
+    "question": "76. A company uses vital legacy software that does not run in the current OS version. Which of the following will best support the software while keeping the OS current?",
+    "answers": [
+      {
+        "text": "A. Shared resources",
+        "correct": false
+      },
+      {
+        "text": "B. System sandbox",
+        "correct": false
+      },
+      {
+        "text": "C. Test development",
+        "correct": false
+      },
+      {
+        "text": "D. Application visualization",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Application virtualization allows legacy software to run in a virtualized environment while the operating system remains current. It isolates the application from the OS, ensuring compatibility without downgrading the OS."
+  },
+  {
+    "question": "77. A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?",
+    "answers": [
+      {
+        "text": "A. Video card",
+        "correct": false
+      },
+      {
+        "text": "B. HDD",
+        "correct": false
+      },
+      {
+        "text": "C. RAM module",
+        "correct": true
+      },
+      {
+        "text": "D. TPM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Random BSODs (Blue Screen of Death), intermittent freezing, and degraded performance under\nload are common symptoms of failing or faulty RAM (Random Access Memory).\nFaulty or failing RAM can cause random BSODs due to memory errors when the system attempts to read or write to corrupted memory locations.\nIntermittent freezing, especially under performance-intensive operations, can occur because the CPU relies heavily on RAM for active processing tasks. Over time, heat generated during usage can exacerbate RAM instability, leading to progressively worse performance throughout the day.\nSolution: The technician should run a memory diagnostic tool, such as Windows Memory Diagnostic or MemTest86, to confirm if the RAM is at fault."
+  },
+  {
+    "question": "78. A technician is troubleshooting a connectivity issue on a network computer. The technician runs ipconfig in a command prompt and receives the following IP address: 169.254.0.6. \nWhich of the following is most likely the type of IP address being assigned?",
+    "answers": [
+      {
+        "text": "A. DHCP reservation assignment",
+        "correct": false
+      },
+      {
+        "text": "B. Dynamic assignment",
+        "correct": false
+      },
+      {
+        "text": "C. Self-assignment",
+        "correct": true
+      },
+      {
+        "text": "D. Static assignment",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An IP address starting with 169.254.x.xis a self-assigned address(also called APIPA? Automatic\nPrivate IP Addressing). It's used when a client device cannot contact a DHCP server. This address allows limited communication on the local network segment but no internet access."
+  },
+  {
+    "question": "79. Which of the following utilizes specialized ports on a laptop to expand the local connection options?",
+    "answers": [
+      {
+        "text": "A. NFC adapter",
+        "correct": false
+      },
+      {
+        "text": "B. Docking station",
+        "correct": true
+      },
+      {
+        "text": "C. Port replicator",
+        "correct": false
+      },
+      {
+        "text": "D. USB dongle",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A docking station connects to a laptop's proprietary port or USB-C/Thunderbolt, providing access to multiple additional ports(USB, Ethernet, video, audio, etc.). It allows users to transform a laptop into a full desktop workstation."
+  },
+  {
+    "question": "80. A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck.\nWhich of the following should the technician do next to troubleshoot this issued",
+    "answers": [
+      {
+        "text": "A. Check the product manual for the procedure",
+        "correct": true
+      },
+      {
+        "text": "B. Use a pry tool to force the cover open",
+        "correct": false
+      },
+      {
+        "text": "C. Insert the wireless card into the M.2 slot",
+        "correct": false
+      },
+      {
+        "text": "D. Try to move the cover by sliding it in all directions.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When hardware is not easily accessible, always consult the product manual for proper disassembly procedures. Forcing the cover can damage the laptop or void the warranty. Product manuals often provide step-by-step instructions for safely accessing internal components."
+  },
+  {
+    "question": "81. A user reports that their desktop PC does not turn on.\nWhich of the following components would most likely cause the issue?",
+    "answers": [
+      {
+        "text": "A. PSU",
+        "correct": true
+      },
+      {
+        "text": "B. GPU",
+        "correct": false
+      },
+      {
+        "text": "C. RAM",
+        "correct": false
+      },
+      {
+        "text": "D. CPU",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If a desktop fails to power on entirely, the most probable cause is a faulty Power Supply Unit (PSU). If there are no lights, fans, or POST beeps, the PSU may have failed, cutting off all power to the motherboard and components."
+  },
+  {
+    "question": "82. Which of the following connectors can be used to charge most modern mobile devices and may have the capacity to send data audio and video?",
+    "answers": [
+      {
+        "text": "A. Lightning",
+        "correct": false
+      },
+      {
+        "text": "B. USB-C",
+        "correct": true
+      },
+      {
+        "text": "C. MicroUSB",
+        "correct": false
+      },
+      {
+        "text": "D. MiniUSB",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "USB-C is a versatile connector that supports charging, high-speed data transfer, and the ability to send audio and video signals (e.g., DisplayPort over USB-C). It is used by most modern mobile devices and laptops because of its fast transfer speeds and\npower delivery capabilities."
+  },
+  {
+    "question": "83. A computer displays an error message indicating there is insufficient storage when installing applications. The user reports slow application load times. Which of the following replacement components would best resolve this issue?",
+    "answers": [
+      {
+        "text": "A. SSD",
+        "correct": true
+      },
+      {
+        "text": "B. USB",
+        "correct": false
+      },
+      {
+        "text": "C. HDD",
+        "correct": false
+      },
+      {
+        "text": "D. RAM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Upgrading to a solid-state drive (SSD) provides more storage space and faster read/write speeds, which resolves both the \"insufficient storage\" error and slow application loads."
+  },
+  {
+    "question": "84. Which of the following is the best to use when testing a file for potential malware?",
+    "answers": [
+      {
+        "text": "A. Multitenancy",
+        "correct": false
+      },
+      {
+        "text": "B. Test development",
+        "correct": false
+      },
+      {
+        "text": "C. Cross-platform virtualization",
+        "correct": false
+      },
+      {
+        "text": "D. Sandbox",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A sandbox is a secure, isolated environment used to test potentially harmful software or code. It prevents the software from affecting the main system, allowing safe malware testing. This method is standard in cyber security best practices."
+  },
+  {
+    "question": "85. Which of the following cloud-computing concepts describes an environment in which various internal VM servers for a specific organization are stored within both a physical server and a cloud environment?",
+    "answers": [
+      {
+        "text": "A. Private",
+        "correct": false
+      },
+      {
+        "text": "B. Hybrid",
+        "correct": true
+      },
+      {
+        "text": "C. Community",
+        "correct": false
+      },
+      {
+        "text": "D. Public",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hybrid cloud is a cloud computing environment that combines on-premises, private cloud, and public cloud resources. This configuration allows organizations to deploy workloads and data in a way that optimizes performance, security, and cost management.\nKey Characteristics of a Hybrid Cloud:\nCombines private cloud (on-premises or dedicated servers) and public cloud (resources accessed over the internet). Allows for the movement of data and applications between private and public clouds. Supports scenarios where certain data must remain on-premises for security or compliance reasons, while other workloads utilize the scalability of public cloud resources."
+  },
+  {
+    "question": "86. A user's device needs more memory, so a technician installs extra RAM with the following specifications:\n2 x8Gb DDR3-1066(PC3-S500)\n1 x 16Gb DDR3-1333 (PC3-10600)\nWhich of the following speeds would maximize reliability?",
+    "answers": [
+      {
+        "text": "A. 1,066",
+        "correct": true
+      },
+      {
+        "text": "B. 1 333",
+        "correct": false
+      },
+      {
+        "text": "C. 8.500",
+        "correct": false
+      },
+      {
+        "text": "D. 10,600",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When multiple RAM modules with different speeds are installed in a system, the system will default to the speed of the slowest module to maintain reliability and stability. In this case:\nThe system contains two DDR3-1066 (PC3-8500) modules and one DDR3-1333 (PC3-10600) module. The slowest RAM speed is DDR3-1066 (PC3-8500), and the system will run all memory\nmodules at this speed to prevent timing mismatches and data corruption."
+  },
+  {
+    "question": "87. A laptop's wireless speed has been very slow since a new router was installed The user thinks the issue is because the router is misconfigured Which of the following should a technician do first to diagnose this issue?",
+    "answers": [
+      {
+        "text": "A. Reproduce the issue with the user's laptop",
+        "correct": true
+      },
+      {
+        "text": "B. Connect using Ethernet to verify network speed",
+        "correct": false
+      },
+      {
+        "text": "C. Adjust the maximum transmission unit size on the user's laptop",
+        "correct": false
+      },
+      {
+        "text": "D. Update the network drivers",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The first step in troubleshooting is to reproduce the issue. This ensures that the problem exists as reported, and the technician can observe it directly. In this case:\nTesting the wireless speed on the user's laptop while connected to the new router allows the technician to verify the problem and gather evidence for further troubleshooting. Reproducing the issue helps confirm whether the problem is with the laptop, the router configuration, or other network factors."
+  },
+  {
+    "question": "88. A technician replaced a failed PSU on a high-end workstation PC. Now, the PC fails to POST and does not stay turned on for more than five seconds. Which of the following power connections was most likely forgotten during installation?",
+    "answers": [
+      {
+        "text": "A. 5V",
+        "correct": false
+      },
+      {
+        "text": "B. 12V",
+        "correct": true
+      },
+      {
+        "text": "C. 120V",
+        "correct": false
+      },
+      {
+        "text": "D. 220V",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The issue described suggests the 12V CPU power connector was likely forgotten during installation. The 12V power rail is essential for the operation of high-end workstation components, including the CPU. Without the 12V connection, the system will fail to POST and may power off shortly after being turned on.\nWhy 12V?\nThe 12V connector is critical for providing power to the CPU via the motherboard. Modern CPUs require a dedicated power source from the PSU, usually supplied through the 4-pin or 8-pin EPS12V connector. If this connection is omitted, the motherboard will not receive adequate power for the CPU to function, resulting in the system failing to POST or shutting down after a brief period."
+  },
+  {
+    "question": "89. Which of the following components enables finger-based screen input for two-in-one laptops?",
+    "answers": [
+      {
+        "text": "A. Fingerprint scanner",
+        "correct": false
+      },
+      {
+        "text": "B. Digitizer",
+        "correct": true
+      },
+      {
+        "text": "C. Stylus",
+        "correct": false
+      },
+      {
+        "text": "D. Inverter",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A digitizer is the component in a two-in-one laptop that enables finger-based or stylus input on the screen. It is responsible for converting touch inputs into digital signals that the device can interpret.\nWhy Digitizer?\nA digitizer is integrated into the screen assembly and works to detect and process inputs such as taps, swipes, or pinches. This is a standard feature in modern touchscreens, enabling functionality for both finger-based\nand stylus-based interactions."
+  },
+  {
+    "question": "90. Following a security breach that revealed employee username and password information, an organization would like to implement additional security for users logging in to company devices.\nWhich of the following would be the best solution for the organization to use?",
+    "answers": [
+      {
+        "text": "A. Biometric authentication",
+        "correct": false
+      },
+      {
+        "text": "B. Peer-reviewed log-ins",
+        "correct": false
+      },
+      {
+        "text": "C. Log-in scripts",
+        "correct": false
+      },
+      {
+        "text": "D. One-time tokens",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "In response to a security breach involving compromised credentials, one-time tokens provide an effective method to enhance authentication security. These tokens are part of multi-factor authentication (MFA) and generate unique codes for each login attempt, ensuring that even if credentials are stolen, unauthorized access is prevented.\nWhy One-time Tokens?\nOne-time tokens are dynamic and expire after a single use, significantly reducing the risk of unauthorized access even if usernames and passwords are compromised. Often delivered through apps like Google Authenticator, hardware tokens, or SMS."
+  },
+  {
+    "question": "91. A customer calls the help desk to report a problem connecting to a shared drive on a server. The technician determines that the user's server credentials have expired and reactivates them.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Escalate the issue.",
+        "correct": false
+      },
+      {
+        "text": "B. Document the findings.",
+        "correct": false
+      },
+      {
+        "text": "C. Perform backups of all critical data.",
+        "correct": false
+      },
+      {
+        "text": "D. Verify system functionality.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "After resolving the immediate issue (reactivating server credentials), verifying system functionality ensures the solution works as intended and the user can now access the shared drive. This step is a part of the CompTIA troubleshooting methodology:\nIdentify the problem.\nEstablish a theory of probable cause.\nTest the theory to determine the cause.\nEstablish a plan of action.\nImplement the solution.\nVerify full system functionality.\nDocument findings, actions, and outcomes."
+  },
+  {
+    "question": "92. Which of the following combinations of specifications and frequencies delivers the greatest speed and compatibility for lot devices?",
+    "answers": [
+      {
+        "text": "A. A and 5GHz",
+        "correct": false
+      },
+      {
+        "text": "B. B and 2.4GHz",
+        "correct": false
+      },
+      {
+        "text": "C. G and 5GHz",
+        "correct": false
+      },
+      {
+        "text": "D. N and 2.4GHz",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "802.11n combined with the 2.4GHz frequency offers the greatest compatibility for IoT devices.\n802.11n: Operates on both 2.4GHz and 5GHz bands, offering backward compatibility with older standards like 802.11b/g.\n2.4GHz: Has longer range and better penetration through walls, making it ideal for IoT devices that are spread across large areas."
+  },
+  {
+    "question": "93. Which of the following is an email authentication method designed to detect email spoofing by attaching a digital signature to outgoing email?",
+    "answers": [
+      {
+        "text": "A. SPF",
+        "correct": false
+      },
+      {
+        "text": "B. DKIM",
+        "correct": true
+      },
+      {
+        "text": "C. DNS pointer",
+        "correct": false
+      },
+      {
+        "text": "D. MX records",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "DKIM (Domain Keys Identified Mail) is an email authentication method that attaches a digital signature to outgoing emails to verify the email's authenticity and detect email spoofing."
+  },
+  {
+    "question": "94. A user is reporting that a computer has been very slow in recent days. The technician looks into the problem and finds pop-ups are randomly appearing on the screen. Which of the following is the next step the technician must take?",
+    "answers": [
+      {
+        "text": "A. Establish a knowledge base.",
+        "correct": false
+      },
+      {
+        "text": "B. Establish a theory of probable cause.",
+        "correct": true
+      },
+      {
+        "text": "C. Establish a new theory and consider escalating.",
+        "correct": false
+      },
+      {
+        "text": "D. Establish a plan of action.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The technician has identified the symptoms (slow performance and random pop-ups) and must now establish a theory of probable cause, such as malware or spyware infection."
+  },
+  {
+    "question": "95. A user reports that, despite manually changing the date and time on a computer, the changes always revert after the computer is turned off for a period of time. Which of the following should the technician consider first?",
+    "answers": [
+      {
+        "text": "A. OS updates",
+        "correct": false
+      },
+      {
+        "text": "B. CMOS battery",
+        "correct": true
+      },
+      {
+        "text": "C. NTP server",
+        "correct": false
+      },
+      {
+        "text": "D. RAM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The CMOS battery powers the real-time clock (RTC) on the motherboard, which maintains the date and time when the computer is turned off. If the battery fails, the system will lose date and time settings, reverting to defaults on restart."
+  },
+  {
+    "question": "96. A user is unable to connect to network resources. A technician discovers that the user's device has an invalid static IP v dress. Which of the following should the technician configure on the user's device to request an IP address?",
+    "answers": [
+      {
+        "text": "A. SSH",
+        "correct": false
+      },
+      {
+        "text": "B. FTP",
+        "correct": false
+      },
+      {
+        "text": "C. DHCP",
+        "correct": true
+      },
+      {
+        "text": "D. DNS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) dynamically assigns IP addresses to devices on a network, resolving the issue of an invalid static IP address. Configuring the device to use DHCP allows it to request and receive a valid IP address automatically."
+  },
+  {
+    "question": "97. A company requires all users to have biometric identification enabled. Which of the following features in Windows provides this functionality?",
+    "answers": [
+      {
+        "text": "A. Bitlocker",
+        "correct": false
+      },
+      {
+        "text": "B. Hello",
+        "correct": true
+      },
+      {
+        "text": "C. Defender",
+        "correct": false
+      },
+      {
+        "text": "D. Trusted Platform Module",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Windows Hello provides biometric authentication options, including facial recognition, fingerprint scanning, and iris scanning, aligning with the company's requirement for biometric identification."
+  },
+  {
+    "question": "98. An employee cannot connect to the wireless network at the office but can connect to a personal wireless network when at home. The technician verifies the wireless network name is correct, and the signal strength appears to be strong. \nWhich of the following is the best action for the\ntechnician to take to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Install the current 802.1X certificate.",
+        "correct": true
+      },
+      {
+        "text": "B. Check the wireless router settings.",
+        "correct": false
+      },
+      {
+        "text": "C. Update the wireless driver.",
+        "correct": false
+      },
+      {
+        "text": "D. Disable the Windows firewall.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "802.1X is a network authentication protocol commonly used in enterprise environments. If the user cannot connect to the office wireless network but can connect at home, the issue is likely related to the 802.1X certificate required for authentication. Installing or updating the certificate\nwill resolve the issue."
+  },
+  {
+    "question": "99. Multiple organizations are working together on a project and want to migrate the data to the cloud.\nWhich of the following cloud models should be used?",
+    "answers": [
+      {
+        "text": "A. Public",
+        "correct": false
+      },
+      {
+        "text": "B. Hybrid",
+        "correct": false
+      },
+      {
+        "text": "C. Private",
+        "correct": false
+      },
+      {
+        "text": "D. Community",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A community cloud is designed for multiple organizations with shared goals or projects, allowing collaboration while maintaining a level of privacy. This cloud model is ideal for the scenario where organizations are working together and need to migrate project-related data to the cloud."
+  },
+  {
+    "question": "100. Which of the following cables provides the best performance with the least EMI?",
+    "answers": [
+      {
+        "text": "A. Cat 5",
+        "correct": false
+      },
+      {
+        "text": "B. Cat 6",
+        "correct": false
+      },
+      {
+        "text": "C. Cat 7",
+        "correct": true
+      },
+      {
+        "text": "D. Coaxial",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Category 7 (Cat 7) cables provide the best performance with the least Electromagnetic Interference (EMI) due to their enhanced shielding. Cat 7 cables are designed to support higher speeds and bandwidth while reducing interference compared to Cat 5 or Cat 6."
   }
 ]
