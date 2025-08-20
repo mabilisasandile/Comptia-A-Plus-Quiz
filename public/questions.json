@@ -2798,5 +2798,703 @@
     ],
     "multiple": false,
     "explanation": "A firewall monitors and filters incoming and outgoing network traffic based on security rules, protecting the network from unauthorized access and threats."
+  },
+  {
+    "question": "121. A user connects their laptop to a projector in a conference room. Once connected, the user reports the screen is smaller at the bottom than at the top. The user tries restarting the laptop and then disconnecting and reconnecting the cable to the projector. \nWhich of the following should a technician do to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Replace the HDMI cable.",
+        "correct": false
+      },
+      {
+        "text": "B. Power cycle the projector.",
+        "correct": false
+      },
+      {
+        "text": "C. Adjust the keystone",
+        "correct": true
+      },
+      {
+        "text": "D. Increase the resolution.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A distorted image where the screen is not symmetrical (wider at the top or bottom) is typically due to keystone distortion. Adjusting the projector's keystone settings corrects this trapezoidal effect caused by an angled projection."
+  },
+  {
+    "question": "122. Which of the following cable types is the most suitable for delivering 10Gb speeds for distances over 328ft (100m) but under 1,312ft (400m)?",
+    "answers": [
+      {
+        "text": "A. Multimode fiber",
+        "correct": true
+      },
+      {
+        "text": "B. Single-mode fiber",
+        "correct": false
+      },
+      {
+        "text": "C. Cat 6a",
+        "correct": false
+      },
+      {
+        "text": "D. Cat 6",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Multimode fiber is designed for relatively short to medium distances (up to 1,312 feet or 400 meters) while supporting high-speed data transfer (10Gbps and above). It uses LED light sources and is cost-effective for environments like data centers or within buildings. For the specified distance of over 328ft but under 1,312ft, multimode fiber is the most suitable option."
+  },
+  {
+    "question": "123. A company deploys server machines in a public cloud.\nWhich of the following cloud service models is this an example of?",
+    "answers": [
+      {
+        "text": "A. Platform as a service",
+        "correct": false
+      },
+      {
+        "text": "B. Anything as a service",
+        "correct": false
+      },
+      {
+        "text": "C. Infrastructure as a service",
+        "correct": true
+      },
+      {
+        "text": "D. Software as a service",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet. This includes virtual servers, storage, and networking. Deploying server machines falls under IaaS since the organization is responsible for managing the OS and applications on top of the infrastructure."
+  },
+  {
+    "question": "124. An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious.\nWhich of the following techniques should the administrator use to identify the issue (Select two).",
+    "answers": [
+      {
+        "text": "A. Run a magnet over each drive.",
+        "correct": false
+      },
+      {
+        "text": "B. Check if one of the drives is not level",
+        "correct": false
+      },
+      {
+        "text": "C. Listen for clicking and grinding noises",
+        "correct": true
+      },
+      {
+        "text": "D. Check the OS logs",
+        "correct": false
+      },
+      {
+        "text": "E. Update the RAID controller firmware.",
+        "correct": false
+      },
+      {
+        "text": "F. Check the historical SMART data",
+        "correct": true
+      }
+    ],
+    "multiple": true,
+    "explanation": "Clicking and grinding noises indicate mechanical drive failure. SMART data provides insights into the health and status of drives, helping identify failing components in the RAID array."
+  },
+  {
+    "question": "125. A technician is experimenting with network configurations and has connected two laptops to an unmanaged switch. The technician configured one of the laptops with a static IP address of 192.168.1.1 and the other with a static IP address of 192.168.2.2. The laptops are not communicating with each other.\nWhich of the following is the most likely explanation for this issue?",
+    "answers": [
+      {
+        "text": "A. The technician needs to use a hub instead of a switch.",
+        "correct": false
+      },
+      {
+        "text": "B. The wireless NICs are malfunctioning.",
+        "correct": false
+      },
+      {
+        "text": "C. PoE interferes with intersubnet communication.",
+        "correct": false
+      },
+      {
+        "text": "D. The laptops do not have access to a router.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Answer: D"
+  },
+  {
+    "question": "126. Which of the following drive interfaces is typically used in server systems but not in home computers?",
+    "answers": [
+      {
+        "text": "A. NVMe",
+        "correct": false
+      },
+      {
+        "text": "B. SAS",
+        "correct": true
+      },
+      {
+        "text": "C. SATA",
+        "correct": false
+      },
+      {
+        "text": "D. PCIe",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "SAS (Serial Attached SCSI) is a high-performance drive interface commonly found in enterprise environments and servers due to its reliability and speed. While SATA is more common in consumer systems, SAS is specifically designed for mission-critical applications, offering features like full-duplex operation and compatibility with SATA drives."
+  },
+  {
+    "question": "127. A user is receiving many unsolicited emails. Which of the following controls can be configured to best reduce these types of emails?",
+    "answers": [
+      {
+        "text": "A. Load balancer",
+        "correct": false
+      },
+      {
+        "text": "B. Spam gateway",
+        "correct": true
+      },
+      {
+        "text": "C. Mail forwarding",
+        "correct": false
+      },
+      {
+        "text": "D. Proxy servers",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A spam gateway filters unsolicited emails at the server level, significantly reducing spam before it reaches user inboxes."
+  },
+  {
+    "question": "128. A technician is troubleshooting a PoE phone that will not turn on. When a laptop is plugged directly into the switch port for the phone the technician sees a data link LED and activity. \nWhich of the following tools should the technician use to verify PoE availability to the phone?",
+    "answers": [
+      {
+        "text": "A. Network tap",
+        "correct": false
+      },
+      {
+        "text": "B. Cable tester",
+        "correct": true
+      },
+      {
+        "text": "C. Loopback plug",
+        "correct": false
+      },
+      {
+        "text": "D. Toner probe",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A cable tester capable of testing Power over Ethernet (PoE) functionality can verify whether the switchport is providing the required power to the phone. This tool measures both the presence of data and the voltage or wattage being provided through the Ethernet cable. This is the most effective way to confirm that PoE is available on the port."
+  },
+  {
+    "question": "129. A technician needs to select PC components with a minimal number of visible internal cables.\nWhich of the following should the technician use?",
+    "answers": [
+      {
+        "text": "A. SATA drive connections",
+        "correct": false
+      },
+      {
+        "text": "B. Liquid cooling",
+        "correct": false
+      },
+      {
+        "text": "C. Modular power supply",
+        "correct": true
+      },
+      {
+        "text": "D. Wireless NIC",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A modular power supply allows a technician to connect only the power cables that are needed, reducing clutter and improving airflow. This is ideal when aiming for a clean build with minimal visible internal cables."
+  },
+  {
+    "question": "130. A customer reports that a text-only document prints with unrecognizable characters. The print preview correctly displays the document.\nWhich of the following is the most likely cause of the issue?",
+    "answers": [
+      {
+        "text": "A. Outdated firmware",
+        "correct": false
+      },
+      {
+        "text": "B. Incorrect driver",
+        "correct": true
+      },
+      {
+        "text": "C. Bad toner cartridge",
+        "correct": false
+      },
+      {
+        "text": "D. Corrupted document file",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Answer: B"
+  },
+  {
+    "question": "131. A technician is installing a new high-end graphics card that uses a 12VHPWR connector. Which of the following is the maximum wattage supported by this power connector?",
+    "answers": [
+      {
+        "text": "A. 400W",
+        "correct": false
+      },
+      {
+        "text": "B. MOW",
+        "correct": false
+      },
+      {
+        "text": "C. 600W",
+        "correct": true
+      },
+      {
+        "text": "D. 700W",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The 12VHPWR connector can supply up to 600 watts of power, designed for high-end graphics cards."
+  },
+  {
+    "question": "132. A company needs to develop a disaster recovery solution based on virtual machines. Which of the following service models is the most suitable?",
+    "answers": [
+      {
+        "text": "A. Infrastructure as a Service",
+        "correct": true
+      },
+      {
+        "text": "B. Security as a Service",
+        "correct": false
+      },
+      {
+        "text": "C. Platform as a Service",
+        "correct": false
+      },
+      {
+        "text": "D. Software as a Service",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Infrastructure as a Service (IaaS)provides virtualized computing resources over the internet such as servers, storage, and networking. It allows a business to quickly spin up virtual machines and is ideal for disaster recovery and scalable IT infrastructure needs."
+  },
+  {
+    "question": "133. A user joins a conference call with a Bluetooth headset. Which of the following has the user created?",
+    "answers": [
+      {
+        "text": "A. MAN",
+        "correct": false
+      },
+      {
+        "text": "B. PAN",
+        "correct": true
+      },
+      {
+        "text": "C. SAN",
+        "correct": false
+      },
+      {
+        "text": "D. WAN",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A PAN is a network established between devices in close proximity, such as between a smartphone and a Bluetooth headset. Bluetooth technology is specifically designed for short-range communication, making it a type of PAN."
+  },
+  {
+    "question": "134. A help desk technician inspects a laptop keyboard because a single key has stopped working. The technician checks the keyboard for debris.\nWhich of the following actions should the technician do next to troubleshoot the issue cost-effectively?",
+    "answers": [
+      {
+        "text": "A. Replace the keyboard.",
+        "correct": false
+      },
+      {
+        "text": "B. Replace the key switch",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the circuit board.",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the keycap",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "If only one key is not functioning and debris has been checked, replacing the individual keycap is the most cost-effective next step. It's a simple, low-cost option before considering more extensive repairs like replacing the entire keyboard."
+  },
+  {
+    "question": "135. A technician needs to move a workstation to a different logical network segment. Which of the following technologies should the technician use?",
+    "answers": [
+      {
+        "text": "A. DHCP",
+        "correct": false
+      },
+      {
+        "text": "B. VLAN",
+        "correct": true
+      },
+      {
+        "text": "C. DNS",
+        "correct": false
+      },
+      {
+        "text": "D. VPN",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "AVLAN (Virtual LAN)is used to logically segment a network without requiring physical separation.\nIt enables grouping devices based on function or department regardless of their physical location."
+  },
+  {
+    "question": "136. An end user's domain password expires while they are working from home. The end user tries to reset the password using Ctrl+Alt+Delete and then receives the following message:\n\nConfiguration information could not be read from the domain controller, either because the machine is unavailable or because access is denied.\n\nWhich of the following will resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Restart the computer.",
+        "correct": false
+      },
+      {
+        "text": "B. Connect to the VPN.",
+        "correct": true
+      },
+      {
+        "text": "C. Reset the account in Active Directory.",
+        "correct": false
+      },
+      {
+        "text": "D. Join the Wi-Fi network.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "To change a domain password from a remote location, the system must communicate with the domain controller. Since the user is working from home, they need to connect to the corporate VPN to establish that secure connection. Without it, the password change cannot be authenticated."
+  },
+  {
+    "question": "137. A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged.\nWhich of the following is the most likely cause of this issue?",
+    "answers": [
+      {
+        "text": "A. Malfunctioning power supply",
+        "correct": false
+      },
+      {
+        "text": "B. Damaged charge port",
+        "correct": false
+      },
+      {
+        "text": "C. Deprecated battery",
+        "correct": true
+      },
+      {
+        "text": "D. Broken screen",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A bulging tablet casing is a classic sign of a swollen lithium-ion battery, often caused by age, overheating, or overcharging. This is a dangerous condition, as swollen batteries can rupture or catch fire. It also explains why the tablet only works when plugged in -- the battery is no longer holding a charge."
+  },
+  {
+    "question": "138. Which of the following best characterizes the use of a virtual machine as a sandbox?",
+    "answers": [
+      {
+        "text": "A. Run an application on multiple workstations without installation.",
+        "correct": false
+      },
+      {
+        "text": "B. Explore how an application behaves in a different environment",
+        "correct": true
+      },
+      {
+        "text": "C. Migrate a currently used legacy application from physical to virtual",
+        "correct": false
+      },
+      {
+        "text": "D. Create a firewall where the sandbox acts as a perimeter network.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A sandbox in virtualization allows testing an application in an isolated environment to observe its behavior without affecting the host system."
+  },
+  {
+    "question": "139. Which of the following services is used to allocate IP addresses in an enterprise-wide environment?",
+    "answers": [
+      {
+        "text": "A. DNS",
+        "correct": false
+      },
+      {
+        "text": "B. Syslog",
+        "correct": false
+      },
+      {
+        "text": "C. Telnet",
+        "correct": false
+      },
+      {
+        "text": "D. DHCP",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) is a network service used to automatically assign IP addresses and other network configuration details (such as subnet masks and default gateways) to devices on an enterprise-wide network."
+  },
+  {
+    "question": "140. A technician is replacing a failed power supply in a ten-year-old computer When installing the customer provided power supply, the technician discovers the ATX connector would not plug into the motherboard. The customer wants a cost-effective solution.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Adjust the input voltage.",
+        "correct": false
+      },
+      {
+        "text": "B. Install a modular power supply.",
+        "correct": false
+      },
+      {
+        "text": "C. Rebuild the failed power supply.",
+        "correct": false
+      },
+      {
+        "text": "D. Use a 20-pin to 24-pin adapter.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Older motherboards use 20-pin connectors, while newer power supplies use 24-pin connectors.\nAn adapter resolves the compatibility issue cost effectively."
+  },
+  {
+    "question": "141. Which of the following involves installing an application on a server so several users can run the application concurrently without the need for local installation?",
+    "answers": [
+      {
+        "text": "A. Client virtualization",
+        "correct": true
+      },
+      {
+        "text": "B. Software as a service",
+        "correct": false
+      },
+      {
+        "text": "C. Sandboxing",
+        "correct": false
+      },
+      {
+        "text": "D. Embedded software",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Client virtualization involves installing an application on a server and enabling multiple users to run the application simultaneously via virtualized sessions. This eliminates the need for individual installations on local machines."
+  },
+  {
+    "question": "142. A company wants to save printing costs by restricting network printer use. The company implements a solution that requires employees to authenticate to the printer to release print jobs.\nWhich of the following has the company implemented?",
+    "answers": [
+      {
+        "text": "A. Access control list",
+        "correct": false
+      },
+      {
+        "text": "B. Audit logging",
+        "correct": false
+      },
+      {
+        "text": "C. Badging",
+        "correct": true
+      },
+      {
+        "text": "D. Print server",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Badging is a form of authentication that requires employees to use a badge or ID card to release print jobs.\nThis solution reduces unnecessary printing by ensuring only authorized users print."
+  },
+  {
+    "question": "143. A human resources department uses a network shared with other departments to produce a variety of printed resources for legal retention. The human resources department only wants Its members to have access to these materials.\nWhich of the following should the technician Implement?",
+    "answers": [
+      {
+        "text": "A. Security groups",
+        "correct": true
+      },
+      {
+        "text": "B. Audit logs",
+        "correct": false
+      },
+      {
+        "text": "C. Time-of-day access",
+        "correct": false
+      },
+      {
+        "text": "D. Print server",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Security groups are used to manage access permissions to network resources, ensuring only authorized HR department members can access the shared materials."
+  },
+  {
+    "question": "144. A customer reports slow network speeds. Which of the following components is most likely failing?",
+    "answers": [
+      {
+        "text": "A. CPU",
+        "correct": false
+      },
+      {
+        "text": "B. NIC",
+        "correct": true
+      },
+      {
+        "text": "C. HDD",
+        "correct": false
+      },
+      {
+        "text": "D. RAM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Network Interface Card (NIC)is the hardware responsible for network connectivity. If the NIC is failing or underperforming (e.g., due to a bad driver, hardware fault, or misconfiguration), it can cause slow or unstable network speeds."
+  },
+  {
+    "question": "145. Which of the following printing initiatives would be best to accomplish environmentally friendly objectives?",
+    "answers": [
+      {
+        "text": "A. Requiring user authentication for printing",
+        "correct": false
+      },
+      {
+        "text": "B. Locking down printing to only certain individuals",
+        "correct": false
+      },
+      {
+        "text": "C. Modifying duplex settings to double-sided",
+        "correct": true
+      },
+      {
+        "text": "D. Changing the print quality settings to best",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Modifying duplex settings to double-sided:\nPrinting on both sides of the paper (duplex printing) reduces paper usage, making it one of the most effective environmentally friendly printing initiatives.\nIt directly minimizes waste and supports sustainability goals in the workplace."
+  },
+  {
+    "question": "146. Which of the following best represents the purpose of NFC?",
+    "answers": [
+      {
+        "text": "A. Wired connections between several devices",
+        "correct": false
+      },
+      {
+        "text": "B. Short-distance wireless connections between two devices",
+        "correct": true
+      },
+      {
+        "text": "C. Wireless connections between multiple devices at once",
+        "correct": false
+      },
+      {
+        "text": "D. Direct connection of two computers for file sharing",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "NFC (Near-Field Communication) is a subset of RFID technology designed for very short-range wireless communication, typically within a few centimeters. It is primarily used for contactless transactions, like mobile payments, and can also support peer-to-peer data exchanges. NFC operates at 13.56 MHz and enables devices to communicate when placed near each other."
+  },
+  {
+    "question": "147. A user is unable to access secure applications on their tablet when working from home a couple days per week, but the applications work when in the office. \nWhich of the following services most likely needs to be reconfigured to allow for remote work?",
+    "answers": [
+      {
+        "text": "A. Global Positioning System",
+        "correct": false
+      },
+      {
+        "text": "B. Mobile device management",
+        "correct": true
+      },
+      {
+        "text": "C. Wi-Fi Protected Access",
+        "correct": false
+      },
+      {
+        "text": "D. Near-field communication",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Mobile Device Management (MDM)software often controls access to corporate resources based on location, network, or VPN status. If the MDM is not configured to allow access from outside the office or via home networks, the apps may be blocked. This is the most probable cause if apps work only on- premises."
+  },
+  {
+    "question": "148. Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?",
+    "answers": [
+      {
+        "text": "A. VDI",
+        "correct": false
+      },
+      {
+        "text": "B. Private cloud",
+        "correct": false
+      },
+      {
+        "text": "C. Sandbox",
+        "correct": true
+      },
+      {
+        "text": "D. Type 1 hypervisor",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A sandbox is an isolated virtual environment used to test or run applications securely without risk to the host or network. It prevents the VM from communicating with external systems, making it ideal for testing malware or suspicious software."
+  },
+  {
+    "question": "149. Which of the following connectors is found on an optical networking cable?",
+    "answers": [
+      {
+        "text": "A. RJ45",
+        "correct": false
+      },
+      {
+        "text": "B. LC",
+        "correct": true
+      },
+      {
+        "text": "C. USB-C",
+        "correct": false
+      },
+      {
+        "text": "D. Lightning",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "LC is a type of fiber optic connector commonly used in optical networking cables. It is small, compact, and widely used for high-speed data transfer over fiber optic networks. LC connectors are specifically designed for fiber optic cables, making them the correct answer."
+  },
+  {
+    "question": "150. A technician needs to troubleshoot a user's smartphone that will not connect to its wireless provider's service.\nWhich of the following should the technician check first?",
+    "answers": [
+      {
+        "text": "A. SIM card",
+        "correct": false
+      },
+      {
+        "text": "B. Network settings",
+        "correct": false
+      },
+      {
+        "text": "C. Subscription plan",
+        "correct": true
+      },
+      {
+        "text": "D. Bluetooth connection",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Answer: C"
   }
 ]
