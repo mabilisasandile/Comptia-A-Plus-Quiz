@@ -2326,5 +2326,477 @@
     ],
     "multiple": false,
     "explanation": "Category 7 (Cat 7) cables provide the best performance with the least Electromagnetic Interference (EMI) due to their enhanced shielding. Cat 7 cables are designed to support higher speeds and bandwidth while reducing interference compared to Cat 5 or Cat 6."
+  },
+  {
+    "question": "101. When trying to print, a is offline. Other users can print to the same printer without error. Which of the following is the first step the technician should take to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Check the user's print queue settings.",
+        "correct": true
+      },
+      {
+        "text": "B. Check the printer's IP address.",
+        "correct": false
+      },
+      {
+        "text": "C. Check the user's network settings.",
+        "correct": false
+      },
+      {
+        "text": "D. Check the printer's firmware version.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When a printer is offline for one user but works for others, the issue often lies in the user's print queue settings, such as a paused queue or failed print jobs. Checking and clearing the print queue can resolve the problem."
+  },
+  {
+    "question": "102. A user arrives at the office and is unable to access the company's network on a smartphone. The user enables Wi-Fi on the smartphone, but it only shows the 5G symbol. Which of the following device settings should the user configure to fix this issue?",
+    "answers": [
+      {
+        "text": "A. Autoconnect",
+        "correct": true
+      },
+      {
+        "text": "B. VPN",
+        "correct": false
+      },
+      {
+        "text": "C. Encryption",
+        "correct": false
+      },
+      {
+        "text": "D. WPS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If the smartphone is showing a 5G symbol, it is connected to a cellular network rather than Wi-Fi. \nEnabling Autoconnect ensures the device automatically connects to the company Wi-Fi when in range, resolving the issue."
+  },
+  {
+    "question": "103. In which of the following cloud models is the customer not responsible for hardware and OS layers but is responsible for the data and the application?",
+    "answers": [
+      {
+        "text": "A. PaaS",
+        "correct": true
+      },
+      {
+        "text": "B. SaaS",
+        "correct": false
+      },
+      {
+        "text": "C. laaS",
+        "correct": false
+      },
+      {
+        "text": "D. CaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "In Platform as a Service (PaaS), the cloud provider manages the hardware, operating system, and middleware, while the customer is responsible for managing data and applications."
+  },
+  {
+    "question": "104. A technician is troubleshooting a recently installed printer that is leaving multiple lines and streaks on print jobs. Which of the following should the technician replace first?",
+    "answers": [
+      {
+        "text": "A. Rollers",
+        "correct": false
+      },
+      {
+        "text": "B. Drum",
+        "correct": false
+      },
+      {
+        "text": "C. Toner",
+        "correct": true
+      },
+      {
+        "text": "D. Fuser",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Streaks and multiple lines on print jobs are commonly caused by an issue with the toner cartridge, such as a damaged or improperly installed cartridge. The technician should replace the toner first as it is the most likely and simplest component to check."
+  },
+  {
+    "question": "105. An administrator is setting up a conference room for an important board of directors meeting. The chief operating officer has asked the administrator to make sure a redundant internet connection is available. The office only has one ISP. and the conference room equipment is currently configured using Ethernet. \nWhich of the following should the administrator set up in order to ensure redundancy?",
+    "answers": [
+      {
+        "text": "A. Wireless access point",
+        "correct": false
+      },
+      {
+        "text": "B. Near-field communication",
+        "correct": false
+      },
+      {
+        "text": "C. Hotspot",
+        "correct": true
+      },
+      {
+        "text": "D. Bluetooth",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hotspot provides a redundant internet connection using cellular data. This ensures connectivity for the meeting even if the primary ISP connection fails."
+  },
+  {
+    "question": "106. A SOHO user's network printer has been without power for the last few days. After turning the printer back on, the user cannot connect to it. Which of the following is the most probable cause?",
+    "answers": [
+      {
+        "text": "A. The printer has a static IP address.",
+        "correct": false
+      },
+      {
+        "text": "B. The printer has a dynamic IP address.",
+        "correct": true
+      },
+      {
+        "text": "C. The printer has an APIPA.",
+        "correct": false
+      },
+      {
+        "text": "D. The printer has a public IP address.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If the printer uses a dynamic IP address and has been without power, the DHCP lease may have expired, and the printer may have been assigned a new IP address. Devices attempting to connect using the old IP address will fail."
+  },
+  {
+    "question": "107. Which of the following best describes the concept of a DHCP lease?",
+    "answers": [
+      {
+        "text": "A. A definition of the scope of addresses to be assigned to a device on the network",
+        "correct": false
+      },
+      {
+        "text": "B. A reservation of an IP configuration for a device on the network",
+        "correct": false
+      },
+      {
+        "text": "C. A temporary assignment of an IP configuration to a device on the network",
+        "correct": true
+      },
+      {
+        "text": "D. A translation of network names to IP addresses for a device on the network",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A DHCP lease is a temporary assignment of an IP address and other network configuration parameters (such as DNS and gateway) to a device. The lease is renewed periodically to\nmaintain the assignment."
+  },
+  {
+    "question": "108. Which of the following cables are the most likely to be implemented using a punch down block?\n(Select two).",
+    "answers": [
+      {
+        "text": "A. Telephone",
+        "correct": true
+      },
+      {
+        "text": "B. Fiber",
+        "correct": false
+      },
+      {
+        "text": "C. HDMI",
+        "correct": false
+      },
+      {
+        "text": "D. Ethernet",
+        "correct": true
+      },
+      {
+        "text": "E. Coaxial",
+        "correct": false
+      },
+      {
+        "text": "F. USB",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "Punch-down blocks are commonly used to terminate and manage cabling for telephone systems and Ethernet networks (e.g., Cat 5, Cat 6). These blocks allow for efficient organization and connection of wires."
+  },
+  {
+    "question": "109. A help desk technician is tasked with moving a user's computer to a makeshift office for renovations. Upon moving the computer, the technician notices the network card will not utilize anything beyond 10Mbps half-duplex. Which of the following is the most likely issue?",
+    "answers": [
+      {
+        "text": "A. The computer is connected with DSL.",
+        "correct": false
+      },
+      {
+        "text": "B. The computer is connected to an unmanaged switch.",
+        "correct": false
+      },
+      {
+        "text": "C. The computer is configured for NIC teaming.",
+        "correct": false
+      },
+      {
+        "text": "D. The computer is connected to a hub.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Hubs operate in half-duplex mode and are limited to low speeds like 10Mbps, making them the most likely cause for the network card's performance issue."
+  },
+  {
+    "question": "110. Which of the following internet connection types is most likely to be used in remote locations?",
+    "answers": [
+      {
+        "text": "A. Fiber",
+        "correct": false
+      },
+      {
+        "text": "B. Cable",
+        "correct": false
+      },
+      {
+        "text": "C. Satellite",
+        "correct": true
+      },
+      {
+        "text": "D. DSL",
+        "correct": false
+      },
+      {
+        "text": "E. Cellular",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Satellite internet is most commonly used in remote areas where wired infrastructure (e.g., fiber or cable) is unavailable. It relies on satellite communication, making it suitable for isolated locations."
+  },
+  {
+    "question": "111. Which of the following DNS record types is used to direct email to a mail server?",
+    "answers": [
+      {
+        "text": "A. CNAME",
+        "correct": false
+      },
+      {
+        "text": "B. SRV",
+        "correct": false
+      },
+      {
+        "text": "C. MX",
+        "correct": true
+      },
+      {
+        "text": "D. SOA",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An MX (Mail Exchange) record specifies the mail server responsible for receiving email for a domain."
+  },
+  {
+    "question": "112. Which of the following cable types can be used to transfer data and video?",
+    "answers": [
+      {
+        "text": "A. USB-C",
+        "correct": true
+      },
+      {
+        "text": "B. HDMI",
+        "correct": false
+      },
+      {
+        "text": "C. DisplayPort",
+        "correct": false
+      },
+      {
+        "text": "D. VGA",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "USB-Cis a versatile connector capable of transmitting data, video, audio, and power. With standards like DisplayPort over USB-C or Thunderbolt 3/4, it can be used for external displays, file transfers, charging, and more -- all through one cable."
+  },
+  {
+    "question": "113. A recently installed printer is incorrectly aligning printed documents. Which of the following should the technician do first to fix this issue?",
+    "answers": [
+      {
+        "text": "A. Run the maintenance application.",
+        "correct": true
+      },
+      {
+        "text": "B. Clean the rollers",
+        "correct": false
+      },
+      {
+        "text": "C. Upgrade the firmware",
+        "correct": false
+      },
+      {
+        "text": "D. Reinstall the drivers",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Most modern printers include a built-in maintenance application that can calibrate the print heads and correct alignment issues. Running this tool is the first step to address misalignment."
+  },
+  {
+    "question": "114. A user brings a laptop to work every morning, correctly seats it in the docking station and then opens the laptop to begin work with no issues. After the user left the laptop at home during a two-week vacation the laptop is no longer working. Upon returning to the office, the user reports that the keyboard and display are no longer working.\nWhich of the following should the technician ask the user to do first?",
+    "answers": [
+      {
+        "text": "A. Ensure the docking station is plugged in.",
+        "correct": false
+      },
+      {
+        "text": "B. Press and release the laptop power button.",
+        "correct": true
+      },
+      {
+        "text": "C. Plug the laptop in and let it charge overnight",
+        "correct": false
+      },
+      {
+        "text": "D. Connect the laptop directly to the network.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Reasoning: Many docking stations provide power and functionality only when the laptop is properly powered on. If the laptop was powered off (e.g., during the vacation), docking it will not automatically turn it on. The technician should first ensure the laptop is powered on by pressing the power button. This is a common troubleshooting step when laptops in docking stations appear non-functional."
+  },
+  {
+    "question": "115. A security team wants to implement compliance controls that only permits the installation of company- approved software on user laptops.\nWhich of the following should the IT department deploy?",
+    "answers": [
+      {
+        "text": "A. EDR",
+        "correct": false
+      },
+      {
+        "text": "B. VPN",
+        "correct": false
+      },
+      {
+        "text": "C. MDM",
+        "correct": true
+      },
+      {
+        "text": "D. SaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Mobile Device Management (MDM) allows IT departments to enforce compliance controls, such as restricting the installation of unapproved software, on laptops and mobile devices."
+  },
+  {
+    "question": "116. A user prints a spreadsheet in duplex mode. The spreadsheet is difficult to read because some of the columns spill onto the second side of the page.\nWhich of the following should the user do to prevent the issue but still print on both sides of the page?",
+    "answers": [
+      {
+        "text": "A. Turn off duplex printing.",
+        "correct": false
+      },
+      {
+        "text": "B. Try a smaller font size in the spreadsheet.",
+        "correct": false
+      },
+      {
+        "text": "C. Change the page orientation.",
+        "correct": true
+      },
+      {
+        "text": "D. Use a different print driver.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Changing the page orientation(e.g., from portrait to landscape) allows wider columns to fit on one side of the page. This maintains readability while continuing to use duplex printing."
+  },
+  {
+    "question": "117. Which of the forming connector types would best suit a company that experiences a large volume of internet traffic?",
+    "answers": [
+      {
+        "text": "A. USB 3.1",
+        "correct": false
+      },
+      {
+        "text": "B. Quad-shielded RG11 coax",
+        "correct": true
+      },
+      {
+        "text": "C. SATA3.0",
+        "correct": false
+      },
+      {
+        "text": "D. Unshielded plenum RJ45",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "RG11 coaxial cable with quad shielding is designed to handle large volumes of internet traffic, providing excellent resistance to interference and high bandwidth capacity."
+  },
+  {
+    "question": "118. A customer reports their tablet was recently dropped on the ground. The tablet has a small crack in one corner of the display, and it does not charge when plugged in.\nWhich of the following should a technician do first?",
+    "answers": [
+      {
+        "text": "A. Perform a hard restart.",
+        "correct": false
+      },
+      {
+        "text": "B. Replace the battery",
+        "correct": false
+      },
+      {
+        "text": "C. Inspect the USB-C port for damage",
+        "correct": true
+      },
+      {
+        "text": "D. Run diagnostics on the digitizer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Physical damage from dropping a tablet may often affect ports or connectors. Before taking deeper diagnostic or replacement steps, it's important to visually inspect the USB-C charging port for damage or debris. If the port is damaged, charging issues can occur regardless of battery\nhealth."
+  },
+  {
+    "question": "119. A user's wireless headset shows a \"connected\" status when turned on, but the Bluetooth list on the user's phone shows that the headset is \"not connected.\".\nWhich of the following should the technician do?",
+    "answers": [
+      {
+        "text": "A. Enter the PIN.",
+        "correct": false
+      },
+      {
+        "text": "B. Turn off Wi-Fi.",
+        "correct": false
+      },
+      {
+        "text": "C. Re-pair the devices.",
+        "correct": true
+      },
+      {
+        "text": "D. Enable Bluetooth.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When a device shows as not connected even though it previously paired, the most effective action is to re-pair the devices. This resets the Bluetooth connection, clears any corruption in pairing profiles, and re-establishes communication."
+  },
+  {
+    "question": "120. Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?",
+    "answers": [
+      {
+        "text": "A. Switch",
+        "correct": false
+      },
+      {
+        "text": "B. Access point",
+        "correct": false
+      },
+      {
+        "text": "C. Firewall",
+        "correct": true
+      },
+      {
+        "text": "D. Hub",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A firewall monitors and filters incoming and outgoing network traffic based on security rules, protecting the network from unauthorized access and threats."
   }
 ]
