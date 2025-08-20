@@ -3496,5 +3496,270 @@
     ],
     "multiple": false,
     "explanation": "Answer: C"
+  },
+  {
+    "question": "151. A technician wants to upgrade a computer to a new Windows version. The Windows Upgrade Advisor states that the computer is not compatible with the new Windows version due to a lack of TPM 2.0 support.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Enable the module in the UEFI BIOS.",
+        "correct": true
+      },
+      {
+        "text": "B. Install an HSM in the computer.",
+        "correct": false
+      },
+      {
+        "text": "C. Perform a clean Install of the new Windows version.",
+        "correct": false
+      },
+      {
+        "text": "D. Implement BitLocker on the computer.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "TPM 2.0 (Trusted Platform Module) is often disabled by default in the UEFI BIOS. Enabling it is necessary to meet the requirements for certain Windows installations, including Windows 11."
+  },
+  {
+    "question": "152. A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage.\nWhich of the following should the technician do to resolve the issue? (Select two).",
+    "answers": [
+      {
+        "text": "A. Run a BIOS update.",
+        "correct": false
+      },
+      {
+        "text": "B. Swap out the RAM.",
+        "correct": false
+      },
+      {
+        "text": "C. Disable NTP in the OS.",
+        "correct": false
+      },
+      {
+        "text": "D. Repair the backup power source.",
+        "correct": true
+      },
+      {
+        "text": "E. Replace the CMOS battery",
+        "correct": true
+      },
+      {
+        "text": "F. Install a surge protector.",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "The system date/time is maintained by the CMOS battery when the PC is powered off. If this battery fails, time resets will occur. Additionally, since the system is connected to a UPS, ensuring the UPS is functioning correctly (i.e., the backup power source) is essential."
+  },
+  {
+    "question": "153. A customer reports a problem connecting to network resources. After asking open-ended questions, the technician determines the issue likely exists on the remote server.\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Document the findings.",
+        "correct": false
+      },
+      {
+        "text": "B. Test the theory",
+        "correct": true
+      },
+      {
+        "text": "C. Gather information",
+        "correct": false
+      },
+      {
+        "text": "D. Establish a plan of action",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "After determining the issue is likely on the remote server, the technician should test the theory to confirm the root cause before proceeding."
+  },
+  {
+    "question": "154 Which of the following is used primarily for archiving data?",
+    "answers": [
+      {
+        "text": "A. PAN",
+        "correct": false
+      },
+      {
+        "text": "B. MAN",
+        "correct": false
+      },
+      {
+        "text": "C. SAN",
+        "correct": true
+      },
+      {
+        "text": "D. LAN",
+        "correct": false
+      },
+      {
+        "text": "E. WAN",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Storage Area Network (SAN) is primarily used for data archiving and large-scale storage. SANs provide high-speed, block-level storage for enterprise environments."
+  },
+  {
+    "question": "155. An IT specialist compares Bluetooth and NFC technologies for mobile device connectivity. Which\nof the following statements accurately describes a key difference between the two?",
+    "answers": [
+      {
+        "text": "A. NFC is faster than Bluetooth when transferring large files between devices.",
+        "correct": false
+      },
+      {
+        "text": "B. NFC consumes more power than Bluetooth, making it less suitable for devices in which battery conservation is crucial.",
+        "correct": false
+      },
+      {
+        "text": "C. NFC requires pairing with the receiving host, whereas Bluetooth just needs the available connection.",
+        "correct": false
+      },
+      {
+        "text": "D. NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "NFC (Near-Field Communication)operates at very short ranges -- usually less than 4cm, and is ideal for quick, secure transactions like contactless payments. Bluetooth supports longer ranges (up to 10 meters or 32 feet)and is suited for ongoing connections like wireless headsets or file transfers."
+  },
+  {
+    "question": "156. Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer.\nWhich of the following is me most likely cause?",
+    "answers": [
+      {
+        "text": "A. Rollers",
+        "correct": true
+      },
+      {
+        "text": "B. Tray assembly",
+        "correct": false
+      },
+      {
+        "text": "C. Toner",
+        "correct": false
+      },
+      {
+        "text": "D. Printhead",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If paper gets stuck at the last stage of printing, the rollers responsible for moving the paper through the printer are likely worn out or dirty."
+  },
+  {
+    "question": "157. Which of the following is an advantage of using a hybrid cloud instead of a public cloud?",
+    "answers": [
+      {
+        "text": "A. Ability to reduce management overhead",
+        "correct": false
+      },
+      {
+        "text": "B. Ability to use cross-platform virtualization",
+        "correct": false
+      },
+      {
+        "text": "C. Ability to meet data residency requirements",
+        "correct": true
+      },
+      {
+        "text": "D. Ability to leverage IaaS and PaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hybrid cloud combines on-premises infrastructure with public cloud services. One significant advantage is that it allows organizations to keep sensitive data in a private environment to meet regulatory or data residency requirements, while still utilizing the scalability and cost-efficiency of the public cloud for other workloads. This ensures compliance with legal mandates about data location."
+  },
+  {
+    "question": "158. Which of the following should a technician use to terminate a Cat 6 cable to a patch panel?",
+    "answers": [
+      {
+        "text": "A. Punchdown tool",
+        "correct": true
+      },
+      {
+        "text": "B. Crimper",
+        "correct": false
+      },
+      {
+        "text": "C. Toner probe",
+        "correct": false
+      },
+      {
+        "text": "D. Network tap",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A punchdown tool is specifically used to insert wires into a punchdown block in patch panels, which is typical for Cat 6 and similar cabling. It ensures a secure and correct connection by pushing the wire into a metal groove that slices the insulation."
+  },
+  {
+    "question": "159. Which of the following types of connectors does an IDE hard drive use for power?",
+    "answers": [
+      {
+        "text": "A. F type",
+        "correct": false
+      },
+      {
+        "text": "B. SC",
+        "correct": false
+      },
+      {
+        "text": "C. Molex",
+        "correct": true
+      },
+      {
+        "text": "D. Lightning",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An IDE hard drive uses a Molex connector for power. This 4 pin connector is a standard for older drives."
+  },
+  {
+    "question": "169. A customer reports that a workstation has no internet connectivity. A technician confirms the port is disabled. Which of the following is most likely responsible for the issue?",
+    "answers": [
+      {
+        "text": "A. Patch panel",
+        "correct": false
+      },
+      {
+        "text": "B. Physical NIC",
+        "correct": false
+      },
+      {
+        "text": "C. Managed switch",
+        "correct": true
+      },
+      {
+        "text": "D. Stand-alone firewall",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A managed switch allows an administrator to enable or disable individual ports as part of network security and management. If a port on a managed switch has been disabled, the device connected to that port will lose connectivity, which matches the scenario described."
+  },
+  {
+    "question": "170. Which of the following ports is commonly used for remote desktop connections?",
+    "answers": [
+      {
+        "text": "A. 137",
+        "correct": false
+      },
+      {
+        "text": "B. 445",
+        "correct": false
+      },
+      {
+        "text": "C. 3389",
+        "correct": true
+      },
+      {
+        "text": "D. 4443",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Port 3389 is used by the Remote Desktop Protocol (RDP) for remote desktop connections in Windows environments. This port allows remote control and management of systems across  the network."
   }
 ]
