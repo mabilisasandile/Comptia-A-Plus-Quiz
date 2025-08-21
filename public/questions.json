@@ -4467,5 +4467,823 @@
     ],
     "multiple": false,
     "explanation": "A port replicator is designed to allow a user to quickly connect a laptop to multiple peripherals (display, keyboard, mouse, network, etc.) using a single interface, reducing setup time."
+  },
+  {
+    "question": "201. A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
+    "answers": [
+      {
+        "text": "A. Firmware",
+        "correct": true
+      },
+      {
+        "text": "B. Driver",
+        "correct": false
+      },
+      {
+        "text": "C. OS update",
+        "correct": false
+      },
+      {
+        "text": "D. HSM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Firmware is the embedded software on a device such as a printer. Manufacturers often release firmware updates to resolve hardware-specific functionality issues, such as scan-to-email or security vulnerabilities."
+  },
+  {
+    "question": "202. A technician is setting up a new SOHO wireless router. According to security best practices, which of the following should the technician do first?",
+    "answers": [
+      {
+        "text": "A. Enable encryption.",
+        "correct": false
+      },
+      {
+        "text": "B. Assign a static IP.",
+        "correct": false
+      },
+      {
+        "text": "C. Change the default password.",
+        "correct": true
+      },
+      {
+        "text": "D. Reset the router.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The first security step after deploying a new router is to change the default administrative password. Default credentials are well known and pose a security risk if left unchanged."
+  },
+  {
+    "question": "203. Which of the following can carry data and electricity to network devices? (Choose two)",
+    "answers": [
+      {
+        "text": "A. Router",
+        "correct": false
+      },
+      {
+        "text": "B. Injector",
+        "correct": true
+      },
+      {
+        "text": "C. Cable modem",
+        "correct": false
+      },
+      {
+        "text": "D. Access point",
+        "correct": false
+      },
+      {
+        "text": "E. PoE",
+        "correct": true
+      },
+      {
+        "text": "F. Unmanaged switch",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "PoE (Power over Ethernet) allows both data and electrical power to be delivered over the same Ethernet cable. A PoE injector adds power to Ethernet cables for devices that need it."
+  },
+  {
+    "question": "204. A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
+    "answers": [
+      {
+        "text": "A. Public",
+        "correct": false
+      },
+      {
+        "text": "B. Hybrid",
+        "correct": true
+      },
+      {
+        "text": "C. Community",
+        "correct": false
+      },
+      {
+        "text": "D. Private",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hybrid cloud combines private infrastructure (on-premises, self-operated data centers) with public cloud services, providing flexibility and scalability."
+  },
+  {
+    "question": "205. A technician is setting up a new multifunction device to be used over a shared network connection. Copier functions need to be restricted to only office employees. Which of the following should the technician perform after configuring the device to use a print server that exists on the domain?",
+    "answers": [
+      {
+        "text": "A. SMTP implementation",
+        "correct": false
+      },
+      {
+        "text": "B. Firmware update",
+        "correct": false
+      },
+      {
+        "text": "C. User authentication",
+        "correct": true
+      },
+      {
+        "text": "D. SMB configuration",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "User authentication allows access to device functions (like printing and copying) to be restricted to authorized personnel. This is typically implemented on networked multifunction devices for security and auditing."
+  },
+  {
+    "question": "206. A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
+    "answers": [
+      {
+        "text": "A. HDD",
+        "correct": true
+      },
+      {
+        "text": "B. RAM",
+        "correct": false
+      },
+      {
+        "text": "C. NIC",
+        "correct": false
+      },
+      {
+        "text": "D. BIOS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hard disk drive (HDD), especially if it's older or nearly full, is the most common cause of slow startup times in laptops. HDDs are much slower than SSDs and can significantly bottleneck the boot process."
+  },
+  {
+    "question": "207. Which of the following display technologies typically provides the highest contrast?",
+    "answers": [
+      {
+        "text": "A. IPS",
+        "correct": false
+      },
+      {
+        "text": "B. OLED",
+        "correct": true
+      },
+      {
+        "text": "C. TN",
+        "correct": false
+      },
+      {
+        "text": "D. VA",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "OLED (Organic Light-Emitting Diode) technology can turn off individual pixels completely, producing \"true black\" and resulting in the highest contrast ratios compared to other display types."
+  },
+  {
+    "question": "208. Which of the following types of RAM would most likely be used in a server?",
+    "answers": [
+      {
+        "text": "A. SODIMM",
+        "correct": false
+      },
+      {
+        "text": "B. ECC",
+        "correct": true
+      },
+      {
+        "text": "C. Unbuffered",
+        "correct": false
+      },
+      {
+        "text": "D. DDR3",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "ECC (Error-Correcting Code) RAM is commonly used in servers because it can detect and correct memory errors, providing greater stability and reliability for mission-critical environments."
+  },
+  {
+    "question": "209. A company migrates a local application to an internal cloud platform. Which of the following best describes this cloud platform?",
+    "answers": [
+      {
+        "text": "A. Private",
+        "correct": true
+      },
+      {
+        "text": "B. Public",
+        "correct": false
+      },
+      {
+        "text": "C. Community",
+        "correct": false
+      },
+      {
+        "text": "D. Hybrid",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An internal cloud platform operated exclusively for a single organization is a private cloud, providing dedicated resources and enhanced control."
+  },
+  {
+    "question": "210. A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?",
+    "answers": [
+      {
+        "text": "A. Badging",
+        "correct": true
+      },
+      {
+        "text": "B. Password",
+        "correct": false
+      },
+      {
+        "text": "C. Passcode",
+        "correct": false
+      },
+      {
+        "text": "D. Biometrics",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Badging refers to the use of NFC-enabled ID badges or cards that authenticate users when tapped against a reader for secure print or access control."
+  },
+  {
+    "question": "211. A customer recently lost data due to several unexpected shutdowns. Data integrity is important to the customer. Which of the following features should the technician choose to prevent data loss?",
+    "answers": [
+      {
+        "text": "A. Redundant power supply",
+        "correct": false
+      },
+      {
+        "text": "B. Uninterruptible power supply",
+        "correct": true
+      },
+      {
+        "text": "C. Modular power supply",
+        "correct": false
+      },
+      {
+        "text": "D. High-efficiency power supply",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An uninterruptible power supply (UPS) protects systems against power outages by providing temporary backup power, giving users time to save data and safely shut down."
+  },
+  {
+    "question": "212. Which of the following allows a physical server to host multiple virtual machines?",
+    "answers": [
+      {
+        "text": "A. Cross-platform virtualization",
+        "correct": false
+      },
+      {
+        "text": "B. Hypervisor",
+        "correct": true
+      },
+      {
+        "text": "C. Sandbox",
+        "correct": false
+      },
+      {
+        "text": "D. SaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hypervisor is software or firmware that allows multiple operating systems (virtual machines) to run on a single physical host. It manages the allocation of resources and isolation of each VM."
+  },
+  {
+    "question": "213. Which of the following virtualization technologies is best suited for running microservices?",
+    "answers": [
+      {
+        "text": "A. Containers",
+        "correct": true
+      },
+      {
+        "text": "B. VDI",
+        "correct": false
+      },
+      {
+        "text": "C. Type 2 hypervisors",
+        "correct": false
+      },
+      {
+        "text": "D. Type 1 hypervisors",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Containers provide lightweight virtualization, ideal for deploying microservices because they are isolated, portable, and require fewer resources than traditional VMs."
+  },
+  {
+    "question": "214. An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Choose two)",
+    "answers": [
+      {
+        "text": "A. Molex",
+        "correct": false
+      },
+      {
+        "text": "B. NVMe",
+        "correct": true
+      },
+      {
+        "text": "C. SATA",
+        "correct": false
+      },
+      {
+        "text": "D. FireWire",
+        "correct": false
+      },
+      {
+        "text": "E. USB-C",
+        "correct": false
+      },
+      {
+        "text": "F. PCIe",
+        "correct": true
+      }
+    ],
+    "multiple": true,
+    "explanation": "PCIe (Peripheral Component Interconnect Express) is required for high-end video cards. NVMe (Non-Volatile Memory Express) utilizes the M.2 or PCIe interface for the fastest SSD performance."
+  },
+  {
+    "question": "215. A user's phone does not respond to touch. A technician inspects the phone but does not see any evidence of physical damage. The technician restarts the device, which does not fix the issue.\nWhich of the following components should the technician examine next?",
+    "answers": [
+      {
+        "text": "A. Battery",
+        "correct": false
+      },
+      {
+        "text": "B. Screen",
+        "correct": false
+      },
+      {
+        "text": "C. Stylus",
+        "correct": false
+      },
+      {
+        "text": "D. Digitizer",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The digitizer is the component responsible for detecting touch input on a screen. If touch is not registering and there's no physical damage, the digitizer may be faulty."
+  },
+  {
+    "question": "216. A user can connect their laptop to the internet in the main office. However, when the user places the laptop on top of a motor on the factory floor, there is no internet connectivity. Which of the following is the most likely cause of this issue?",
+    "answers": [
+      {
+        "text": "A. Jitter",
+        "correct": false
+      },
+      {
+        "text": "B. Insufficient power levels",
+        "correct": false
+      },
+      {
+        "text": "C. External interference",
+        "correct": true
+      },
+      {
+        "text": "D. High latency",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Large electrical motors can emit electromagnetic interference (EMI), which can disrupt wireless signals and prevent connectivity."
+  },
+  {
+    "question": "217. Which of the following is a characteristic of an NVMe drive?",
+    "answers": [
+      {
+        "text": "A. M.2 interface",
+        "correct": true
+      },
+      {
+        "text": "B. 3.5in (8.9cm) external",
+        "correct": false
+      },
+      {
+        "text": "C. 7,200rpm",
+        "correct": false
+      },
+      {
+        "text": "D. Molex connector",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "NVMe (Non-Volatile Memory Express) drives commonly use the M.2 interface and provide the highest performance for SSDs."
+  },
+  {
+    "question": "218. Which of the following connector types is associated with coaxial terminations serving cable internet deployments?",
+    "answers": [
+      {
+        "text": "A. DB9",
+        "correct": false
+      },
+      {
+        "text": "B. ST",
+        "correct": false
+      },
+      {
+        "text": "C. F-type",
+        "correct": true
+      },
+      {
+        "text": "D. RJ45",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "F-type connectors are commonly used to terminate coaxial cables in cable internet, cable TV, and satellite connections."
+  },
+  {
+    "question": "219. A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?",
+    "answers": [
+      {
+        "text": "A. Enable QoS in the router",
+        "correct": true
+      },
+      {
+        "text": "B. Configure PoE on the switch",
+        "correct": false
+      },
+      {
+        "text": "C. Change the encryption from WPA3 to WPA2",
+        "correct": false
+      },
+      {
+        "text": "D. Turn on MAC address filtering",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Quality of Service (QoS) prioritizes VoIP traffic on the network, reducing jitter, latency, and packet loss to improve call quality."
+  },
+  {
+    "question": "220. A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?",
+    "answers": [
+      {
+        "text": "A. AAAA",
+        "correct": false
+      },
+      {
+        "text": "B. MX",
+        "correct": false
+      },
+      {
+        "text": "C. CNAME",
+        "correct": false
+      },
+      {
+        "text": "D. A",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "An A record maps a domain name to an IPv4 address in a DNS server."
+  },
+  {
+    "question": "221. A technician needs to prepare a conference room for a meeting. The technician connects the laptop to the LCD projector and audio system, and then verifies the connectivity of each device. The meeting begins, but the visual presentation suddenly cuts off 30 minutes later. The audio continues to play without interruption. The technician brings in a backup laptop and connects it to\nthe projector. The meeting continues without issue for 15 minutes until the presentation suddenly cuts off again. Which of the following should the technician do to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Check the laptop's audio output",
+        "correct": false
+      },
+      {
+        "text": "B. Verify the input source",
+        "correct": false
+      },
+      {
+        "text": "C. Examine the display for burn-in",
+        "correct": false
+      },
+      {
+        "text": "D. Inspect the cables for damage",
+        "correct": false
+      },
+      {
+        "text": "E. Clean or replace the filter",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Overheating is a common cause of projectors shutting down after extended use. A clogged air filter can cause overheating, resulting in intermittent shutdowns."
+  },
+  {
+    "question": "222. A technician installs an upgraded wireless access point. The technician then notices the activity light comes on briefly and turns off. The access point continues to exhibit this behavior repeatedly and does not come online. Which of the following is the most likely cause of this issue?",
+    "answers": [
+      {
+        "text": "A. High latency",
+        "correct": false
+      },
+      {
+        "text": "B. Port flapping",
+        "correct": true
+      },
+      {
+        "text": "C. External interference",
+        "correct": false
+      },
+      {
+        "text": "D. Channel conflict",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Port flapping refers to a network port continuously going up and down, which can prevent the access point from fully coming online."
+  },
+  {
+    "question": "223. A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).",
+    "answers": [
+      {
+        "text": "A. APIPA",
+        "correct": false
+      },
+      {
+        "text": "B. Gateway",
+        "correct": true
+      },
+      {
+        "text": "C. IP address",
+        "correct": true
+      },
+      {
+        "text": "D. Subnet mask",
+        "correct": true
+      },
+      {
+        "text": "E. Static routes",
+        "correct": false
+      },
+      {
+        "text": "F. UPnP settings",
+        "correct": false
+      },
+      {
+        "text": "G. NAT rules",
+        "correct": false
+      },
+      {
+        "text": "H. MAC filters",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "For a device to communicate on a network, it must have a valid IP address, subnet mask, and default gateway configured."
+  },
+  {
+    "question": "224. A major retailer is moving its online shopping website to the cloud and wants to expand its server resources as needed during busier shopping days. Which of the following should the retailer consider?",
+    "answers": [
+      {
+        "text": "A. Location",
+        "correct": false
+      },
+      {
+        "text": "B. Elasticity",
+        "correct": true
+      },
+      {
+        "text": "C. Availability",
+        "correct": false
+      },
+      {
+        "text": "D. Multitenancy",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Elasticity in cloud computing refers to the ability to automatically scale resources up or down based on demand, making it ideal for businesses with fluctuating workloads."
+  },
+  {
+    "question": "225. A network printer does not release a user's final print job from the queue, but the user's other print jobs successfully printed a few moments before. Other users can print without issues. Which of the following should the user check first to solve the issue?",
+    "answers": [
+      {
+        "text": "A. If the print job is configured to a tray or manual feed",
+        "correct": true
+      },
+      {
+        "text": "B. If the computer and printer are connected to the same network",
+        "correct": false
+      },
+      {
+        "text": "C. If the print queue is full and will not allow additional jobs",
+        "correct": false
+      },
+      {
+        "text": "D. If the printer has stopped due to empty trays",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If only one print job fails and others succeed, it is often due to a paper type or tray selection mismatch for that specific job. If a print job is configured to use a tray that is empty or set to manual feed, it will not be released until resolved."
+  },
+  {
+    "question": "226. A technician is troubleshooting a workstation that repeatedly shuts down within ten minutes of being turned on. The technician notices a loud clicking sound coming from inside the case. Which of the following components should the technician check first?",
+    "answers": [
+      {
+        "text": "A. Exhaust fan",
+        "correct": false
+      },
+      {
+        "text": "B. Capacitors",
+        "correct": false
+      },
+      {
+        "text": "C. CPU fan",
+        "correct": true
+      },
+      {
+        "text": "D. Intake fan",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A failing CPU fan may make unusual noises (including clicking) and, if it is not cooling the CPU, the system will quickly overheat and shut down to prevent damage."
+  },
+  {
+    "question": "227. Which of the following allows for a beam of light to transmit data through a flexible cable?",
+    "answers": [
+      {
+        "text": "A. Coaxial",
+        "correct": false
+      },
+      {
+        "text": "B. HDMI",
+        "correct": false
+      },
+      {
+        "text": "C. Thunderbolt",
+        "correct": false
+      },
+      {
+        "text": "D. Single-mode fiber",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Single-mode fiber (as well as multi-mode fiber) transmits data using beams of light, allowing for high-speed data transfer over flexible fiber-optic cables."
+  },
+  {
+    "question": "228. An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
+    "answers": [
+      {
+        "text": "A. Modular",
+        "correct": true
+      },
+      {
+        "text": "B. Redundant",
+        "correct": false
+      },
+      {
+        "text": "C. Linear",
+        "correct": false
+      },
+      {
+        "text": "D. External",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A modular power supply allows the user to connect only the cables needed, reducing clutter and improving organization inside the case."
+  },
+  {
+    "question": "229. A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?",
+    "answers": [
+      {
+        "text": "A. NVMe",
+        "correct": false
+      },
+      {
+        "text": "B. RISC",
+        "correct": false
+      },
+      {
+        "text": "C. ARM",
+        "correct": false
+      },
+      {
+        "text": "D. TPM",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Trusted Platform Module (TPM) is a hardware chip used to enable encryption technologies such as BitLocker, providing secure key storage for system-wide encryption."
+  },
+  {
+    "question": "230. A company wants to use cloud services with the requirement that data will reside on physical hardware that will not be shared with other companies. Which of the following meets this requirement?",
+    "answers": [
+      {
+        "text": "A. Dedicated resources",
+        "correct": true
+      },
+      {
+        "text": "B. Elasticity",
+        "correct": false
+      },
+      {
+        "text": "C. Hybrid cloud",
+        "correct": false
+      },
+      {
+        "text": "D. SaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Dedicated resources (sometimes called single-tenant or bare metal) guarantee that physical hardware is allocated exclusively to one customer and not shared."
+  },
+  {
+    "question": "231. A user connects a company-issued laptop to a 4K TV but can only get 1080p resolution on the TV. The technician confirms that the laptop is capable of producing a 4K output. Which of the following is the most likely cause of the issue?",
+    "answers": [
+      {
+        "text": "A. The TV firmware is out of date",
+        "correct": false
+      },
+      {
+        "text": "B. The HDMI cable version is incorrect",
+        "correct": true
+      },
+      {
+        "text": "C. The laptop firmware is not current",
+        "correct": false
+      },
+      {
+        "text": "D. The CPU cannot keep up with the transcoding",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An older HDMI cable version may not support 4K resolution. For 4K output, both the device and the cable must support HDMI 2.0 or higher."
+  },
+  {
+    "question": "232. Which of the following is an isolated virtual machine?",
+    "answers": [
+      {
+        "text": "A. Sandbox",
+        "correct": true
+      },
+      {
+        "text": "B. Hypervisor",
+        "correct": false
+      },
+      {
+        "text": "C. Container",
+        "correct": false
+      },
+      {
+        "text": "D. VDI",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A sandbox is an isolated virtual environment, often used for testing code or software safely without affecting the host system."
+  },
+  {
+    "question": "233. A user cannot see the office multifunction printer in their laptop's print options. They have printed to the device in the past successfully. The user's laptop is connected to the guest wireless network. Other users on both wireless and wired computers can see and print to the printer.\nWhich of the following will fix the issue?",
+    "answers": [
+      {
+        "text": "A. Power cycle the printer to refresh connectivity.",
+        "correct": false
+      },
+      {
+        "text": "B. Reset the closest wireless AP.",
+        "correct": false
+      },
+      {
+        "text": "C. Download the printer driver from the manufacturer's website.",
+        "correct": false
+      },
+      {
+        "text": "D. Connect the laptop to the corporate Wi-Fi.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "If the user is on a guest network and cannot access internal resources like printers, connecting to the corporate Wi-Fi will place the device on the correct subnet to access the printer."
+  },
+  {
+    "question": "234. A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?",
+    "answers": [
+      {
+        "text": "A. Gateway",
+        "correct": false
+      },
+      {
+        "text": "B. Static IP",
+        "correct": true
+      },
+      {
+        "text": "C. APIPA",
+        "correct": false
+      },
+      {
+        "text": "D. DHCP",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Assigning a static IP to network printers ensures the printer's address does not change after outages or DHCP lease expirations, preventing connectivity issues."
   }
 ]
