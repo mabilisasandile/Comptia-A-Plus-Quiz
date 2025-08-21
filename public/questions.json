@@ -3761,5 +3761,711 @@
     ],
     "multiple": false,
     "explanation": "Port 3389 is used by the Remote Desktop Protocol (RDP) for remote desktop connections in Windows environments. This port allows remote control and management of systems across  the network."
+  },
+  {
+    "question": "171. A technician is setting up a scan-to-SMB function on a multifunction printer. Which of the following connection types should the technician configure?",
+    "answers": [
+      {
+        "text": "A. Email server",
+        "correct": false
+      },
+      {
+        "text": "B. SFTP connection",
+        "correct": false
+      },
+      {
+        "text": "C. Network share",
+        "correct": true
+      },
+      {
+        "text": "D. Print services",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The scan-to-SMB feature allows the printer to send scanned documents to a shared folder (SMB share) on the network. Setting up a network share enables the device to securely and conveniently save files for user access."
+  },
+  {
+    "question": "172. Which of the following internet connection types is the best for extremely high data transfer with symmetrical upload and download speeds?",
+    "answers": [
+      {
+        "text": "A. DSL",
+        "correct": false
+      },
+      {
+        "text": "B. Cellular",
+        "correct": false
+      },
+      {
+        "text": "C. Fiber",
+        "correct": true
+      },
+      {
+        "text": "D. Satellite",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Fiber optic connections provide the highest data transfer rates and symmetrical upload and download speeds. This makes fiber the ideal choice for applications requiring high-speed connectivity, such as video conferencing, large file transfers, and cloud-based workflows."
+  },
+  {
+    "question": "173. Which of the following networking devices is used to create a mesh network?",
+    "answers": [
+      {
+        "text": "A. Modem",
+        "correct": false
+      },
+      {
+        "text": "B. DSL",
+        "correct": false
+      },
+      {
+        "text": "C. Access point",
+        "correct": true
+      },
+      {
+        "text": "D. ONT",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Mesh networks rely on multiple access points (or mesh nodes) to create a seamless, self-healing network. Each access point communicates with others to extend coverage and improve reliability without requiring a wired backbone for each AP."
+  },
+  {
+    "question": "174. A user purchases a new mobile phone and tries to connect it to the corporate communications and email applications without success. Which of the following should a technician do to allow the phone to connect?",
+    "answers": [
+      {
+        "text": "A. Configure biometric security settings.",
+        "correct": false
+      },
+      {
+        "text": "B. Turn on LTE hotspot connectivity.",
+        "correct": false
+      },
+      {
+        "text": "C. Enroll the device in the MDM software.",
+        "correct": true
+      },
+      {
+        "text": "D. Complete the company's BYOD training process.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Mobile Device Management (MDM) enrollment ensures that mobile devices meet security and access policies required by the corporate network. By enrolling the device in MDM, the technician can apply necessary configurations and enable corporate app access."
+  },
+  {
+    "question": "175. Which of the following is the ability to automatically increase and decrease instances based on demand?",
+    "answers": [
+      {
+        "text": "A. Availability",
+        "correct": false
+      },
+      {
+        "text": "B. Scalability",
+        "correct": false
+      },
+      {
+        "text": "C. Multitenancy",
+        "correct": false
+      },
+      {
+        "text": "D. Elasticity",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Elasticity in cloud computing refers to the ability of a system to automatically allocate and release resources (such as CPU, RAM, or virtual machines) as workload demands change. This feature is key to ensuring that resources are used efficiently without manual intervention."
+  },
+  {
+    "question": "176. A user is having trouble with the location services on their smartphone. Location-based applications show incorrect positions when the user is traveling. This issue affects the user's ability to navigate and use location-dependent applications. \nWhich of the following is the best way to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Downloading a third-party mapping application",
+        "correct": false
+      },
+      {
+        "text": "B. Resetting the network settings",
+        "correct": false
+      },
+      {
+        "text": "C. Enabling Wi-Fi to assist GPS",
+        "correct": true
+      },
+      {
+        "text": "D. Restarting the smartphone",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Wi-Fi assistance in mobile devices helps improve location accuracy by using nearby wireless networks to triangulate the device's position, even when GPS signals are weak (like indoors or in dense areas)."
+  },
+  {
+    "question": "177. Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?",
+    "answers": [
+      {
+        "text": "A. DHCP",
+        "correct": false
+      },
+      {
+        "text": "B. CNAME",
+        "correct": false
+      },
+      {
+        "text": "C. VLAN",
+        "correct": false
+      },
+      {
+        "text": "D. VPN",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Virtual Private Network (VPN) creates an encrypted, secure tunnel across a public or untrusted network. It uses authentication credentials to ensure that only authorized users can connect, keeping data safe from interception."
+  },
+  {
+    "question": "178. A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Choose two)",
+    "answers": [
+      {
+        "text": "A. Turn it off and disconnect all power sources.",
+        "correct": true
+      },
+      {
+        "text": "B. Submit an emergency request to the local facilities manager.",
+        "correct": false
+      },
+      {
+        "text": "C. Check for foreign objects, liquid spills, and internal damage.",
+        "correct": true
+      },
+      {
+        "text": "D. Contact the vendor and submit a return request.",
+        "correct": false
+      },
+      {
+        "text": "E. Remove the device from the MDM.",
+        "correct": false
+      },
+      {
+        "text": "F. Try an alternate AC adapter.",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "Answer: AC"
+  },
+  {
+    "question": "179. A technician needs to figure out why a laser printer is intermittently not feeding paper to print. The technician verifies the issue by running several copy-and-print tests. Which of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Update the printer drivers.",
+        "correct": false
+      },
+      {
+        "text": "B. Select the correct paper size.",
+        "correct": false
+      },
+      {
+        "text": "C. Clean the pickup rollers.",
+        "correct": true
+      },
+      {
+        "text": "D. Replace the toner cartridge.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When a laser printer intermittently fails to feed paper, the most common hardware cause is worn or dirty pickup rollers. These rollers grab the paper from the tray and move it into the printer. Over time, dust, paper debris, or worn rubber reduces their effectiveness, causing feeding issues."
+  },
+  {
+    "question": "180. Which of the following has the best penetration through physical objects, such as walls?",
+    "answers": [
+      {
+        "text": "A. 2.4GHz",
+        "correct": true
+      },
+      {
+        "text": "B. 5GHz",
+        "correct": false
+      },
+      {
+        "text": "C. 6GHz",
+        "correct": false
+      },
+      {
+        "text": "D. NFC",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "2.4GHz Wi-Fi signals have better penetration through walls and other obstacles compared to 5GHz and 6GHz. Lower frequency waves (like 2.4GHz) travel farther and are less absorbed by physical barriers."
+  },
+  {
+    "question": "181. Which of the following can be used to logically segment networks?",
+    "answers": [
+      {
+        "text": "A. MAC",
+        "correct": false
+      },
+      {
+        "text": "B. VLAN",
+        "correct": true
+      },
+      {
+        "text": "C. NIC",
+        "correct": false
+      },
+      {
+        "text": "D. DSL",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A VLAN (Virtual Local Area Network) is a network technology used to logically segment a physical network into multiple distinct broadcast domains, even if they share the same hardware."
+  },
+  {
+    "question": "182. After troubleshooting a computer's connectivity, the network team determines there is a port- mapping issue. After plugging the patch cable into a different port, the issue persists. \nWhich of the following troubleshooting steps should a technician take next to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Convert the patch cable to a crossover cable.",
+        "correct": false
+      },
+      {
+        "text": "B. Test the patch cable from the computer to the network closet.",
+        "correct": true
+      },
+      {
+        "text": "C. Verify the length of the patch cable meets current standards.",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the patch cable from the device to the wall.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When port issues persist after moving to a different switch port, the next logical troubleshooting step is to test the patch cable. Faulty or damaged cables are a common cause of network connectivity problems. Using a cable tester between the computer and the network closet verifies the integrity of the cable and rules out a physical layer issue."
+  },
+  {
+    "question": "183. Which of the following statements best summarize managed vs unmanaged switches? (Choose two)",
+    "answers": [
+      {
+        "text": "A. Unmanaged switches are generally more expensive",
+        "correct": false
+      },
+      {
+        "text": "B. Unmanaged switches have more security capabilities",
+        "correct": false
+      },
+      {
+        "text": "C. Unmanaged switches start working as soon as they are plugged in to the network",
+        "correct": true
+      },
+      {
+        "text": "D. Managed switches have more features",
+        "correct": true
+      },
+      {
+        "text": "E. Managed switches require no configuration",
+        "correct": false
+      },
+      {
+        "text": "F. Managed switches consume less power",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "Unmanaged switches require no configuration--they simply need to be plugged in and start working immediately, making them ideal for simple network setups. Managed switches provide advanced features such as VLANs, SNMP monitoring, port security, and traffic management, but require configuration."
+  },
+  {
+    "question": "184. A user is testing a new OS that is contained on a USB drive. The user wants the new OS to load automatically when the computer is turned on. Which of the following should the user configure?",
+    "answers": [
+      {
+        "text": "A. BIOS password",
+        "correct": false
+      },
+      {
+        "text": "B. Trusted Platform Module",
+        "correct": false
+      },
+      {
+        "text": "C. USB permissions",
+        "correct": false
+      },
+      {
+        "text": "D. Boot options",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "To boot from a USB drive, the user must configure the boot order in the system BIOS/UEFI to prioritize the USB device. This setting tells the computer to load the operating system from the USB device on startup."
+  },
+  {
+    "question": "185. A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?",
+    "answers": [
+      {
+        "text": "A. Hypervisor",
+        "correct": true
+      },
+      {
+        "text": "B. SaaS platform",
+        "correct": false
+      },
+      {
+        "text": "C. Multiboot server computer",
+        "correct": false
+      },
+      {
+        "text": "D. Sandbox",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hypervisor allows multiple operating systems to run simultaneously on a single physical host, making it the ideal solution for providing concurrent access to different test environments. Developers can use virtual machines (VMs) for testing and development."
+  },
+  {
+    "question": "186. An employee's screen keeps flashing. Sometimes the picture goes out and comes back. The employee checks the power cord and confirms the device is plugged in fully. \nWhich of the following should a technician check for first?",
+    "answers": [
+      {
+        "text": "A. Loose video cable",
+        "correct": true
+      },
+      {
+        "text": "B. Failing graphics card",
+        "correct": false
+      },
+      {
+        "text": "C. Conflicting drivers",
+        "correct": false
+      },
+      {
+        "text": "D. Swollen motherboard capacitor",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Intermittent display issues, such as a screen flashing on and off, are most commonly caused by a loose or faulty video cable connection. If the power cable is confirmed secure, the next logical step is to check the video (data) cable between the monitor and the computer."
+  },
+  {
+    "question": "187. A user reports that the print quality of their desk printer is poor. A technician replaces the ink cartridge, but this does not resolve the issue. Which of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Replace the pickup rollers",
+        "correct": false
+      },
+      {
+        "text": "B. Clean the printheads",
+        "correct": true
+      },
+      {
+        "text": "C. Switch the paper type",
+        "correct": false
+      },
+      {
+        "text": "D. Change the ribbon",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If print quality remains poor after replacing the ink cartridge, the next step is to clean the printheads. Printheads can become clogged with dried ink, especially in inkjet printers, causing\nstreaks or faded output."
+  },
+  {
+    "question": "188. An end user reports that their laptop shuts down when they undock it. Even when using a new charging cable, the issue persists. Which of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Flash the BIOS",
+        "correct": false
+      },
+      {
+        "text": "B. Update the drivers",
+        "correct": false
+      },
+      {
+        "text": "C. Try a different charger",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the battery",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "If a laptop shuts down when undocked and remains powered off even with a new charging cable, the internal battery is likely faulty and cannot hold a charge. Replacing the battery is the next\ntroubleshooting step."
+  },
+  {
+    "question": "189. A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. \nWhich of the following will the technician require so the phone can connect to a different provider?",
+    "answers": [
+      {
+        "text": "A. USB-C",
+        "correct": false
+      },
+      {
+        "text": "B. SD card",
+        "correct": false
+      },
+      {
+        "text": "C. eSIM",
+        "correct": true
+      },
+      {
+        "text": "D. MDM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An eSIM (embedded SIM) allows users to change carriers and provision new cellular service without installing any physical hardware. It is managed via software and is ideal for international travelers who need to switch providers quickly."
+  },
+  {
+    "question": "190. Which of the following internet connection types provides the fastest speeds and greatest coverage in less populated areas with minimal infrastructure?",
+    "answers": [
+      {
+        "text": "A. Fiber",
+        "correct": false
+      },
+      {
+        "text": "B. Cable",
+        "correct": false
+      },
+      {
+        "text": "C. DSL",
+        "correct": false
+      },
+      {
+        "text": "D. Cellular",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Cellular networks offer broad coverage in rural or less populated areas where laying fiber, cable, or DSL lines may not be feasible or cost-effective. Cellular broadband (4G LTE/5G) provides fast\nspeeds using existing mobile network infrastructure."
+  },
+  {
+    "question": "191. Which of the following ports should a technician disable to increase the security of remote connectivity?",
+    "answers": [
+      {
+        "text": "A. 22",
+        "correct": false
+      },
+      {
+        "text": "B. 23",
+        "correct": true
+      },
+      {
+        "text": "C. 25",
+        "correct": false
+      },
+      {
+        "text": "D. 53",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Port 23 is used by Telnet, an unencrypted remote connection protocol that poses significant security risks. Disabling Telnet and using secure alternatives like SSH (port 22) is best practice."
+  },
+  {
+    "question": "192. A network operations analyst receives an automated alert regarding a server with an array. The analyst walks over to the server and sees a blinking orange light at the hard disk bay. The server is configured for RAID 1. \nWhich of the following should the analyst do to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Change the array to RAID 0.",
+        "correct": false
+      },
+      {
+        "text": "B. Undo the array and create a new one.",
+        "correct": false
+      },
+      {
+        "text": "C. Update RAID card firmware.",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the hard disk and rebuild the array.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A blinking orange light typically indicates a failed hard drive in the RAID array. In RAID 1 (mirroring), you can replace the failed drive and rebuild the array without data loss."
+  },
+  {
+    "question": "193. A technician upgrades a PC with two DIMMs, for a total of 32GB. After installing the two DIMMs, the user notices the OS is reporting only 16GB. Which of the following tasks should the technician perform to resolve the issue in the most rapid, cost-effective way possible?",
+    "answers": [
+      {
+        "text": "A. Roll back recent system updates",
+        "correct": false
+      },
+      {
+        "text": "B. Reinstall RAM in different slots.",
+        "correct": true
+      },
+      {
+        "text": "C. Update the OS to the latest version",
+        "correct": false
+      },
+      {
+        "text": "D. Replace the faulty motherboard",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "If newly installed RAM is not fully recognized, the most likely cause is incorrect installation or incompatible slots. Reseating or reinstalling the RAM modules in the correct slots can quickly\nresolve the issue without extra cost."
+  },
+  {
+    "question": "194. A company wants to have fast read speeds for its locally stored data.\nWhich of the following configurations has the lowest cost to fulfill this requirement?",
+    "answers": [
+      {
+        "text": "A. RAID 0",
+        "correct": true
+      },
+      {
+        "text": "B. RAID 1",
+        "correct": false
+      },
+      {
+        "text": "C. RAID 5",
+        "correct": false
+      },
+      {
+        "text": "D. RAID 10",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "RAID 0 (striping) provides the fastest read (and write) speeds at the lowest cost, as all disk capacity is used for storage and performance. However, it offers no redundancy."
+  },
+  {
+    "question": "195. Which of the following devices has ACL capabilities?",
+    "answers": [
+      {
+        "text": "A. PoE injector",
+        "correct": false
+      },
+      {
+        "text": "B. DSL",
+        "correct": false
+      },
+      {
+        "text": "C. Firewall",
+        "correct": true
+      },
+      {
+        "text": "D. Unmanaged switch",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Firewalls are specifically designed to monitor, filter, and control network traffic using Access Control Lists (ACLs). ACLs define which traffic is allowed or denied based on parameters like IP address, protocol, or port."
+  },
+  {
+    "question": "196. A user would like to connect a laptop to a monitor, keyboard, and mouse when in the office. The user prefers to use as few cables as possible. Which of the following would best achieve that goal?",
+    "answers": [
+      {
+        "text": "A. Bluetooth",
+        "correct": false
+      },
+      {
+        "text": "B. Managed switch",
+        "correct": false
+      },
+      {
+        "text": "C. Docking station",
+        "correct": true
+      },
+      {
+        "text": "D. Near-field communication",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A docking station allows users to connect multiple peripherals (monitor, keyboard, mouse, etc.) to a laptop with a single connection, reducing cable clutter and improving convenience."
+  },
+  {
+    "question": "197. A user keeps getting an error message when trying to print a letter. The printer is normally used to print cards and invitations. The user tries printing from a different computer, but the issue persists. Which of the following should the user do to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Print fewer pages.",
+        "correct": false
+      },
+      {
+        "text": "B. Print on card stock",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the rollers.",
+        "correct": false
+      },
+      {
+        "text": "D. Change the paper tray setting.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "If a printer is set to use a special tray (for cards/invitations) but a different type of print job is attempted (like a letter), a paper tray setting mismatch can cause errors. Changing the tray\nsetting to match the print media resolves the issue."
+  },
+  {
+    "question": "198. Which of the following should a company use to implement automatic time synchronization?",
+    "answers": [
+      {
+        "text": "A. DHCP",
+        "correct": false
+      },
+      {
+        "text": "B. UTM",
+        "correct": false
+      },
+      {
+        "text": "C. NTP",
+        "correct": true
+      },
+      {
+        "text": "D. AAA",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "NTP (Network Time Protocol) is specifically designed to synchronize the clocks of networked computers and devices automatically."
+  },
+  {
+    "question": "199. An end user reports that their laptop has a blank screen. A technician observes the keyboard lights are on, and the fan is running. \nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Check the display ribbon cable.",
+        "correct": false
+      },
+      {
+        "text": "B. Contact vendor support",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the inverter",
+        "correct": false
+      },
+      {
+        "text": "D. Connect to an external monitor",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "When a laptop powers on but the screen is blank, the quickest way to isolate the problem is to connect to an external monitor. This helps determine if the issue is with the laptop display or with\nthe graphics subsystem."
+  },
+  {
+    "question": "200. Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?",
+    "answers": [
+      {
+        "text": "A. Lightning interface",
+        "correct": false
+      },
+      {
+        "text": "B. Port replicator",
+        "correct": true
+      },
+      {
+        "text": "C. USB hub",
+        "correct": false
+      },
+      {
+        "text": "D. Bluetooth",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A port replicator is designed to allow a user to quickly connect a laptop to multiple peripherals (display, keyboard, mouse, network, etc.) using a single interface, reducing setup time."
   }
 ]
