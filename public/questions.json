@@ -3602,7 +3602,7 @@
     "explanation": "A Storage Area Network (SAN) is primarily used for data archiving and large-scale storage. SANs provide high-speed, block-level storage for enterprise environments."
   },
   {
-    "question": "155. An IT specialist compares Bluetooth and NFC technologies for mobile device connectivity. Which\nof the following statements accurately describes a key difference between the two?",
+    "question": "155. An IT specialist compares Bluetooth and NFC technologies for mobile device connectivity. Which of the following statements accurately describes a key difference between the two?",
     "answers": [
       {
         "text": "A. NFC is faster than Bluetooth when transferring large files between devices.",
