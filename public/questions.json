@@ -227,7 +227,7 @@
       }
     ],
     "multiple": false,
-    "explanation": "A Wi-Fi analyzer is a tool used to detect and analyze wireless networks, even those that are not broadcasting their SSIDs (hidden networks).\nIt provides detailed information about nearby networks, including signal strength, channel usage,\nand security protocols.\nIn this case, the Wi-Fi analyzer can identify the hidden networks that users are connected to,\nwhich are not visible on the standard user interface."
+    "explanation": "A Wi-Fi analyzer is a tool used to detect and analyze wireless networks, even those that are not broadcasting their SSIDs (hidden networks) provides detailed information about nearby networks, including signal strength, channel usage, and security protocols.In this case, the Wi-Fi analyzer can identify the hidden networks that users are connected to, which are not visible on the standard user interface."
   },
   {
     "question": "11. A company needs to keep a record of tasks performed by an application. \nWhich of the following should the company most likely implement as part of a solution?",
@@ -260,11 +260,11 @@
         "correct": false
       },
       {
-        "text": "A. Document the findings.",
+        "text": "B. Investigate any recent infrastructure changes.",
         "correct": false
       },
       {
-        "text": "C. Initiate the system restore ",
+        "text": "C. Initiate the system restore.",
         "correct": true
       },
       {
