@@ -672,7 +672,7 @@
       }
     ],
     "multiple": false,
-    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology):\nS.M.A.R.T. is a monitoring system integrated into modern HDDs and SSDs that detects and reports on various indicators of drive health and reliability. A S.M.A.R.T. error indicates that the drive is showing signs of impending failure, even if the PC\ncontinues to boot and work normally for the time being.\nNext Steps:\nThe appropriate action is to replace the hard drive (HDD) because a S.M.A.R.T. error is an early warning of possible hardware failure. Ignoring the warning could result in data loss if the drive fails completely. The technician should also back up the user's data immediately to avoid losing"
+    "explanation": "S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology):\nS.M.A.R.T. is a monitoring system integrated into modern HDDs and SSDs that detects and reports on various indicators of drive health and reliability. A S.M.A.R.T. error indicates that the drive is showing signs of impending failure, even if the PC continues to boot and work normally for the time being.\nNext Steps:\nThe appropriate action is to replace the hard drive (HDD) because a S.M.A.R.T. error is an early warning of possible hardware failure. Ignoring the warning could result in data loss if the drive fails completely. The technician should also back up the user's data immediately to avoid losing"
   },
   {
     "question": "30. Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
