@@ -5285,5 +5285,1021 @@
     ],
     "multiple": false,
     "explanation": "Assigning a static IP to network printers ensures the printer's address does not change after outages or DHCP lease expirations, preventing connectivity issues."
+  },
+  {
+    "question": "236. Which of the following servers is used to collect data and information about events from a network-connected host?",
+    "answers": [
+      {
+        "text": "A. DNS",
+        "correct": false
+      },
+      {
+        "text": "B. Mail",
+        "correct": false
+      },
+      {
+        "text": "C. Print",
+        "correct": false
+      },
+      {
+        "text": "D. Syslog",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Syslog server gathers and stores log messages and event data sent over the network from various hosts and devices, centralizing system and application logs for monitoring and analysis."
+  },
+  {
+    "question": "237. A user is traveling internationally. They can make and receive phone calls but cannot send or receive email. Which of the following would most likely resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Disabling the GPS",
+        "correct": false
+      },
+      {
+        "text": "B. Enabling data roaming",
+        "correct": true
+      },
+      {
+        "text": "C. Configuring 4G usage only",
+        "correct": false
+      },
+      {
+        "text": "D. Connecting using a hotspot",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Voice calls can still go through on the partner networks without data roaming enabled, but mobile email requires a data connection. Turning on data roaming allows the device to use cellular data while abroad, restoring email functionality."
+  },
+  {
+    "question": "238. Which of the following should be used when installing network cabling above a drop ceiling that is part of the shared air space?",
+    "answers": [
+      {
+        "text": "A. Shielded twisted",
+        "correct": false
+      },
+      {
+        "text": "B. Plenum-rated",
+        "correct": true
+      },
+      {
+        "text": "C. Optical",
+        "correct": false
+      },
+      {
+        "text": "D. Coaxial",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Plenum-rated cable uses a low-smoke, fire-resistant jacket designed for use in plenum spaces (shared air handling areas) to meet building and fire codes."
+  },
+  {
+    "question": "239. While using a computer, a user reports that the system fan begins running loudly and the display starts to distort. Which of the following is occurring?",
+    "answers": [
+      {
+        "text": "A. Overheating",
+        "correct": true
+      },
+      {
+        "text": "B. Sluggish performance",
+        "correct": false
+      },
+      {
+        "text": "C. Overclocking CPU",
+        "correct": false
+      },
+      {
+        "text": "D. Crashing applications",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A loud fan running at high speed alongside graphical distortion are classic signs that the system is overheating - thermal throttling and artifacting occur when components exceed safe operating temperatures."
+  },
+  {
+    "question": "240. Which of the following is a common feature of managed switches?",
+    "answers": [
+      {
+        "text": "A. Remote device power delivery",
+        "correct": false
+      },
+      {
+        "text": "B. Port VLAN assignment",
+        "correct": true
+      },
+      {
+        "text": "C. Content filtering",
+        "correct": false
+      },
+      {
+        "text": "D. Load balancing",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Managed switches allow administrators to assign individual ports to specific VLANs, enabling network segmentation and improved traffic control directly on the switch."
+  },
+  {
+    "question": "241. Which of the following is a characteristic of Type 2 hypervisors?",
+    "answers": [
+      {
+        "text": "A. Bare-metal installation",
+        "correct": false
+      },
+      {
+        "text": "B. Need for an underlying OS",
+        "correct": true
+      },
+      {
+        "text": "C. Local management only",
+        "correct": false
+      },
+      {
+        "text": "D. Specific hardware requirements",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Type 2 hypervisors run as applications atop a host operating system, relying on that OS for hardware drivers and resource management rather than interfacing directly with the hardware."
+  },
+  {
+    "question": "242. Which of the following port numbers is used for a file transfer?",
+    "answers": [
+      {
+        "text": "A. 21",
+        "correct": true
+      },
+      {
+        "text": "B. 53",
+        "correct": false
+      },
+      {
+        "text": "C. 68",
+        "correct": false
+      },
+      {
+        "text": "D. 389",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Port 21 is the default TCP port for the File Transfer Protocol (FTP), which is used to establish control connections for file transfers between clients and servers."
+  },
+  {
+    "question": "243. A user tries to connect a monitor to a laptop to have an additional screen for work, but both screens show the same content. Which of the following should the user do to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Use the Add New Hardware assistant to add the monitor and set up the required settings.",
+        "correct": false
+      },
+      {
+        "text": "B. Purchase a docking station to connect both the laptop and the monitor.",
+        "correct": false
+      },
+      {
+        "text": "C. Configure the Windows tiling feature to display multiple windows.",
+        "correct": false
+      },
+      {
+        "text": "D. Go to the Display settings and configure the external monitor as extended.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "By default, Windows often mirrors (duplicates) the laptop display. In Display settings, you can change the multiple-display option from “Duplicate” to “Extend”, enabling the second monitor to act as additional workspace rather than showing the same content."
+  },
+  {
+    "question": "244. The printer in a main office repeatedly jams. Which of the following tasks should a support technician do to solve the issue?",
+    "answers": [
+      {
+        "text": "A. Apply a maintenance kit.",
+        "correct": true
+      },
+      {
+        "text": "B. Replace toner or ink cartridges.",
+        "correct": false
+      },
+      {
+        "text": "C. Install a new ribbon.",
+        "correct": false
+      },
+      {
+        "text": "D. Change the printhead.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A maintenance kit includes replacement rollers, separation pads, and fuser components that wear out over time and commonly cause paper jams. Replacing these parts as a group restores proper paper handling and solves recurring jamming issues."
+  },
+  {
+    "question": "245. A technician is installing a new printer. After registering the printer, the technician receives an email from the manufacturer stating there is a security vulnerability that can be remediated. Which of the following steps should the technician take next?",
+    "answers": [
+      {
+        "text": "A. Disable wireless connectivity.",
+        "correct": false
+      },
+      {
+        "text": "B. Enable audit logging.",
+        "correct": false
+      },
+      {
+        "text": "C. Update the firmware.",
+        "correct": true
+      },
+      {
+        "text": "D. Disable the default gateway on the printer.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Firmware updates from the manufacturer often include security patches that remediate known vulnerabilities. Applying the update ensures the printer’s software is hardened against the issue before it can be exploited."
+  },
+  {
+    "question": "246. A technician has built a new computer. On the initial startup, the computer passes POST but will not turn on the operating system. Which of the following components has failed?",
+    "answers": [
+      {
+        "text": "A. Audio card",
+        "correct": false
+      },
+      {
+        "text": "B. CPU",
+        "correct": false
+      },
+      {
+        "text": "C. Power supply",
+        "correct": false
+      },
+      {
+        "text": "D. HDD",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Since POST verifies that critical hardware (CPU, memory, motherboard, etc.) is functioning, a successful POST followed by failure to load the operating system points to the storage device - i.e., the hard drive - not providing a boot volume."
+  },
+  {
+    "question": "247. Which of the following is an example of VDI?",
+    "answers": [
+      {
+        "text": "A. Streaming a GUI to thin clients from a server",
+        "correct": true
+      },
+      {
+        "text": "B. Provisioning a sandbox as a test environment",
+        "correct": false
+      },
+      {
+        "text": "C. Providing high-performance workstations with a local OS",
+        "correct": false
+      },
+      {
+        "text": "D. Launching a virtual machine server on a hypervisor",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "VDI hosts desktop environments centrally on a server and delivers the user interface over the network to thin clients - exactly what streaming a GUI to thin clients describes."
+  },
+  {
+    "question": "248. A technician is connecting a hands-free car system via Bluetooth. Which of the following is a security feature that should be used for this task?",
+    "answers": [
+      {
+        "text": "A. BitLocker",
+        "correct": false
+      },
+      {
+        "text": "B. Biometrics",
+        "correct": false
+      },
+      {
+        "text": "C. TPM",
+        "correct": false
+      },
+      {
+        "text": "D. PIN code",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Bluetooth pairing uses a PIN (or passkey) to authenticate devices and prevent unauthorized connections. When you pair a hands-free car system, you enter a PIN code on both the car’s system and the phone to establish a trusted link."
+  },
+  {
+    "question": "249. A technician is troubleshooting a laptop's connectivity via its USB-C port to a projector. The same laptop works well when it is connected to a USB-C docking station. The projector is configured as expected, and the USB-C cable was tested on a charging port. Which of the following could be the issue?",
+    "answers": [
+      {
+        "text": "A. The USB-C cable requires a power injector",
+        "correct": false
+      },
+      {
+        "text": "B. The USB-C cable is not compatible with Thunderbolt technology.",
+        "correct": true
+      },
+      {
+        "text": "C. The USB-C cable needs an adapter to work with the laptop.",
+        "correct": false
+      },
+      {
+        "text": "D. The USB-C cable does not support enough power.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Not all USB-C cables support video output (DisplayPort Alt Mode) or Thunderbolt, even though they carry power. A charge-only USB-C cable will work for charging tests but won’t pass the video signal to the projector. You need a USB-C cable rated for Thunderbolt or DisplayPort Alt Mode to transmit the display data directly."
+  },
+  {
+    "question": "250. A high-end workstation with a RAID 5 array is exhibiting slow data access speeds and occasional errors when retrieving files. The technician investigates further and notices one of the hard drives in the RAID array has an amber light. Which of the following steps should the technician take to troubleshoot and resolve the issues?",
+    "answers": [
+      {
+        "text": "A. Review network issues that might be causing slow speeds.",
+        "correct": false
+      },
+      {
+        "text": "B. Upgrade all RAID drives to higher capacity models to increase data access speeds.",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the failing drive, and then allow the RAID controller to rebuild the array.",
+        "correct": true
+      },
+      {
+        "text": "D. Reformat all drives in the RAID array to clear any software issues that might be causing the errors.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An amber light indicates a degraded or failing member of the RAID 5 array. Swapping in a new drive and letting the controller rebuild restores full redundancy and performance without risking data loss."
+  },
+  {
+    "question": "251. An IT specialist sets up a wireless router in a SOHO environment. Afterward, several devices cannot access the internet and are assigned IP addresses starting with 169.254. Which of the following is the best action to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Reboot the wireless router.",
+        "correct": true
+      },
+      {
+        "text": "B. Shorten the lease time.",
+        "correct": false
+      },
+      {
+        "text": "C. Use static IP addresses.",
+        "correct": false
+      },
+      {
+        "text": "D. Increase the DHCP pool size.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Addresses in the 169.254.x.x range indicate the clients were unable to contact a DHCP server and fell back to APIPA. Since the router provides DHCP in a SOHO setup, restarting it will restore the DHCP service so devices can obtain valid IP addresses again."
+  },
+  {
+    "question": "252. A technician is troubleshooting a network issue. Users report that the connection keeps dropping and reconnecting every few seconds. The technician:\n- Verifies the network configuration settings are correct on the workstation\n- Tests the network cable from the workstation to the switch and finds no issues\n- Uses a known-good workstation on the existing network cable and replicates the reported issue\nWhich of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Add new network hardware to reduce congestion",
+        "correct": false
+      },
+      {
+        "text": "B. Assign a static IP to the impacted workstations.",
+        "correct": false
+      },
+      {
+        "text": "C. Validate the environment for external interference.",
+        "correct": false
+      },
+      {
+        "text": "D. Check the network logs for evidence of port flapping.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Since the NIC, cable, and workstation configuration have all been ruled out, and the problem persists even with a known-good PC on the same switch port, this behavior points to an unstable link at the switch itself (often called “port flapping”). Examining the switch’s event or syslog will reveal if the port is constantly going up and down, confirming a hardware or configuration issue on the switch side."
+  },
+  {
+    "question": "253. A customer has several bare-metal servers running a mix of Windows, Linux, and Unix OSs. The customer wants to consolidate the servers but is concerned about data privacy and recurring costs. Which of the following solutions should a technician recommend?",
+    "answers": [
+      {
+        "text": "A. IaaS",
+        "correct": false
+      },
+      {
+        "text": "B. Containers",
+        "correct": false
+      },
+      {
+        "text": "C. Type 2 hypervisor",
+        "correct": true
+      },
+      {
+        "text": "D. VDI",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Deploying a Type 2 hypervisor on the existing bare-metal hosts lets the customer virtualize Windows, Linux, and Unix systems on-premises, maintaining full control over data privacy, and use perpetual licensing rather than ongoing cloud subscription fees. Containers wouldn’t support all those OS types, and IaaS or VDI would introduce recurring costs and off-prem dependencies."
+  },
+  {
+    "question": "254. A company wants its RAID array set up so that it could lose multiple drives and still have redundancy. Which of the following configurations should the company choose?",
+    "answers": [
+      {
+        "text": "A. RAID 0",
+        "correct": false
+      },
+      {
+        "text": "B. RAID 1",
+        "correct": false
+      },
+      {
+        "text": "C. RAID 5",
+        "correct": false
+      },
+      {
+        "text": "D. RAID 6",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "RAID 6 implements dual parity across the array, allowing any two drives to fail simultaneously without data loss, providing higher fault tolerance than RAID 5."
+  },
+  {
+    "question": "255. Which of the following types of RAM is best suited to handle errors within the module itself?",
+    "answers": [
+      {
+        "text": "A. DIMM",
+        "correct": false
+      },
+      {
+        "text": "B. Dual channel",
+        "correct": false
+      },
+      {
+        "text": "C. ECC",
+        "correct": true
+      },
+      {
+        "text": "D. SODIMM",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Error-Correcting Code (ECC) RAM includes additional parity bits and logic to detect and correct single-bit errors on the fly, ensuring data integrity within the memory module."
+  },
+  {
+    "question": "256. A company has a main office and 20 branch offices. The company wants to have a backup network connection to allow connectivity if the main fiber connection goes down. The company does not want to create new infrastructure. Which of the following should the company use?",
+    "answers": [
+      {
+        "text": "A. Cable",
+        "correct": false
+      },
+      {
+        "text": "B. Cellular",
+        "correct": true
+      },
+      {
+        "text": "C. DSL",
+        "correct": false
+      },
+      {
+        "text": "D. SAN",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Using cellular backup leverages the existing mobile network without laying new cables or fiber. Cellular routers can automatically fail over to LTE/5G whenever the primary fiber link goes down, ensuring continued connectivity for all sites without additional on-premises infrastructure."
+  },
+  {
+    "question": "257. A user reports that a phone’s integration features consistently stop and restart when charging the phone in a car. A technician checks the phone and finds no malicious applications. Which of the following should the technician do to fix the issue?",
+    "answers": [
+      {
+        "text": "A. Clean the connection port.",
+        "correct": true
+      },
+      {
+        "text": "B. Replace the cable with a longer cable.",
+        "correct": false
+      },
+      {
+        "text": "C. Reinstall MDM software on the phone.",
+        "correct": false
+      },
+      {
+        "text": "D. Discharge the battery.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Cleaning the connection port can resolve issues caused by dirt, debris, or corrosion interfering with the phone’s charging and data connection, which can cause integration features to stop and restart."
+  },
+  {
+    "question": "258. A technician sets up a conference room projector that begins to intermittently flicker. The projector is connected to a laptop via an HDMI cable. When the technician connects the laptop to a monitor using the same cable, the issue persists. Which of the following steps should the technician take to troubleshoot the display issue?",
+    "answers": [
+      {
+        "text": "A. Adjust the resolution settings on the laptop.",
+        "correct": false
+      },
+      {
+        "text": "B. Swap the HDMI cable with a new one.",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the projector.",
+        "correct": false
+      },
+      {
+        "text": "D. Check and configure the refresh rate settings.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Adjusting the refresh rate settings can resolve flickering issues caused by incompatibility between the projector’s supported refresh rates and the laptop’s output, ensuring stable display performance."
+  },
+  {
+    "question": "259. A SOHO customer runs an OS on a bare-metal server that has been EOL for almost a decade and is showing signs of failure. The application meets all the customer’s needs, and they want to continue using it. However, the developer went out of business, and there is no way to upgrade it. A technician does not think the OS will run on modern hardware. Which of the following will allow the customer to use the application long-term?",
+    "answers": [
+      {
+        "text": "A. Continue to use the current system until failure.",
+        "correct": false
+      },
+      {
+        "text": "B. Virtualize the entire system under a compatible hypervisor.",
+        "correct": true
+      },
+      {
+        "text": "C. Containerize the application in a multitenant cloud environment.",
+        "correct": false
+      },
+      {
+        "text": "D. Clone the disks and run the application from a USB enclosure.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Virtualizing the entire system under a compatible hypervisor allows the legacy OS and application to run on modern hardware by creating a virtual environment that mimics the original system, ensuring long-term usability despite hardware changes."
+  },
+  {
+    "question": "260. Images and text from a laser printer smudge if touched. Which of the following should a technician do to resolve the issue?",
+    "answers": [
+      {
+        "text": "A. Check the toner levels.",
+        "correct": false
+      },
+      {
+        "text": "B. Install a maintenance kit.",
+        "correct": false
+      },
+      {
+        "text": "C. Replace the fuser.",
+        "correct": true
+      },
+      {
+        "text": "D. Clean the pickup rollers.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Replacing the fuser resolves smudging because the fuser unit uses heat and pressure to permanently bond toner to the paper. A faulty fuser can cause toner to remain loose and smudge when touched."
+  },
+  {
+    "question": "261. A user reports their company-provided smartphone does not have internet access when the user is in the parking lot. Which of the following should a technician check first?",
+    "answers": [
+      {
+        "text": "A. 3G/4G/5G/LTE settings",
+        "correct": true
+      },
+      {
+        "text": "B. SIM connection",
+        "correct": false
+      },
+      {
+        "text": "C. Hotspot capability",
+        "correct": false
+      },
+      {
+        "text": "D. GPS configuration",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Checking the 3G/4G/5G/LTE settings ensures that the phone’s cellular data connection is enabled and configured properly, which is necessary for internet access outside of Wi-Fi coverage areas like a parking lot."
+  },
+  {
+    "question": "262. Every day for a week, when a user turns on their computer, the time is wrong. A technician corrects the time, but the issue happens again. Which of the following is most likely the cause of the issue?",
+    "answers": [
+      {
+        "text": "A. A failing NIC",
+        "correct": false
+      },
+      {
+        "text": "B. Misconstrued NTP settings",
+        "correct": false
+      },
+      {
+        "text": "C. Incorrect time zone",
+        "correct": false
+      },
+      {
+        "text": "D. A faulty CMOS battery",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A faulty CMOS battery causes the system to lose time and BIOS settings when powered off, resulting in the computer resetting to the wrong time each time it is turned on."
+  },
+  {
+    "question": "263. A company decides to subscribe to a cloud service to provide email for its employees. Which of the following cloud models is the company adopting?",
+    "answers": [
+      {
+        "text": "A. PaaS",
+        "correct": false
+      },
+      {
+        "text": "B. SaaS",
+        "correct": true
+      },
+      {
+        "text": "C. DaaS",
+        "correct": false
+      },
+      {
+        "text": "D. IaaS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "SaaS (Software as a Service) delivers software applications, such as email services, over the internet on a subscription basis without requiring the company to manage underlying"
+  },
+  {
+    "question": "264. Which of the following network technologies is used for the operation of physical access control systems?",
+    "answers": [
+      {
+        "text": "A. 802.1Х",
+        "correct": false
+      },
+      {
+        "text": "B. VPN",
+        "correct": false
+      },
+      {
+        "text": "C. GPS",
+        "correct": false
+      },
+      {
+        "text": "D. RFID",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Physical access control systems commonly use radio-frequency identification (RFID) technology - ID badges contain RFID tags that are read by door readers to grant or deny entry."
+  },
+  {
+    "question": "265. A technician wants to evaluate several desktop Linux OSs simultaneously. Which of the following is the best way to accomplish this task?",
+    "answers": [
+      {
+        "text": "A. Container",
+        "correct": false
+      },
+      {
+        "text": "B. Sandbox",
+        "correct": false
+      },
+      {
+        "text": "C. Hypervisor",
+        "correct": true
+      },
+      {
+        "text": "D. VDI",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A hypervisor enables a single physical machine to run multiple full operating systems concurrently in isolated virtual machines, making it ideal for evaluating several desktop Linux distributions side by side."
+  },
+  {
+    "question": "266. A user asks a technician for assistance with a printer that has stopped printing. The user states that the print jobs are generated from a website and are difficult to re-create. When the technician remotes into the user's computer, they can see many jobs in the queue. The issue persists after the user performs a hard reset of the printer. Which of the following will most likely fix the issue?",
+    "answers": [
+      {
+        "text": "A. Restarting the print spooler service on the local computer",
+        "correct": true
+      },
+      {
+        "text": "B. Deleting all the jobs and having the user restart their computer",
+        "correct": false
+      },
+      {
+        "text": "C. Making sure the printer is using the latest PCL driver",
+        "correct": false
+      },
+      {
+        "text": "D. Updating the manufacturer's firmware on the printer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Restarting the print spooler service clears and reloads the print queue on the user’s PC, removing any hung jobs without needing to recreate or reprint them."
+  },
+  {
+    "question": "267. A user reports that a laptop runs very slowly when documents are opened and saved. The user got the laptop within the past year. A technician finds the following specifications for the laptop:\nIntel Core i5-1235U\nWindows 11 Home\nIntel Iris Xe Graphics\n1TB 7200RPM\n16GB: 2 x 8GB DDR4 2666\nThe technician thinks a minor upgrade should solve the slow performance issue. Which of the following components should the technician install?",
+    "answers": [
+      {
+        "text": "A. Gaming GPU",
+        "correct": false
+      },
+      {
+        "text": "B. i7 CPU",
+        "correct": false
+      },
+      {
+        "text": "C. 64GB RAM",
+        "correct": false
+      },
+      {
+        "text": "D. 2.5 SATA SSD",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Replacing the 7200 RPM hard drive with a SATA SSD dramatically improves read/write speeds for file operations, resolving sluggish opening and saving of documents without major system overhauls."
+  },
+  {
+    "question": "268. Which of the following is an example of SaaS?",
+    "answers": [
+      {
+        "text": "A. Videoconferencing",
+        "correct": true
+      },
+      {
+        "text": "B. Managed VDI",
+        "correct": false
+      },
+      {
+        "text": "C. Hosted database",
+        "correct": false
+      },
+      {
+        "text": "D. Hypervisor",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Videoconferencing platforms (e.g., Zoom, Microsoft Teams) are delivered entirely as cloud-based applications that users access over the Internet, fitting the Software-as-a Service model."
+  },
+  {
+    "question": "269. A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122°F (50°C) when the computer is started but rises to 208°F (98°C) when applications are opened. Which of the following would most likely fix this issue?",
+    "answers": [
+      {
+        "text": "A. Replacing the power supply",
+        "correct": false
+      },
+      {
+        "text": "B. Installing a high-performance heat sink",
+        "correct": true
+      },
+      {
+        "text": "C. Adjusting the fan settings",
+        "correct": false
+      },
+      {
+        "text": "D. Adding more RAM to the computer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A high-performance heat sink increases thermal dissipation from the CPU, preventing temperatures from reaching critical levels and stopping the random shutdowns caused by overheating."
+  },
+  {
+    "question": "270. A technician is troubleshooting an HDMI over Ethernet solution. The network link lights on the transmitter and receiver are both active. The TV that is connected to the receiver unit is getting audio, but video is intermittently flashing. Which of the following should the technician check next to find the source of the issue?",
+    "answers": [
+      {
+        "text": "A. HDMI signal source",
+        "correct": false
+      },
+      {
+        "text": "B. PoE power",
+        "correct": false
+      },
+      {
+        "text": "C. Firmware on TV",
+        "correct": false
+      },
+      {
+        "text": "D. Network cable termination",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Intermittent video over an Ethernet extender is most often caused by a poor-quality or improperly terminated cable. Verifying proper terminations and cable integrity will resolve the flashing video issue."
+  },
+  {
+    "question": "271. A customer reports that internet browsing on their smartphone is fast at the beginning of the month but significantly slows down toward the end of the month. A technician examines the phone and finds multiple free cloud backup services running, with several gigabytes of personal data spread across each. Data availability is important to the customer. Which of the following is the best way to resolve the customer's issue?",
+    "answers": [
+      {
+        "text": "A. Disabling all cloud backup services except one",
+        "correct": false
+      },
+      {
+        "text": "B. Installing an additional SD card for photos and videos",
+        "correct": false
+      },
+      {
+        "text": "C. Expanding the cache storage to consolidate data",
+        "correct": false
+      },
+      {
+        "text": "D. Configuring data synchronization only over Wi-Fi connections",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "By restricting the cloud backups to run only when the device is on Wi-Fi, you prevent large data transfers from eating into the user’s cellular allowance later in the month - keeping browsing performance consistent without disabling any backup service."
+  },
+  {
+    "question": "272. A user reports slow performance when saving documents locally on a computer. A technician reviews the logs and notices entries showing S.M.A.R.T. errors. Which of the following actions should the technician take next?",
+    "answers": [
+      {
+        "text": "A. Reseat all SATA cables.",
+        "correct": false
+      },
+      {
+        "text": "B. Replace the hard drive.",
+        "correct": true
+      },
+      {
+        "text": "C. Defragment the hard drive.",
+        "correct": false
+      },
+      {
+        "text": "D. Run Disk Cleanup.",
+        "correct": false
+      },
+      {
+        "text": "E. Install a heat sink on the hard drive.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "S.M.A.R.T. errors are a clear sign the drive is failing. Replacing the hard drive prevents data loss and restores reliable performance."
+  },
+  {
+    "question": "273. Which of the following cable types is used to connect a display?",
+    "answers": [
+      {
+        "text": "A. DVI",
+        "correct": true
+      },
+      {
+        "text": "B. RJ45",
+        "correct": false
+      },
+      {
+        "text": "C. SATA",
+        "correct": false
+      },
+      {
+        "text": "D. USB 1.1",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "DVI (Digital Visual Interface) is specifically designed to carry video signals from a computer’s graphics card to a display device."
+  },
+  {
+    "question": "274. A user is having issues displaying the contents of their laptop screen on a projector. The laptop is connected using an HDMI cable, but the screen displays a message indicating there is no signal. Which of the following should the technician do first to diagnose the issue?",
+    "answers": [
+      {
+        "text": "A. Check the projector input sources.",
+        "correct": true
+      },
+      {
+        "text": "B. Replace the HDMI cable.",
+        "correct": false
+      },
+      {
+        "text": "C. Change the resolution of the screen to 1080p.",
+        "correct": false
+      },
+      {
+        "text": "D. Verify the HDMI port is not damaged.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Ensuring the projector is set to the same HDMI input as the laptop is the quickest way to confirm it’s actually looking at the correct source before swapping cables or changing settings."
+  },
+  {
+    "question": "275. Which of the following best describes the purpose of a firewall?",
+    "answers": [
+      {
+        "text": "A. To connect to Wi-Fi",
+        "correct": false
+      },
+      {
+        "text": "B. To assign IP addresses",
+        "correct": false
+      },
+      {
+        "text": "C. To route network packets locally",
+        "correct": false
+      },
+      {
+        "text": "D. To block unwanted traffic",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A firewall filters incoming and outgoing network traffic based on defined security rules, preventing unauthorized or malicious data packets from passing through."
+  },
+  {
+    "question": "276. A customer's laptop has been randomly shutting down. The laptop charges intermittently, and the screen dims when the laptop is not charging. Which of the following is the most likely cause of the issue?",
+    "answers": [
+      {
+        "text": "A. Malware",
+        "correct": false
+      },
+      {
+        "text": "B. Failed digitizer",
+        "correct": false
+      },
+      {
+        "text": "C. Faulty battery",
+        "correct": true
+      },
+      {
+        "text": "D. Damaged power port",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Intermittent charging and automatic dimming when unplugged indicate the battery isn’t holding or delivering power properly, causing shutdowns when AC power isn’t available."
+  },
+  {
+    "question": "277. Which of the following DNS record types is used to identify an email server?",
+    "answers": [
+      {
+        "text": "A. AAAA",
+        "correct": false
+      },
+      {
+        "text": "B. CNAME",
+        "correct": false
+      },
+      {
+        "text": "C. TXT",
+        "correct": false
+      },
+      {
+        "text": "D. MX",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "An MX (Mail Exchanger) record in DNS specifies the mail server responsible for accepting email messages on behalf of a domain."
+  },
+  {
+    "question": "278. Which of the following is used to register inputs on a touch-screen monitor?",
+    "answers": [
+      {
+        "text": "A. Inverter",
+        "correct": false
+      },
+      {
+        "text": "B. Digitizer",
+        "correct": true
+      },
+      {
+        "text": "C. OLED",
+        "correct": false
+      },
+      {
+        "text": "D. LCD",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The digitizer is the touch-sensitive layer over the display that detects and converts finger or stylus contact into input coordinates for the system."
+  },
+  {
+    "question": "279. A user's company-issued smartphone is swollen and will not fit in its protective enclosure. Which of the following would a technician most likely do?",
+    "answers": [
+      {
+        "text": "A. Replace the battery.",
+        "correct": true
+      },
+      {
+        "text": "B. Upgrade the RAM.",
+        "correct": false
+      },
+      {
+        "text": "C. Change the case.",
+        "correct": false
+      },
+      {
+        "text": "D. Restore to the factory settings.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A swollen smartphone battery is a sign of chemical degradation and a potential safety hazard. Replacing the battery restores proper fit and ensures safe operation."
   }
 ]
