@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const errorMsg = document.getElementById("errorMsg");
   const adminSection = document.getElementById("adminSection");
 
-  // Hard-coded credentials
+  // Signin credentials
   const ADMIN_USER = "sandile";
   const ADMIN_PASS = "admin@12345";
 
