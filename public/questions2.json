@@ -1,0 +1,577 @@
+[
+  {
+    "question": "1. A technician needs to provide remote support for a legacy Linux-based operating system from their Windows laptop. The solution needs to allow the technician to see what the user is doing and provide the ability to interact with the user's session. Which of the following remote access technologies would support the use case?",
+    "answers": [
+      {
+        "text": "A. VPN",
+        "correct": false
+      },
+      {
+        "text": "B. VNC",
+        "correct": true
+      },
+      {
+        "text": "C. SSH",
+        "correct": false
+      },
+      {
+        "text": "D. RDP",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "VNC is a graphical desktop-sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. It is platform-independent and widely supported on Linux, which makes it ideal for providing interactive remote support for a Linux-based operating system. It allows the technician not only to view the remote desktop session but also to control it, fulfilling the need to see and interact with the user's session."
+  },
+  {
+    "question": "2. A technician is attempting to join a workstation to a domain but is receiving an error message stating the domain cannot be found. However, the technician is able to ping the server and access the internet. Given the following information: \n IP Address - 192.168.1.210 \n Subnet Mask - 255.255.255.0 \n Gateway - 192.168.1.1 \n DNS1 - 8.8.8.8 \n DNS2 - 1.1.1.1 \n\n Server - 192.168.1.10 \n.\nWhich of the following should the technician do to fix the issue?",
+    "answers": [
+      {
+        "text": "A. Change the DNS settings.",
+        "correct": true
+      },
+      {
+        "text": "B. Assign a static IP address.",
+        "correct": false
+      },
+      {
+        "text": "C. Configure a subnet mask.",
+        "correct": false
+      },
+      {
+        "text": "D. Update the default gateway.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Domain join failures with successful IP connectivity almost always point to name-resolution issues. The workstation is using public DNS servers (8.8.8.8 and 1.1.1.1), which have no records for the internal AD domain or its controllers. Pointing DNS at the internal DNS server (192.168.1.10) ensures the domain name and SRV records can be resolved, allowing the join to succeed."
+  },
+  {
+    "question": "3. A network technician notices that most of the company's network switches are now end-of-life and need to be upgraded. Which of the following should the technician do first?",
+    "answers": [
+      {
+        "text": "A. Implement the change",
+        "correct": false
+      },
+      {
+        "text": "B. Approve the change.",
+        "correct": false
+      },
+      {
+        "text": "C. Propose the change.",
+        "correct": true
+      },
+      {
+        "text": "D. Schedule the change.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "In a structured change-management process, the very first step is to propose (or formally request) the change via a Request for Change (RFC). This ensures stakeholders review the need, assess risks, and determine the priority before any approvals, scheduling, or implementation occur."
+  },
+  {
+    "question": "4. MFA for a custom web application on a user's smartphone is no longer working. The last time the user remembered it working was before taking a vacation to another country. Which of the following should the technician do first?",
+    "answers": [
+      {
+        "text": "A. Verify the date and time settings.",
+        "correct": true
+      },
+      {
+        "text": "B. Apply mobile OS patches.",
+        "correct": false
+      },
+      {
+        "text": "C. Uninstall and reinstall the application.",
+        "correct": false
+      },
+      {
+        "text": "D. Escalate to the website developer.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Time-based one-time password (TOTP) MFA apps rely on accurate clock synchronization. Traveling can desynchronize the device's clock, causing generated codes to be invalid. Ensuring the smartphone's date/time (and time zone) are correct will typically restore MFA functionality immediately."
+  },
+  {
+    "question": "5. Which of the following is found in an MSDS sheet for a battery backup?",
+    "answers": [
+      {
+        "text": "A. Installation instructions",
+        "correct": false
+      },
+      {
+        "text": "B. Emergency procedures",
+        "correct": true
+      },
+      {
+        "text": "C. Configuration steps",
+        "correct": false
+      },
+      {
+        "text": "D. Voltage specifications",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A Material Safety Data Sheet (MSDS) provides critical safety and handling information for hazardous materials - in this case, the battery's chemicals. It includes emergency procedures (first-aid measures, fire-fighting steps, spill containment), ensuring responders know how to act safely in an incident."
+  },
+  {
+    "question": "6. The screen of a previously working computer repeatedly displays an OS Not Found error message when the computer is started. Only a USB drive, a keyboard, and a mouse are plugged into the computer. Which of the following should a technician do first?",
+    "answers": [
+      {
+        "text": "A. Run data recovery tools on the disk.",
+        "correct": false
+      },
+      {
+        "text": "B. Partition the disk using the GPT format.",
+        "correct": false
+      },
+      {
+        "text": "C. Check boot options.",
+        "correct": true
+      },
+      {
+        "text": "D. Switch from UEFI to BIOS.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An \"OS Not Found\" error most commonly indicates the system isn't booting from the correct device. Verifying and correcting the boot order (ensuring the internal hard drive is prioritized over USB or other entries) is the quickest first step before making any changes to the disk or firmware settings."
+  },
+  {
+    "question": "7. A security administrator teaches all of an organization's staff members to use BitLocker To Go. Which of the following best describes the reason for this training?",
+    "answers": [
+      {
+        "text": "A. To ensure that all removable media is password protected in case of loss or theft",
+        "correct": true
+      },
+      {
+        "text": "B. To enable Secure Boot and a BIOS-level password to prevent configuration changes",
+        "correct": false
+      },
+      {
+        "text": "C. To enforce VPN connectivity to be encrypted by hardware modules",
+        "correct": false
+      },
+      {
+        "text": "D. To configure all laptops to use the TPM as an encryption factor for hard drives",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "BitLocker To Go is specifically designed to encrypt removable drives (USB flash drives, external HDDs). Training staff on its use guarantees that any data stored on such media requires a password (or recovery key) to access, protecting sensitive information if the device is lost or stolen."
+  },
+  {
+    "question": "8. Which of the following is used to detect and record access to restricted areas?",
+    "answers": [
+      {
+        "text": "A. Bollards",
+        "correct": false
+      },
+      {
+        "text": "B. Video surveillance",
+        "correct": false
+      },
+      {
+        "text": "C. Badge readers",
+        "correct": true
+      },
+      {
+        "text": "D. Fence",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Badge readers authenticate and log each entry attempt - recording who accessed (or tried to access) a secured area and when. This audit trail is essential for monitoring and reviewing access to restricted zones."
+  },
+  {
+    "question": "9. An administrator received an email stating that the OS they are currently supporting will no longer be issued security updates and patches. Which of the following is most likely the reason the administrator received this message?",
+    "answers": [
+      {
+        "text": "A. Support from the computer's manufacturer is expiring.",
+        "correct": false
+      },
+      {
+        "text": "B. The OS will be considered end of life.",
+        "correct": true
+      },
+      {
+        "text": "C. The built-in security software is being removed from the next OS version.",
+        "correct": false
+      },
+      {
+        "text": "D. A new version of the OS will be released soon.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When an operating system reaches end of life (EOL), the vendor ceases issuing security updates and patches. Administrators are notified so they can plan upgrades or migrations before support ends."
+  },
+  {
+    "question": "10. Which of the following is the best way to distribute custom images to 800 devices that include four device vendor classes with two types of user groups?",
+    "answers": [
+      {
+        "text": "A. Use xcopy to clone the hard drives from one to another.",
+        "correct": false
+      },
+      {
+        "text": "B. Use robocopy to move the files to each device.",
+        "correct": false
+      },
+      {
+        "text": "C. Use a local image deployment tool for each device.",
+        "correct": false
+      },
+      {
+        "text": "D. Use a network-based remote installation tool.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A network-based remote installation tool (such as Windows Deployment Services, MDT, or a similar solution) scales efficiently across hundreds of devices with varying hardware and user configurations. It allows you to segment deployments by vendor classes and user groups, automate imaging processes, and manage version control centrally - far more effectively than one-to-one cloning or file-copy methods."
+  },
+  {
+    "question": "11. Which of the following types of social engineering attacks sends an unsolicited text message to a user's mobile device?",
+    "answers": [
+      {
+        "text": "A. Impersonation",
+        "correct": false
+      },
+      {
+        "text": "B. Vishing",
+        "correct": false
+      },
+      {
+        "text": "C. Spear phishing",
+        "correct": false
+      },
+      {
+        "text": "D. Smishing",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Smishing is the act of sending fraudulent messages via SMS or other texting platforms to trick users into revealing sensitive information or clicking malicious links. This distinguishes it from phishing over email (spear phishing), voice calls (vishing), or in-person deception (impersonation)."
+  },
+  {
+    "question": "12. A user reports some single sign-on errors to a help desk technician. Currently, the user is able to sign in to the company's application portal but cannot access a specific SaaS-based tool. Which of the following would the technician most likely suggest as a next step?",
+    "answers": [
+      {
+        "text": "A. Reenroll the user's mobile device to be used as an MFA token.",
+        "correct": false
+      },
+      {
+        "text": "B. Use a private browsing window to avoid local session conflicts.",
+        "correct": true
+      },
+      {
+        "text": "C. Bypass single sign-on by directly authenticating to the application.",
+        "correct": false
+      },
+      {
+        "text": "D. Reset the device being used to factory defaults.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Single sign-on issues that affect only a specific application often stem from stale or conflicting session data in the user's browser. Launching a private (incognito) window ensures a fresh session without cached cookies or tokens, which can resolve access to the SaaS tool without affecting other configurations."
+  },
+  {
+    "question": "13. A technician verifies that a malware incident occurred on some computers in a small office. Which of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Quarantine the infected systems.",
+        "correct": true
+      },
+      {
+        "text": "B. Educate the end users.",
+        "correct": false
+      },
+      {
+        "text": "C. Disable System Restore.",
+        "correct": false
+      },
+      {
+        "text": "D. Update the anti-malware and scan the computers.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Once an incident is confirmed, the immediate priority is containment. Isolating (quarantining) the infected machines prevents the malware from spreading to other systems or exfiltrating data, enabling safe analysis and remediation."
+  },
+  {
+    "question": "14. Which of the following is a Linux command that is used for administrative purposes?",
+    "answers": [
+      {
+        "text": "A. runas",
+        "correct": false
+      },
+      {
+        "text": "B. cmcl",
+        "correct": false
+      },
+      {
+        "text": "C. net user",
+        "correct": false
+      },
+      {
+        "text": "D. su",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The su (substitute user) command is a standard Linux utility that allows an administrator to assume another user's identity - most commonly switching to the root account for elevated privileges. It's an essential tool for administrative tasks on Unix and Linux systems."
+  },
+  {
+    "question": "15. A user recently installed an application that accesses a database from a local server. When launching the application, it does not populate any information. Which of the following command line tools is the best to troubleshoot the issue?",
+    "answers": [
+      {
+        "text": "A. ipconfig",
+        "correct": false
+      },
+      {
+        "text": "B. nslookup",
+        "correct": false
+      },
+      {
+        "text": "C. netstat",
+        "correct": true
+      },
+      {
+        "text": "D. curl",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "netstat reveals active network connections and listening ports on the local machine. By using it, you can confirm that the application has successfully opened (or attempted) a connection to the database server's port, verify the remote server's address and port, and detect any failed or hanging TCP sessions that would prevent data retrieval."
+  },
+  {
+    "question": "16. A small office reported a phishing attack that resulted in a malware infection. A technician is investigating the incident and has verified the following:\n- All endpoints are updated and have the newest EDR signatures.\n- Logs confirm that the malware was quarantined by EDR on one system.\n- The potentially infected machine was reimaged.\nWhich of the following actions should the technician take next?",
+    "answers": [
+      {
+        "text": "A. Install network security tools to prevent downloading infected files from the internet.",
+        "correct": false
+      },
+      {
+        "text": "B. Discuss the cause of the issue and educate the end user about security hygiene.",
+        "correct": true
+      },
+      {
+        "text": "C. Flash the firmware of the router to ensure the integrity of network traffic.",
+        "correct": false
+      },
+      {
+        "text": "D. Suggest alternate preventative controls that would include more advanced security software.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "With technical controls updated, EDR signatures current, and the infected system reimaged, the next step is to address the human factor. Educating the user on how to recognize phishing attempts and follow safe practices helps prevent recurrence and strengthens the organization's overall security posture."
+  },
+  {
+    "question": "17. Which of the following describes a vulnerability that has been exploited before a patch or remediation is available?",
+    "answers": [
+      {
+        "text": "A. Spoofing",
+        "correct": false
+      },
+      {
+        "text": "B. Brute-force",
+        "correct": false
+      },
+      {
+        "text": "C. DoS",
+        "correct": false
+      },
+      {
+        "text": "D. zero-day",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A zero-day vulnerability refers to a security flaw that is actively exploited by attackers before the software vendor has released a patch or remediation - meaning defenders have \"zero days\" to prepare once the exploit becomes known."
+  },
+  {
+    "question": "18. A help desk technician is setting up speech recognition on a Windows system. Which of the following settings should the technician use?",
+    "answers": [
+      {
+        "text": "A. Time and Language",
+        "correct": false
+      },
+      {
+        "text": "B. Personalization",
+        "correct": false
+      },
+      {
+        "text": "C. System",
+        "correct": false
+      },
+      {
+        "text": "D. Ease of Access",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Windows places speech recognition and other accessibility features under the Ease of Access settings. From there, you can configure Speech options - including enabling Windows Speech Recognition and adjusting its settings - so that users relying on voice input can operate the system effectively."
+  },
+  {
+    "question": "19. A user receives a new personal computer but is unable to run an application. An error displays saying that .NET Framework 3.5 is required and not found. Which of the following actions is the best way to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. Resolve the dependency through the 'Turn Windows features on or off' menu.",
+        "correct": true
+      },
+      {
+        "text": "B. Download the dependency via a third-party repository.",
+        "correct": false
+      },
+      {
+        "text": "C. Ignore the dependency and install the latest version 4 instead.",
+        "correct": false
+      },
+      {
+        "text": "D. Forward the trouble ticket to the SOC team because the issue poses a great security risk.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Windows includes .NET Framework 3.5 as an optional feature. Enabling it via Control Panel Programs and Features Turn Windows features on or off ensures the OS installs the correct version directly from Microsoft without relying on untrusted sources or skipping needed dependencies."
+  },
+  {
+    "question": "20. An employee is using a photo editing program. Certain features are disabled and require a log-in, which the employee does not have. Which of the following is a way to resolve this issue?",
+    "answers": [
+      {
+        "text": "A. License assignment",
+        "correct": true
+      },
+      {
+        "text": "B. VPN connection",
+        "correct": false
+      },
+      {
+        "text": "C. Application repair",
+        "correct": false
+      },
+      {
+        "text": "D. Program reinstallation",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "When features in an application are disabled pending a login, it typically indicates those capabilities are controlled by the software's licensing system. Assigning (or activating) the proper license entitles the user to those premium features, restoring full functionality without unnecessary repair or reinstall steps."
+  },
+  {
+    "question": "21. A technician is deploying mobile devices and needs to prevent access to sensitive data if the devices are lost. Which of the following is the best way to prevent unauthorized access if the user is unaware that the phone is lost?",
+    "answers": [
+      {
+        "text": "A. Encryption",
+        "correct": true
+      },
+      {
+        "text": "B. Remote wipe",
+        "correct": false
+      },
+      {
+        "text": "C. Geofencing",
+        "correct": false
+      },
+      {
+        "text": "D. Facial recognition",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Full-disk (or device) encryption ensures that, even if a lost mobile device is physically accessed by an unauthorized party, its stored data remains inaccessible without the correct decryption credentials. This protection is automatic and continuous, safeguarding data at rest regardless of whether the user realizes the device is missing or not. Remote wipe can remove data if triggered, but it requires the device to be online and the user (or admin) to initiate the wipe--whereas encryption is always in effect."
+  },
+  {
+    "question": "22. Which of the following is the quickest way to move from Windows 10 to Windows 11 without losing data?",
+    "answers": [
+      {
+        "text": "A. Using gp update",
+        "correct": false
+      },
+      {
+        "text": "B. Image deployment",
+        "correct": false
+      },
+      {
+        "text": "C. Clean install",
+        "correct": false
+      },
+      {
+        "text": "D. In-place upgrade",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "An in-place upgrade directly installs Windows 11 over the existing Windows 10 installation, preserving user files, applications, and settings. It's much faster than capturing and redeploying an image, and it avoids the data loss risk of a clean install."
+  },
+  {
+    "question": "23. Technicians are failing to document user contact information, device asset tags, and a clear description of each issue in the ticketing system. Which of the following should a help desk management team implement for technicians to use on every call?",
+    "answers": [
+      {
+        "text": "A. Service-level agreements",
+        "correct": false
+      },
+      {
+        "text": "B. Call categories",
+        "correct": false
+      },
+      {
+        "text": "C. Standard operating procedures",
+        "correct": true
+      },
+      {
+        "text": "D. Knowledge base articles",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Standard operating procedures (SOPs) define consistent, step-by-step guidelines that technicians must follow - such as capturing user contact details, asset tags, and detailed issue descriptions on every ticket. Implementing SOPs ensures thorough and uniform documentation across all\ncalls."
+  },
+  {
+    "question": "24. An application's performance is degrading over time. The application is slowing, but it never gives an error and does not crash. Which of the following tools should a technician use to start troubleshooting?",
+    "answers": [
+      {
+        "text": "A. Reliability history",
+        "correct": false
+      },
+      {
+        "text": "B. Computer management",
+        "correct": false
+      },
+      {
+        "text": "C. Resource monitor",
+        "correct": true
+      },
+      {
+        "text": "D. Disk",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Resource Monitor provides real-time insights into CPU, memory, disk, and network usage by process. By observing which resources steadily increase or become bottlenecks over time, a technician can pinpoint leaks (e.g., memory), I/O contention, or other performance issues driving the slowdown."
+  },
+  {
+    "question": "25. Which of the following filesystem types does the Linux OS use?",
+    "answers": [
+      {
+        "text": "A. exFAT",
+        "correct": false
+      },
+      {
+        "text": "B. APFS",
+        "correct": false
+      },
+      {
+        "text": "C. ext4",
+        "correct": true
+      },
+      {
+        "text": "D. NTFS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "ext4 (Fourth Extended Filesystem) is the default file system for most Linux distributions. It offers improved performance, reliability, and support for large volumes and files compared to its predecessors (ext2/ext3)."
+  }
+]

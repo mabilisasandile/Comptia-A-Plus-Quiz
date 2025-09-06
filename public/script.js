@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const questionNumberElement = document.getElementById("question-number");
 
   const rangeSelect = document.getElementById("question-range");
+  const coreSelect = document.getElementById("core-number");
   const startRangeBtn = document.getElementById("start-range-quiz");
   const downloadButton = document.getElementById("download-btn");
 
@@ -18,15 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const explanationElement = document.getElementById("answer-explanation");
 
   let scoredQuestions = new Set(); // store question indexes that have been scored
-
-  // Load questions
-  fetch("questions.json")
-    .then(res => res.json())
-    .then(data => { allQuestions = data; })
-    .catch(err => {
-      console.error("Failed to load questions:", err);
-      questionElement.innerText = "Error loading quiz.";
-    });
 
   startRangeBtn.addEventListener("click", () => {
     const range = rangeSelect.value;
@@ -37,10 +29,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
   nextButton.addEventListener("click", handleNextButton);
 
+  startRangeBtn.addEventListener("click", () => {
+    const range = rangeSelect.value;
+    const [start, end] = range.split("-").map(Number);
+
+    // Fetch questions based on selected core
+    const coreFile = coreSelect.value === "220-1202" ? "questions2.json" : "questions.json";
+    fetch(coreFile)
+      .then(res => res.json())
+      .then(data => {
+        allQuestions = data;
+        questions = allQuestions.slice(start - 1, end);
+        startQuiz();
+      })
+      .catch(err => {
+        console.error("Failed to load questions:", err);
+        questionElement.innerText = "Error loading quiz.";
+      });
+  });
+
   function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    scoredQuestions.clear(); // reset scored questions
+    scoredQuestions.clear();
     nextButton.innerText = "Next";
     downloadButton.style.display = "none";
     showQuestion();

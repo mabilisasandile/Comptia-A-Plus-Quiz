@@ -12,11 +12,17 @@
 <body>
   <div class="quiz-container">
 
-    <a href="form.html"><button>➕ Add New Questions</button></a>
+    <a href="form.html"><button>⚙️ Settings</button></a>
 
-      <h1>CompTIA A+ Quiz</h1>
+    <h1>CompTIA A+ Quiz</h1>
 
     <div class="range-selector">
+      <label for="core-number">Select Core Number:</label>
+      <select id="core-number">
+        <option value="220-1201">220-1201</option>
+        <option value="220-1202">220-1202</option>
+      </select>
+      <br />
       <label for="question-range">Choose question range:</label>
       <select id="question-range">
         <option value="1-50">1 – 50</option>
@@ -31,7 +37,7 @@
 
     <div id="question-container">
       <h2 id="question-number">Question 1 of 100</h2>
-      <div id="question">Questions will be shown here or click "START QUIZ" to begin.</div>
+      <div id="question">Questions will be shown here or click "START QUIZ" to attempt Quiz.</div>
       <div id="answer-buttons" class="btn-group"></div>
 
       <div id="answer-buttons" class="answers"></div>
