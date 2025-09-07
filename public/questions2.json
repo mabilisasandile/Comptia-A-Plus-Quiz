@@ -2718,5 +2718,711 @@
     ],
     "multiple": false,
     "explanation": "Device encryption further reduces the risk of unauthorized data access by ensuring the contents of the smartphone cannot be read without proper authentication, even if the device is lost or stolen."
+  },
+  {
+    "question": "121. Which of the following is a protocol that provides AAA for network services?",
+    "answers": [
+      {
+        "text": "A. RADIUS",
+        "correct": true
+      },
+      {
+        "text": "B. Kerberos",
+        "correct": false
+      },
+      {
+        "text": "C. TKIP",
+        "correct": false
+      },
+      {
+        "text": "D. WPA3",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "RADIUS (Remote Authentication Dial-In User Service)provides centralized Authentication, Authorization, and Accounting (AAA) for users who connect and use a network service."
+  },
+  {
+    "question": "122. A customer's laptop will not turn on. The customer is distraught and panicking because the laptop contains family pictures that can never be replaced. Which of the following communication techniques is most important for the technician to demonstrate in this situation?",
+    "answers": [
+      {
+        "text": "A. The technician should provide the customer with the appropriate SLA",
+        "correct": false
+      },
+      {
+        "text": "B. The technician should inform the customer about replacement options for an increased cost",
+        "correct": false
+      },
+      {
+        "text": "C. The technician should project confidence and maintain a positive attitude",
+        "correct": true
+      },
+      {
+        "text": "D. The technician should be dressed in appropriate business casual attire",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "In emotionally sensitive situations, it is critical that the technician projects confidence and maintains a calm, positive demeanor to reassure the customer."
+  },
+  {
+    "question": "123. A technician is 3-D printing high-strength, carbon fiber-based filament parts for a customer order. Which of the following is the most important for the technician to use?",
+    "answers": [
+      {
+        "text": "A. Steel-toed boots",
+        "correct": false
+      },
+      {
+        "text": "B. Air filter mask",
+        "correct": true
+      },
+      {
+        "text": "C. ESD mat",
+        "correct": false
+      },
+      {
+        "text": "D. Antistatic bags",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An air filter mask is most important because 3-D printing carbon fiber-based filaments can release fine particles and fumes that are hazardous if inhaled."
+  },
+  {
+    "question": "124. A client reports that their browser’s home page changed. Every time they run an internet search, the results returned are from unfamiliar websites. Which of the following actions should a technician take first to resolve the issue? (Choose two.)",
+    "answers": [
+      {
+        "text": "A. Clear the browsing history",
+        "correct": false
+      },
+      {
+        "text": "B. Run operating system updates",
+        "correct": false
+      },
+      {
+        "text": "C. Check the system date and time",
+        "correct": false
+      },
+      {
+        "text": "D. Uninstall malicious extensions",
+        "correct": true
+      },
+      {
+        "text": "E. Reset browser startup page",
+        "correct": true
+      },
+      {
+        "text": "F. Restart the user's machine",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "Uninstalling malicious extensions can remove unwanted changes and stop further hijacking behavior.\nResetting the browser startup page restores the original home page and removes unwanted redirects."
+  },
+  {
+    "question": "125. A user reports that their corporate mobile phone is lost. Which of the following protects the data locally on the phone from unauthorized access?",
+    "answers": [
+      {
+        "text": "A. Password manager",
+        "correct": false
+      },
+      {
+        "text": "B. Degaussing",
+        "correct": false
+      },
+      {
+        "text": "C. Remote wipe",
+        "correct": true
+      },
+      {
+        "text": "D. Antivirus",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Remote wipe is a mobile device management (MDM) feature that allows administrators to erase data remotely if a device is lost or stolen, preventing unauthorized access to corporate or personal information."
+  },
+  {
+    "question": "126. A technician is troubleshooting a print spooler that fails to start on a Windows 11 desktop computer. The technician determines the root cause is that required dependencies are failing to run. Which of the following tools is the technician using?",
+    "answers": [
+      {
+        "text": "A. Process",
+        "correct": false
+      },
+      {
+        "text": "B. Services",
+        "correct": true
+      },
+      {
+        "text": "C. Startup",
+        "correct": false
+      },
+      {
+        "text": "D. Performance",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The Services tool in Windows allows a technician to view service dependencies and status. If the print spooler can't start due to a dependency, Services is the correct tool to inspect and manage them."
+  },
+  {
+    "question": "127. Which of the following filesystems supports read and write operations for Windows, macOS, and Linux?",
+    "answers": [
+      {
+        "text": "A. exFAT",
+        "correct": true
+      },
+      {
+        "text": "B. ReFS",
+        "correct": false
+      },
+      {
+        "text": "C. NTFS",
+        "correct": false
+      },
+      {
+        "text": "D. APFS",
+        "correct": false
+      },
+      {
+        "text": "E. ext4",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "exFAT is supported by Windows, macOS, and Linux for both read and write operations, making it the most compatible file system among the options listed."
+  },
+  {
+    "question": "128. A technician installs a Bluetooth headset for a user. During testing, the sound is still coming from the speaker on the computer. The technician verifies the headset shows up in Device Manager. Which of the following would the technician most likely do to fix this issue?",
+    "answers": [
+      {
+        "text": "A. Update the drivers for the wireless headset",
+        "correct": false
+      },
+      {
+        "text": "B. Replace the battery on the headset and try again later",
+        "correct": false
+      },
+      {
+        "text": "C. Verify that the sound is not muted in the control panel",
+        "correct": false
+      },
+      {
+        "text": "D. Change the headset as the default device in sound settings",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The technician should change the headset to the default device in the sound settings to ensure audio is routed to the Bluetooth headset instead of the computer’s speakers."
+  },
+  {
+    "question": "129. Which of the following authentication methods is the best way to prevent users from frequently entering their credentials?",
+    "answers": [
+      {
+        "text": "A. Access control list",
+        "correct": false
+      },
+      {
+        "text": "B. Single sign-on",
+        "correct": true
+      },
+      {
+        "text": "C. Multifactor authentication",
+        "correct": false
+      },
+      {
+        "text": "D. One-time password",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Single sign-on (SSO)allows users to authenticate once and gain access to multiple systems without re- entering credentials, which significantly enhances user convenience while maintaining security."
+  },
+  {
+    "question": "130. A user wants to use a USB to move a 4.57GB .pst file from one Windows computer to another. Which of the following filesystems should the USB be formatted with?",
+    "answers": [
+      {
+        "text": "A. ext4",
+        "correct": false
+      },
+      {
+        "text": "B. NTFS",
+        "correct": true
+      },
+      {
+        "text": "C. FAT32",
+        "correct": false
+      },
+      {
+        "text": "D. APFS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "FAT32 cannot support files larger than 4GB. NTFS supports large file sizes and is compatible across Windows systems, making it the correct choice for transferring a 4.57GB file."
+  },
+  {
+    "question": "131. An administrator is investigating a zero-day vulnerability. If left unpatched, it could severely impact business. The patch requires downtime. What should the administrator do?",
+    "answers": [
+      {
+        "text": "A. Create a standard change request.",
+        "correct": false
+      },
+      {
+        "text": "B. Implement an emergency change.",
+        "correct": true
+      },
+      {
+        "text": "C. Immediately freeze all changes.",
+        "correct": false
+      },
+      {
+        "text": "D. Continue operations until the next change interval.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A zero-day vulnerability demands an emergency change to quickly secure the system, even if downtime is needed."
+  },
+  {
+    "question": "132. Multiple users clicked a phishing link from a compromised email account. The security team isolates and removes the threat. Then, the management team provides security awareness training to the company. What step is this?",
+    "answers": [
+      {
+        "text": "A. Provide user education.",
+        "correct": true
+      },
+      {
+        "text": "B. Compile lessons learned.",
+        "correct": false
+      },
+      {
+        "text": "C. Update the antivirus software.",
+        "correct": false
+      },
+      {
+        "text": "D. Perform additional scans.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "This is part of the user education step after a security incident to prevent future occurrences."
+  },
+  {
+    "question": "133. A help desk technician recently installed an SSH client on a workstation in order to access remote servers. What does this enable?",
+    "answers": [
+      {
+        "text": "A. To utilize an SSO connection",
+        "correct": false
+      },
+      {
+        "text": "B. To securely establish a console session",
+        "correct": true
+      },
+      {
+        "text": "C. To encrypt and decrypt protected messages",
+        "correct": false
+      },
+      {
+        "text": "D. To facilitate device log reviews",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "SSH (Secure Shell) allows encrypted console sessions to access and administer remote servers."
+  },
+  {
+    "question": "134. A user reports that the time on their computer does not match the time on their VoIP phone. What should a technician do?",
+    "answers": [
+      {
+        "text": "A. Confirm the user is logging in to the domain.",
+        "correct": false
+      },
+      {
+        "text": "B. Manually set the time on the phone to match the computer.",
+        "correct": false
+      },
+      {
+        "text": "C. Download and install the latest BIOS update.",
+        "correct": false
+      },
+      {
+        "text": "D. Configure access to an available NTP server.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "This scenario involves a mismatch in device time settings, which can affect synchronization and authentication across the network. Using a Network Time Protocol (NTP) server ensures all networked devices maintain accurate and synchronized clocks."
+  },
+  {
+    "question": "135. A user wants to dispose of a failed hard drive in a way that ensures the data is unrecoverable. Which of the following is the best at-home method?",
+    "answers": [
+      {
+        "text": "A. Standard formatting",
+        "correct": false
+      },
+      {
+        "text": "B. Low-level formatting",
+        "correct": false
+      },
+      {
+        "text": "C. Shredding",
+        "correct": false
+      },
+      {
+        "text": "D. Degaussing",
+        "correct": false
+      },
+      {
+        "text": "E. Drilling",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Drilling physically destroys the hard drive platters, making data recovery impossible, and is an effective at-home method for ensuring data is unrecoverable."
+  },
+  {
+    "question": "136. A technician follows the proper procedure for malware removal on an infected computer. However, the technician is unable to remove all the malware and decides to reload the OS. Which of the following should the technician select?",
+    "answers": [
+      {
+        "text": "A. Version upgrade",
+        "correct": false
+      },
+      {
+        "text": "B. System restore",
+        "correct": false
+      },
+      {
+        "text": "C. OS repair",
+        "correct": false
+      },
+      {
+        "text": "D. Clean install",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A clean install removes the current OS and all existing data, ensuring all malware is eliminated from the system."
+  },
+  {
+    "question": "137. A town clerk wants to work from home and access documents on a town hall server. What should a technician set up?",
+    "answers": [
+      {
+        "text": "A. VNC",
+        "correct": false
+      },
+      {
+        "text": "B. RDP",
+        "correct": false
+      },
+      {
+        "text": "C. VPN",
+        "correct": true
+      },
+      {
+        "text": "D. SSH",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A VPN (Virtual Private Network) should be set up to securely connect the clerk’s laptop to the town hall network, enabling access to server documents from home."
+  },
+  {
+    "question": "138. A technician needs to download and install a new web browser on a desktop computer. Which of the following should the technician use to verify the installer is an authentic version?",
+    "answers": [
+      {
+        "text": "A. Date",
+        "correct": false
+      },
+      {
+        "text": "B. Hash",
+        "correct": true
+      },
+      {
+        "text": "C. Size",
+        "correct": false
+      },
+      {
+        "text": "D. Name",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Verifying the hash of the installer ensures that the downloaded file is authentic and has not been tampered with."
+  },
+  {
+    "question": "139. Which of the following malware types typically has very high computing resource usage?",
+    "answers": [
+      {
+        "text": "A. Rootkit",
+        "correct": false
+      },
+      {
+        "text": "B. Cryptominer",
+        "correct": true
+      },
+      {
+        "text": "C. Boot sector virus",
+        "correct": false
+      },
+      {
+        "text": "D. Trojan",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Cryptominer malware uses significant computing resources to mine crypto currency, resulting in very high resource usage."
+  },
+  {
+    "question": "140. Which of the following concepts should a technician consider when discussing confidential work projects with individuals outside the company?",
+    "answers": [
+      {
+        "text": "A. EULA",
+        "correct": false
+      },
+      {
+        "text": "B. EOL",
+        "correct": false
+      },
+      {
+        "text": "C. SLA",
+        "correct": false
+      },
+      {
+        "text": "D. NDA",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "An NDA (Non-Disclosure Agreement) is the concept a technician should consider to ensure that confidential work project details are not shared with unauthorized individuals outside the company."
+  },
+  {
+    "question": "141. A technician is installing a cloud-based productivity suite and gets an error saying the installation is unavailable. What should be tried first?",
+    "answers": [
+      {
+        "text": "A. Reinstall the productivity suite",
+        "correct": false
+      },
+      {
+        "text": "B. Download an open-source alternative",
+        "correct": false
+      },
+      {
+        "text": "C. Check the license device limit",
+        "correct": true
+      },
+      {
+        "text": "D. Update the device OS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Cloud-based software often enforces device limits per license. Before reinstallation or switching software, checking license allocations is the most logical first step."
+  },
+  {
+    "question": "142. A network technician notices that most of the company's network switches are now end-of-life and need to be upgraded. What should the technician do first?",
+    "answers": [
+      {
+        "text": "A. Implement the change",
+        "correct": false
+      },
+      {
+        "text": "B. Approve the change",
+        "correct": false
+      },
+      {
+        "text": "C. Document the change",
+        "correct": true
+      },
+      {
+        "text": "D. Schedule the change",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Before any change is implemented, it must be documented as part of change management procedures. This ensures transparency, review, and tracking."
+  },
+  {
+    "question": "143. After new device software for a webcam is installed, a Windows PC is experiencing BSOD. The BSOD occurs during a videoconference call. Which of the following should the technician do next?",
+    "answers": [
+      {
+        "text": "A. Update the anti-malware signature and scan the system",
+        "correct": false
+      },
+      {
+        "text": "B. File a warranty claim with the manufacturer",
+        "correct": false
+      },
+      {
+        "text": "C. Start in Safe Mode and roll back the device driver",
+        "correct": true
+      },
+      {
+        "text": "D. Reconnect the webcam to the computer",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Starting in safe mode and rolling back the device driver can resolve BSOD issues caused by newly installed or incompatible webcam drivers."
+  },
+  {
+    "question": "144. A technician needs to change hibernation settings on a Windows computer by applying a batch file. Domain policies are unavailable. Which of the following is the best way to achieve this goal?",
+    "answers": [
+      {
+        "text": "A. Use Power Options in Control Panel",
+        "correct": false
+      },
+      {
+        "text": "B. Update the computer's firmware",
+        "correct": false
+      },
+      {
+        "text": "C. Run gpupdate from command prompt",
+        "correct": false
+      },
+      {
+        "text": "D. Use the powercfg command in PowerShell",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The powercfg command in PowerShell or Command Prompt can modify hibernation settings and is suitable for use in a batch file."
+  },
+  {
+    "question": "145. A user is unable to use the latest version of an application on a legacy, personal tablet. Which of the following is most likely the reason?",
+    "answers": [
+      {
+        "text": "A. The OS is end-of-life",
+        "correct": true
+      },
+      {
+        "text": "B. Space is inadequate",
+        "correct": false
+      },
+      {
+        "text": "C. MDM is blocking updates",
+        "correct": false
+      },
+      {
+        "text": "D. The tablet is infected with malware",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The OS is end-of-life, which prevents the latest version of the application from being supported or installed on the legacy tablet."
+  },
+  {
+    "question": "146. A desktop technician is mapping a remote windows share \\\\WinNAS\\shared as a local disk z:.\nWhich of the following commands should the technician run?",
+    "answers": [
+      {
+        "text": "A. nslookup -opt Z: \\\\WinNAS\\shared",
+        "correct": false
+      },
+      {
+        "text": "B. net use Z: \\\\WinNAS\\shared",
+        "correct": true
+      },
+      {
+        "text": "C. chkdsk /R Z: \\\\WinNAS\\shared",
+        "correct": false
+      },
+      {
+        "text": "D. sfc /offwindir Z: \\\\WinNAS\\shared",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The correct command to map a network share as a local drive letter is net use Z:\n\\\\WinNAS\\shared."
+  },
+  {
+    "question": "147. A technician must map a network drive on a piece of legacy equipment running an end-of-life OS. Which of the following is the best script to map the drive using simple Windows commands?",
+    "answers": [
+      {
+        "text": "A. Shell",
+        "correct": false
+      },
+      {
+        "text": "B. Batch",
+        "correct": true
+      },
+      {
+        "text": "C. VB",
+        "correct": false
+      },
+      {
+        "text": "D. Java",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A batch script is the best choice for mapping a network drive using simple Windows commands because it can execute command-line instructions like net use in legacy and modern Windows environments."
+  },
+  {
+    "question": "148. After clicking on an advertisement, a user reports that their browser is slow. A technician looks at the network connections for the machine and notices a large number of outbound connections. Which of the following actions should the technician take next?",
+    "answers": [
+      {
+        "text": "A. Enable the firewall.",
+        "correct": false
+      },
+      {
+        "text": "B. Run antivirus scans.",
+        "correct": false
+      },
+      {
+        "text": "C. Reboot the computer.",
+        "correct": false
+      },
+      {
+        "text": "D. Quarantine the system.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The technician should quarantine the system next to prevent potential malware from spreading or communicating with other systems, especially given the suspicious outbound connections."
+  },
+  {
+    "question": "149. Company employees do not have assigned workspaces and regularly work at different computers and physical locations. Which of the following should the company implement to maintain data security and minimize the amount of user data that needs to be transferred?",
+    "answers": [
+      {
+        "text": "A. Centralized certificate storage",
+        "correct": false
+      },
+      {
+        "text": "B. Cloud email",
+        "correct": false
+      },
+      {
+        "text": "C. Portable drives",
+        "correct": false
+      },
+      {
+        "text": "D. Roaming profiles",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Roaming profiles allow user data and settings to follow employees as they log in to different computers, maintaining data security and minimizing the need to transfer user data manually."
+  },
+  {
+    "question": "150. A user downloads an application with a plug-in that is designed to automatically prompt for an OTP when the user browses to a specific website. The plug-in installs without any warnings or errors. The first time the user goes to the site, the prompt does not open, and the user cannot access the site. Which of the following browser settings should the user configure?",
+    "answers": [
+      {
+        "text": "A. Extensions/add-ins",
+        "correct": true
+      },
+      {
+        "text": "B. Certificate validity",
+        "correct": false
+      },
+      {
+        "text": "C. Proxy settings",
+        "correct": false
+      },
+      {
+        "text": "D. Trusted sources",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The user should configure extensions/add-ins settings because the plug-in (extension) may be disabled or blocked, preventing it from prompting for the OTP as intended."
   }
 ]
