@@ -3424,5 +3424,588 @@
     ],
     "multiple": false,
     "explanation": "The user should configure extensions/add-ins settings because the plug-in (extension) may be disabled or blocked, preventing it from prompting for the OTP as intended."
+  },
+  {
+    "question": "151. A technician needs to install a home wireless router for a customer who wants to limit connections made to the network from the internet. Which of the following should the technician do?",
+    "answers": [
+      {
+        "text": "A. Use content filtering.",
+        "correct": false
+      },
+      {
+        "text": "B. Change the default password.",
+        "correct": false
+      },
+      {
+        "text": "C. Configure the SSID settings.",
+        "correct": false
+      },
+      {
+        "text": "D. Disable UPnP.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Disabling UPnP (Universal Plug and Play) helps limit unsolicited or unauthorized connections from the internet by preventing devices from automatically opening ports on the router."
+  },
+  {
+    "question": "152. A technician is installing a cloud-based productivity suite and keeps getting an error message stating that the installation is unavailable. Which of the following troubleshooting steps should the technician try first?",
+    "answers": [
+      {
+        "text": "A. Reinstalling the productivity suite",
+        "correct": false
+      },
+      {
+        "text": "B. Downloading an open-source alternative",
+        "correct": false
+      },
+      {
+        "text": "C. Checking the license device limit",
+        "correct": true
+      },
+      {
+        "text": "D. Updating the device OS",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The technician should first check the license device limit, as exceeding the allowed number of installations can prevent the cloud-based productivity suite from being installed."
+  },
+  {
+    "question": "153. Which of the following security technologies is designed to enable security visibility and respond to traffic outside of the host and at the network level?",
+    "answers": [
+      {
+        "text": "A. RADIUS",
+        "correct": false
+      },
+      {
+        "text": "B. UAC",
+        "correct": false
+      },
+      {
+        "text": "C. XDR",
+        "correct": true
+      },
+      {
+        "text": "D. Antivirus",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "XDR (Extended Detection and Response) is designed to provide security visibility and response capabilities beyond the host, including at the network level."
+  },
+  {
+    "question": "154. A user receives a push notification to approve or deny a log-in request when using MFA. Which of the following describes this security measure?",
+    "answers": [
+      {
+        "text": "A. One-time password",
+        "correct": false
+      },
+      {
+        "text": "B. Zero Trust model",
+        "correct": false
+      },
+      {
+        "text": "C. Authenticator application",
+        "correct": true
+      },
+      {
+        "text": "D. Privileged access management",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "An authenticator application provides push notifications to approve or deny log-in requests as part of multi-factor authentication (MFA)."
+  },
+  {
+    "question": "155. A malicious actor uses multiple endpoints that are spread across multiple locations to target a single endpoint. Which of the following describes this threat?",
+    "answers": [
+      {
+        "text": "A. On-path attack",
+        "correct": false
+      },
+      {
+        "text": "B. Structured Query Language injection",
+        "correct": false
+      },
+      {
+        "text": "C. Brute-force attack",
+        "correct": false
+      },
+      {
+        "text": "D. Distributed denial of service",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "A distributed denial of service (DDoS) attack involves multiple endpoints from different locations targeting a single endpoint to disrupt its services."
+  },
+  {
+    "question": "156. An end user discovers a virus on their computer. A technician quarantines the computer, scans for viruses, and remediates the infection. Which of the following is the next step the technician should take?",
+    "answers": [
+      {
+        "text": "A. Perform a secondary antivirus scan.",
+        "correct": false
+      },
+      {
+        "text": "B. Educate the end user.",
+        "correct": true
+      },
+      {
+        "text": "C. Reimage the computer.",
+        "correct": false
+      },
+      {
+        "text": "D. Review system logs.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Educating the end user is the next step to help prevent future infections by informing them about safe practices and how to avoid similar threats."
+  },
+  {
+    "question": "157. An administrator requires information about a server to identify the product owner and whether it has any business-critical services. Which of the following can the administrator refer to in order to find this information?",
+    "answers": [
+      {
+        "text": "A. CMDB",
+        "correct": true
+      },
+      {
+        "text": "B. SLA",
+        "correct": false
+      },
+      {
+        "text": "C. SOP",
+        "correct": false
+      },
+      {
+        "text": "D. EULA",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A CMDB (Configuration Management Database) contains details about IT assets, including product ownership and business-critical service status."
+  },
+  {
+    "question": "158. A company is implementing the 3-2-1 backup rule. Which of the following should the company do?",
+    "answers": [
+      {
+        "text": "A. Perform both full and differential backups.",
+        "correct": false
+      },
+      {
+        "text": "B. Test the backup integrity every three weeks.",
+        "correct": false
+      },
+      {
+        "text": "C. Keep all backup media on site for fast recovery.",
+        "correct": false
+      },
+      {
+        "text": "D. Use at least two different types of media.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The 3-2-1 backup rule recommends keeping at least two different types of media to ensure data redundancy and protection."
+  },
+  {
+    "question": "159. A team member provides a link to an online slide deck presentation so other team members can add to the presentation. The link does not work for any of the other team members. Which of the following should the team check first?",
+    "answers": [
+      {
+        "text": "A. Version history",
+        "correct": false
+      },
+      {
+        "text": "B. Web browser compatibility",
+        "correct": false
+      },
+      {
+        "text": "C. Viewing and sharing permissions",
+        "correct": true
+      },
+      {
+        "text": "D. License management",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The team should first check the viewing and sharing permissions, as incorrect permissions are the most likely reason others cannot access or edit the online slide deck."
+  },
+  {
+    "question": "160. A support technician receives a computer with a non-responsive touch pad. The touch pad does not appear to be physically damaged. Which of the following tools should the technician use to check the touch pad driver?",
+    "answers": [
+      {
+        "text": "A. System Configuration",
+        "correct": false
+      },
+      {
+        "text": "B. Device Manager",
+        "correct": true
+      },
+      {
+        "text": "C. Event Viewer",
+        "correct": false
+      },
+      {
+        "text": "D. Local Users and Groups",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Device Manager is the tool used to check the status and functionality of hardware drivers, including the touch pad driver."
+  },
+  {
+    "question": "161. A user is renaming a .txt file to a .xml file. After renaming the file. Windows Explorer shows the filename as Document.xml. However, the document properties shows the type of file as: Text Document(.txt). Which of the following controls enables the user to correctly change the file type?",
+    "answers": [
+      {
+        "text": "A. Indexing options",
+        "correct": false
+      },
+      {
+        "text": "B. Format command",
+        "correct": false
+      },
+      {
+        "text": "C. Personalization",
+        "correct": false
+      },
+      {
+        "text": "D. Hide extensions",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The \"Hide extensions\" control determines whether file extensions are visible in Windows Explorer. Disabling it allows users to change the file extension and, thus, the file type correctly."
+  },
+  {
+    "question": "162. A technician is unable to upgrade a desktop computer from Windows 10 to Windows 11. Which of the following is most likely preventing the upgrade?",
+    "answers": [
+      {
+        "text": "A. Missing TPM module",
+        "correct": true
+      },
+      {
+        "text": "B. Slow HDD spindle speed",
+        "correct": false
+      },
+      {
+        "text": "C. Low refresh rate",
+        "correct": false
+      },
+      {
+        "text": "D. High RAM latency",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "A missing TPM (Trusted Platform Module) is a common requirement for Windows 11, and its absence is most likely preventing the upgrade."
+  },
+  {
+    "question": "163. A Windows user is having trouble accessing a fileshare. The technician would like to confirm the username that the machine is currently logged in to. Which of the following should the technician use?",
+    "answers": [
+      {
+        "text": "A. net user",
+        "correct": false
+      },
+      {
+        "text": "B. tracert",
+        "correct": false
+      },
+      {
+        "text": "C. whoami",
+        "correct": true
+      },
+      {
+        "text": "D. hostname",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The whoami command displays the username of the currently logged-in user in Windows."
+  },
+  {
+    "question": "164. Which of the following commands can a technician use to view the contents of a single file on a Linux terminal?",
+    "answers": [
+      {
+        "text": "A. chmod",
+        "correct": false
+      },
+      {
+        "text": "B. cat",
+        "correct": true
+      },
+      {
+        "text": "C. ls",
+        "correct": false
+      },
+      {
+        "text": "D. sudo",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "The cat command is used on a Linux terminal to view the contents of a single file."
+  },
+  {
+    "question": "165. A technician recently installed a program that uses several anti-piracy technologies. When the program is launched, it briefly opens and then closes. Which of the following is most likely the reason?",
+    "answers": [
+      {
+        "text": "A. 32-bit program on a 64-bit computer",
+        "correct": false
+      },
+      {
+        "text": "B. CPU incompatibility",
+        "correct": false
+      },
+      {
+        "text": "C. Outdated video card drivers",
+        "correct": false
+      },
+      {
+        "text": "D. USB key not plugged in",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Many anti-piracy technologies require a USB key (dongle) to be plugged in for the program to run; if it is missing, the program will open and then immediately close."
+  },
+  {
+    "question": "166. A computer frequently crashes after an OS patch. Which of the following actions should a technician take to prevent further crashes and look into the issue?",
+    "answers": [
+      {
+        "text": "A. Perform a System Restore.",
+        "correct": false
+      },
+      {
+        "text": "B. Roll back the updates.",
+        "correct": true
+      },
+      {
+        "text": "C. Apply the optional patches.",
+        "correct": false
+      },
+      {
+        "text": "D. Change the startup sequence.",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Rolling back the updates will revert the system to its previous stable state, preventing further crashes and allowing investigation into the issue caused by the recent OS patch."
+  },
+  {
+    "question": "167. A technician is setting up a computer for a new user. A requirement is that the user’s documents are stored on a network location and not locally on the computer. Which of the following should the technician configure?",
+    "answers": [
+      {
+        "text": "A. File attributes",
+        "correct": false
+      },
+      {
+        "text": "B. User Account Control",
+        "correct": false
+      },
+      {
+        "text": "C. Security groups",
+        "correct": false
+      },
+      {
+        "text": "D. Folder redirection",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Folder redirection is used to automatically store user documents on a network location instead of the local computer."
+  },
+  {
+    "question": "168. A user’s computer is able to access resources on the corporate network but is unable to access internet web pages with a browser. Which of the following is most likely the reason?",
+    "answers": [
+      {
+        "text": "A. IP address conflict",
+        "correct": false
+      },
+      {
+        "text": "B. Missing proxy settings",
+        "correct": true
+      },
+      {
+        "text": "C. Incorrect subnet mask",
+        "correct": false
+      },
+      {
+        "text": "D. Disconnected Ethernet cable",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "Missing proxy settings can prevent access to internet web pages while still allowing access to internal network resources."
+  },
+  {
+    "question": "169. A customer reports that a computer is displaying pop-ups and making unexpected sounds. Which of the following should a technician do before remediating this issue?",
+    "answers": [
+      {
+        "text": "A. Back up the customer's data.",
+        "correct": false
+      },
+      {
+        "text": "B. Update the OS.",
+        "correct": false
+      },
+      {
+        "text": "C. Reimage the workstation.",
+        "correct": false
+      },
+      {
+        "text": "D. Quarantine the machine.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Quarantining the machine prevents the potential spread of malware or malicious activity before attempting remediation."
+  },
+  {
+    "question": "170. A company wants to use its directory database to authenticate users to its wireless network. Which of the following should the company use to accomplish this task?",
+    "answers": [
+      {
+        "text": "A. MFA",
+        "correct": false
+      },
+      {
+        "text": "B. WPA3",
+        "correct": false
+      },
+      {
+        "text": "C. RADIUS",
+        "correct": true
+      },
+      {
+        "text": "D. LDAP",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "RADIUS allows integration with directory databases to authenticate users to the wireless network."
+  },
+  {
+    "question": "171. A desktop technician is hardening a newly installed company workstation. Which of the following actions should the technician take? (Choose two.)",
+    "answers": [
+      {
+        "text": "A. Implement a disclaimer on the log-in screen.",
+        "correct": false
+      },
+      {
+        "text": "B. Disable the guest account.",
+        "correct": true
+      },
+      {
+        "text": "C. Disable the screensaver.",
+        "correct": false
+      },
+      {
+        "text": "D. Install remote collaboration tools.",
+        "correct": false
+      },
+      {
+        "text": "E. Change the default administrator password.",
+        "correct": true
+      },
+      {
+        "text": "F. Enable a virtual assistant.",
+        "correct": false
+      }
+    ],
+    "multiple": true,
+    "explanation": "Disabling the guest account prevents unauthorized access.\nChanging the default administrator password strengthens security by preventing easy compromise."
+  },
+  {
+    "question": "172. Which of the following controls access to certain services to ensure that administrators are not automatically given elevated permissions?",
+    "answers": [
+      {
+        "text": "A. РАМ",
+        "correct": true
+      },
+      {
+        "text": "B. MFA",
+        "correct": false
+      },
+      {
+        "text": "C. DLP",
+        "correct": false
+      },
+      {
+        "text": "D. SSO",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "PAM (Privileged Access Management) controls access to certain services so that administrators are not automatically granted elevated permissions."
+  },
+  {
+    "question": "173. Which of the following filesystems is a successor to NTFS?",
+    "answers": [
+      {
+        "text": "A. ReFS",
+        "correct": true
+      },
+      {
+        "text": "B. XFS",
+        "correct": false
+      },
+      {
+        "text": "C. APFS",
+        "correct": false
+      },
+      {
+        "text": "D. exFAT",
+        "correct": false
+      }
+    ],
+    "multiple": false,
+    "explanation": "ReFS (Resilient File System) is the successor to NTFS, designed to improve data integrity, availability, and scalability on Windows systems."
+  },
+  {
+    "question": "174. A technician needs to configure settings for password complexity and failed log-in attempts before a user is locked out. These settings cannot be changed by standard users. Which of the following MMC snap-ins should the technician use?",
+    "answers": [
+      {
+        "text": "A. taskschd",
+        "correct": false
+      },
+      {
+        "text": "B. lusrmgr",
+        "correct": false
+      },
+      {
+        "text": "C. perfmon",
+        "correct": false
+      },
+      {
+        "text": "D. gpsdit",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "The gpedit (Group Policy Editor) MMC snap-in is used to configure password complexity and account lockout policies that standard users cannot change."
+  },
+  {
+    "question": "175. A customer is upgrading their workstation from Windows 10 to Windows 11. They perform a clean installation from a USB drive. After the system restarts, the installer loads again. Which of the following should the user do to complete the installation?",
+    "answers": [
+      {
+        "text": "A. Run chkdsk from the USB.",
+        "correct": false
+      },
+      {
+        "text": "B. Turn off TPM.",
+        "correct": false
+      },
+      {
+        "text": "C. Change MBR to UEFI.",
+        "correct": false
+      },
+      {
+        "text": "D. Remove the USB drive.",
+        "correct": true
+      }
+    ],
+    "multiple": false,
+    "explanation": "Removing the USB drive allows the system to boot from the newly installed Windows 11 operating system, rather than restarting the installation process."
   }
 ]
