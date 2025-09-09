@@ -2240,7 +2240,7 @@
         "correct": true
       }
     ],
-    "multiple": false,
+    "multiple": true,
     "explanation": "Enabling screensaver locks ensures that only authorized users can access the workstation after periods of inactivity.\nApplying a BIOS password prevents unauthorized users from changing boot options or accessing the workstation at startup."
   },
   {
