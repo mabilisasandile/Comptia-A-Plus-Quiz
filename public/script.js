@@ -84,8 +84,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (answer.correct) wrapper.dataset.correct = "true";
 
+      nextButton.disabled = true;
+
       input.addEventListener("change", () => {
         toggleAnswerBtn.style.display = "inline-block";
+        nextButton.style.display = "inline-block";
+        nextButton.disabled = false;
       });
 
       answerButtonsElement.appendChild(wrapper);
@@ -96,12 +100,39 @@ document.addEventListener("DOMContentLoaded", () => {
     explanationElement.innerText = "";
     toggleAnswerBtn.style.display = "none";
     toggleAnswerBtn.innerText = "SHOW ANSWER";
+    nextButton.style.display = "none"; // 🔹 hide NEXT until answered
   }
+
 
   function resetState() {
     nextButton.style.display = "none";
     while (answerButtonsElement.firstChild) {
       answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+    }
+  }
+
+  function scoreCurrentQuestion() {
+    const currentQuestion = questions[currentQuestionIndex];
+    const allWrappers = Array.from(answerButtonsElement.children);
+
+    if (!scoredQuestions.has(currentQuestionIndex)) {
+      if (currentQuestion.multiple) {
+        const correctIndexes = currentQuestion.answers
+          .map((a, i) => a.correct ? i : -1)
+          .filter(i => i !== -1);
+        const selectedIndexes = allWrappers
+          .map((w, i) => w.querySelector("input").checked ? i : -1)
+          .filter(i => i !== -1);
+
+        const allCorrectSelected = correctIndexes.every(i => selectedIndexes.includes(i));
+        const noExtraSelected = selectedIndexes.every(i => correctIndexes.includes(i));
+
+        if (allCorrectSelected && noExtraSelected) score++;
+      } else {
+        const selected = allWrappers.find(w => w.querySelector("input").checked);
+        if (selected && selected.dataset.correct === "true") score++;
+      }
+      scoredQuestions.add(currentQuestionIndex);
     }
   }
 
@@ -124,25 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       // Update score
-      if (!scoredQuestions.has(currentQuestionIndex)) {
-        if (currentQuestion.multiple) {
-          const correctIndexes = currentQuestion.answers
-            .map((a, i) => a.correct ? i : -1)
-            .filter(i => i !== -1);
-          const selectedIndexes = allWrappers
-            .map((w, i) => w.querySelector("input").checked ? i : -1)
-            .filter(i => i !== -1);
-
-          const allCorrectSelected = correctIndexes.every(i => selectedIndexes.includes(i));
-          const noExtraSelected = selectedIndexes.every(i => correctIndexes.includes(i));
-
-          if (allCorrectSelected && noExtraSelected) score++;
-        } else {
-          const selected = allWrappers.find(w => w.querySelector("input").checked);
-          if (selected && selected.dataset.correct === "true") score++;
-        }
-        scoredQuestions.add(currentQuestionIndex); // mark as scored
-      }
+      scoreCurrentQuestion();
 
 
       // Show explanation
@@ -161,6 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function handleNextButton() {
+    scoreCurrentQuestion(); // score updates even without viewing explanation
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
       showQuestion();
@@ -168,6 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
       showScore();
     }
   }
+
 
   function showScore() {
     resetState();
@@ -177,6 +192,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     nextButton.innerText = "Restart Quiz";
     nextButton.style.display = "inline-block";
+
+    nextButton.onclick = () => {
+      startQuiz();
+      nextButton.onclick = handleNextButton; // restore original NEXT behavior
+    };
+
     downloadButton.style.display = "inline-block";
 
     downloadButton.onclick = () => {

@@ -11,10 +11,9 @@
 
 <body>
   <div class="quiz-container">
-
+    
     <a href="form.html"><button>⚙️ Settings</button></a>
-
-    <h1>CompTIA A+ Quiz</h1>
+    <h2>CompTIA A+ Quiz</h2>
 
     <div class="range-selector">
       <label for="core-number">Select Core Number:</label>
@@ -42,14 +41,16 @@
 
       <div id="answer-buttons" class="answers"></div>
 
-      <!-- New: Show/Hide Answer Button -->
-      <button id="toggle-answer-btn" class="next-btn" style="display:none;">SHOW ANSWER</button>
+      <div class="action-buttons">
+        <button id="toggle-answer-btn" class="next-btn" style="display:none;">SHOW ANSWER</button>
+        <button id="next-btn" class="next-btn">NEXT</button>
+      </div>
 
-      <!-- New: Answer + Explanation Section -->
+      <!-- Answer + Explanation Section -->
       <div id="answer-explanation"></div>
+
     </div>
 
-    <button id="next-btn" class="next-btn">Next</button>
     <button id="download-btn" class="next-btn" style="display:none;">Download Results</button>
 
   </div>

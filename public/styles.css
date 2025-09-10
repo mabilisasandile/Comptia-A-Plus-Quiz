@@ -75,6 +75,18 @@ button.wrong {
   margin-top: 20px;
 }
 
+.next-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
 #question-number {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
