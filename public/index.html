@@ -11,28 +11,33 @@
 
 <body>
   <div class="quiz-container">
-    
-    <a href="form.html"><button>⚙️ Settings</button></a>
-    <h2>CompTIA A+ Quiz</h2>
 
-    <div class="range-selector">
-      <label for="core-number">Select Core Number:</label>
-      <select id="core-number">
-        <option value="220-1201">220-1201</option>
-        <option value="220-1202">220-1202</option>
-      </select>
-      <br />
-      <label for="question-range">Choose question range:</label>
-      <select id="question-range">
-        <option value="1-50">1 – 50</option>
-        <option value="51-100">51 – 100</option>
-        <option value="101-150">101 – 150</option>
-        <option value="151-200">151 – 200</option>
-        <option value="201-250">201 – 250</option>
-        <option value="251-300">251 – 300</option>
-      </select>
-      <button id="start-range-quiz">START QUIZ</button>
-    </div>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="form.html"><button>⚙️ Settings</button></a>
+      </div>
+
+      <h2>CompTIA A+ Quiz</h2>
+
+      <div class="navbar-center">
+        <label for="core-number">Core:</label>
+        <select id="core-number">
+          <option value="220-1201">220-1201</option>
+          <option value="220-1202">220-1202</option>
+        </select>
+        <br />
+        <label for="question-range">Range:</label>
+        <select id="question-range">
+          <option value="1-50">1 – 50</option>
+          <option value="51-100">51 – 100</option>
+          <option value="101-150">101 – 150</option>
+          <option value="151-200">151 – 200</option>
+          <option value="201-250">201 – 250</option>
+          <option value="251-300">251 – 300</option>
+        </select>
+        <button id="start-range-quiz">START QUIZ</button>
+      </div>
+    </nav>
 
     <div id="question-container">
       <h2 id="question-number">Question 1 of 100</h2>

@@ -4,6 +4,81 @@ body {
   padding: 20px;
 }
 
+/* ------------------------------------- */
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+  overflow: hidden; /* Prevent navbar from scrolling */
+}
+
+/* Left section (settings button) */
+.navbar-left button {
+  background: #444;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-left button:hover {
+  background: #666;
+}
+
+/* Center controls */
+.navbar-center {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-right: 2.5rem;
+  flex-wrap: wrap; /* allow wrapping for small screens */
+}
+
+.navbar-center label {
+  font-size: 0.9rem;
+}
+
+.navbar-center select,
+.navbar-center button {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbar-center {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navbar-center select,
+  .navbar-center button {
+    width: 100%;
+  }
+}
+
+/* --------------------------------------- */
+
 .quiz-container {
   max-width: 600px;
   margin: auto;
@@ -11,11 +86,6 @@ body {
   padding: 30px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
-}
-
-.quiz-container h1, h2 {
-  text-align: center;
-  color: #333;
 }
 
 .btn-group {
@@ -89,6 +159,7 @@ button.wrong {
 
 #question-number {
   font-size: 1.2rem;
+  margin-top: 2.5rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
   color: #444;

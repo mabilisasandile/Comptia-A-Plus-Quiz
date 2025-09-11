@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-
+  // Show score at end
   function showScore() {
     resetState();
     const resultText = `Quiz completed! Your score: ${score}/${questions.length}\nFinal Result: ${(score / questions.length * 100).toFixed(2)}%`;
